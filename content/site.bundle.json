@@ -1,0 +1,940 @@
+{
+  "meta": {
+    "revision": "9d4e6384-bfde-459b-9ce3-78f26a3d55bd",
+    "updatedAt": "2026-09-25T14:50:53.914Z",
+    "updatedBy": "system",
+    "idempotencyKey": "dental-seed-1790347853922"
+  },
+  "content": {
+    "it": {
+      "studio": {
+        "nome": "Studio Dentistico Briguglia",
+        "nomeBreve": "Briguglia",
+        "claim": "Il tuo sorriso, curato con precisione e delicatezza.",
+        "sottoClaim": "Odontoiatria completa per adulti e bambini: prevenzione, implantologia, ortodonzia invisibile ed estetica del sorriso, con tecnologie digitali e un'équipe dedicata.",
+        "annoFondazione": 2004,
+        "metaDescription": "Studio Dentistico Briguglia: igiene e prevenzione, implantologia, ortodonzia invisibile, estetica dentale e odontoiatria pediatrica. Sedi a Messina e Milazzo.",
+        "heroImmagine": "/uploads/cms/jumbotron1.webp",
+        "citazione": {
+          "testo": "Un buon trattamento inizia sempre dall'ascolto: prima di guardare i denti, guardiamo la persona.",
+          "autore": "Dott. Carlo Briguglia"
+        },
+        "presentazione": "Fondato nel 2004 dal Dott. Carlo Briguglia, lo Studio Dentistico Briguglia è oggi un punto di riferimento a Messina per la salute orale di tutta la famiglia. Un'équipe multidisciplinare di odontoiatri, ortodontisti e igienisti lavora in sinergia per offrire percorsi di cura completi, dalla prima visita al mantenimento nel tempo. Investiamo costantemente in tecnologie digitali — scanner intraorale, radiologia 3D a basso dosaggio, progettazione protesica computerizzata — per rendere ogni trattamento più preciso, confortevole e prevedibile.",
+        "missione": "Vogliamo che ogni paziente esca dallo studio più sereno di come è entrato. Per questo spieghiamo ogni diagnosi con chiarezza, presentiamo un piano di cura scritto con tempi e costi definiti, e privilegiamo sempre l'approccio meno invasivo possibile, puntando sulla prevenzione per conservare i denti naturali il più a lungo possibile.",
+        "storia": [
+          {
+            "anno": "2004",
+            "titolo": "L'apertura dello Studio",
+            "testo": "Il Dott. Carlo Briguglia apre il primo studio in Via Garibaldi a Messina, con due riuniti e un'attenzione particolare alla conservativa e alla protesi."
+          },
+          {
+            "anno": "2009",
+            "titolo": "Nasce il reparto di implantologia",
+            "testo": "Lo Studio si dota di una sala chirurgica dedicata e avvia un protocollo di implantologia guidata, integrando la diagnostica radiologica 3D."
+          },
+          {
+            "anno": "2014",
+            "titolo": "Ortodonzia e pedodonzia",
+            "testo": "Con l'ingresso della Dott.ssa Martina Ferraro lo Studio amplia l'offerta con l'ortodonzia per bambini e adulti e un percorso dedicato ai piccoli pazienti."
+          },
+          {
+            "anno": "2018",
+            "titolo": "Il flusso digitale",
+            "testo": "Arrivano lo scanner intraorale e la progettazione CAD/CAM: niente più impronte in pasta e protesi realizzate con maggiore precisione e in tempi più brevi."
+          },
+          {
+            "anno": "2022",
+            "titolo": "La nuova sede di Milazzo",
+            "testo": "Per essere più vicini ai pazienti della provincia apriamo una seconda sede a Milazzo, con gli stessi protocolli e la stessa équipe."
+          }
+        ],
+        "valori": [
+          {
+            "titolo": "Ascolto",
+            "testo": "Ogni percorso di cura inizia da un colloquio: esigenze, timori e aspettative del paziente guidano le nostre scelte."
+          },
+          {
+            "titolo": "Trasparenza",
+            "testo": "Piano di trattamento scritto, preventivo dettagliato e nessuna sorpresa: sai sempre cosa faremo, quando e quanto costerà."
+          },
+          {
+            "titolo": "Precisione",
+            "testo": "Diagnosi digitali, materiali certificati e protocolli di sterilizzazione tracciati per risultati affidabili e duraturi."
+          },
+          {
+            "titolo": "Delicatezza",
+            "testo": "Tecniche mininvasive, anestesia computerizzata e sedazione cosciente per trattamenti il più possibile confortevoli, anche per chi ha paura del dentista."
+          }
+        ],
+        "numeri": [
+          {
+            "valore": 22,
+            "suffisso": "+",
+            "etichetta": "Anni di attività"
+          },
+          {
+            "valore": 12000,
+            "suffisso": "+",
+            "etichetta": "Pazienti seguiti"
+          },
+          {
+            "valore": 2,
+            "suffisso": "",
+            "etichetta": "Sedi sul territorio"
+          },
+          {
+            "valore": 4,
+            "suffisso": "",
+            "etichetta": "Professionisti"
+          }
+        ],
+        "sedi": [
+          {
+            "citta": "Messina",
+            "indirizzo": "Via Garibaldi 118, 98122 Messina (ME)",
+            "telefono": "+39 090 7123456 - +39 347 1234567",
+            "email": "info@studiodentisticobriguglia.it",
+            "principale": true
+          },
+          {
+            "citta": "Milazzo",
+            "indirizzo": "Via Umberto I 45, 98057 Milazzo (ME)",
+            "telefono": "+39 090 9281234",
+            "email": "milazzo@studiodentisticobriguglia.it",
+            "principale": false
+          }
+        ],
+        "contatti": {
+          "emailGenerale": "info@studiodentisticobriguglia.it",
+          "pec": "studiobriguglia@pec.it",
+          "telefono": "+39 090 7123456 - +39 347 1234567",
+          "orari": "Lun – Ven, 9:00 – 13:00 / 15:00 – 19:30 · Sab 9:00 – 13:00"
+        },
+        "legale": {
+          "pIva": "03456780831",
+          "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
+        }
+      },
+      "privacy": {
+        "siteUrl": "www.studiodentisticobriguglia.it",
+        "titolare": "Studio Dentistico Briguglia",
+        "sedeLegale": "Via Garibaldi 118, 98122 Messina (ME)",
+        "pIva": "03456780831",
+        "codiceFiscale": "",
+        "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina",
+        "emailPrivacy": "privacy@studiodentisticobriguglia.it",
+        "pec": "studiobriguglia@pec.it",
+        "conservazioneSenzaIncaricoMesi": 12
+      },
+      "aree": [
+        {
+          "slug": "igiene-prevenzione",
+          "titolo": "Igiene e prevenzione",
+          "sintesi": "Pulizia professionale, controlli periodici e educazione all'igiene orale domiciliare.",
+          "descrizione": "La prevenzione è il trattamento più efficace e meno costoso. Le nostre igieniste eseguono sedute di igiene professionale personalizzate e insegnano a ogni paziente le tecniche corrette per mantenere denti e gengive sani tra un controllo e l'altro.",
+          "prestazioni": [
+            "Ablazione del tartaro e lucidatura",
+            "Airflow e sbiancamento delle macchie superficiali",
+            "Sigillature dei solchi nei bambini",
+            "Fluoroprofilassi",
+            "Richiami periodici personalizzati"
+          ],
+          "icona": "ShieldCheck"
+        },
+        {
+          "slug": "conservativa-endodonzia",
+          "titolo": "Conservativa ed endodonzia",
+          "sintesi": "Cura della carie e devitalizzazioni per salvare il dente naturale.",
+          "descrizione": "Trattiamo la carie con otturazioni estetiche in composito e, quando l'infezione raggiunge la polpa, eseguiamo devitalizzazioni con strumenti rotanti al nichel-titanio e ingrandimento ottico, per conservare il dente il più a lungo possibile.",
+          "prestazioni": [
+            "Otturazioni estetiche in composito",
+            "Intarsi in ceramica e composito",
+            "Devitalizzazioni (terapia canalare)",
+            "Ritrattamenti endodontici"
+          ],
+          "icona": "Microscope"
+        },
+        {
+          "slug": "implantologia",
+          "titolo": "Implantologia",
+          "sintesi": "Sostituzione dei denti mancanti con impianti in titanio, anche a carico immediato.",
+          "descrizione": "Pianifichiamo ogni intervento con TAC 3D e software di chirurgia guidata, per inserire gli impianti con la massima precisione e il minimo disagio. Nei casi indicati è possibile ricevere denti fissi provvisori già in giornata.",
+          "prestazioni": [
+            "Impianti singoli e multipli",
+            "Carico immediato",
+            "Chirurgia implantare guidata",
+            "Rialzo del seno mascellare e rigenerazione ossea",
+            "Protesi fissa su impianti (All-on-4 / All-on-6)"
+          ],
+          "icona": "Crown"
+        },
+        {
+          "slug": "ortodonzia",
+          "titolo": "Ortodonzia",
+          "sintesi": "Apparecchi fissi, mobili e allineatori trasparenti per bambini e adulti.",
+          "descrizione": "Correggiamo la posizione dei denti e i rapporti tra le arcate con soluzioni su misura: dall'ortodonzia intercettiva nei bambini agli allineatori trasparenti invisibili, ideali per gli adulti che desiderano discrezione.",
+          "prestazioni": [
+            "Allineatori trasparenti",
+            "Apparecchi fissi estetici",
+            "Ortodonzia intercettiva nei bambini",
+            "Contenzione post-trattamento"
+          ],
+          "icona": "Smile"
+        },
+        {
+          "slug": "protesi",
+          "titolo": "Protesi dentale",
+          "sintesi": "Corone, ponti e protesi mobili realizzate con flusso digitale.",
+          "descrizione": "Grazie allo scanner intraorale e alla progettazione CAD/CAM realizziamo protesi precise, estetiche e confortevoli, in collaborazione con laboratori odontotecnici certificati.",
+          "prestazioni": [
+            "Corone in zirconia e disilicato di litio",
+            "Ponti fissi",
+            "Protesi mobili totali e parziali",
+            "Riparazioni e ribasature"
+          ],
+          "icona": "Gem"
+        },
+        {
+          "slug": "estetica-dentale",
+          "titolo": "Estetica dentale",
+          "sintesi": "Sbiancamento, faccette e ricontorno per un sorriso naturale e armonioso.",
+          "descrizione": "Progettiamo il nuovo sorriso con il Digital Smile Design, mostrando al paziente un'anteprima del risultato prima di iniziare. Privilegiamo sempre tecniche conservative e risultati naturali.",
+          "prestazioni": [
+            "Sbiancamento professionale alla poltrona e domiciliare",
+            "Faccette in ceramica e composito",
+            "Digital Smile Design",
+            "Ricontorno estetico gengivale"
+          ],
+          "icona": "Sparkles"
+        },
+        {
+          "slug": "parodontologia",
+          "titolo": "Parodontologia",
+          "sintesi": "Diagnosi e cura delle malattie gengivali per proteggere i tessuti di sostegno.",
+          "descrizione": "Gengive che sanguinano o denti che si muovono sono segnali da non trascurare. Con una diagnosi accurata e terapie non chirurgiche e chirurgiche fermiamo la malattia parodontale e manteniamo stabile il risultato nel tempo.",
+          "prestazioni": [
+            "Sondaggio e cartella parodontale",
+            "Levigatura radicolare",
+            "Chirurgia parodontale rigenerativa",
+            "Terapia di mantenimento"
+          ],
+          "icona": "HeartPulse"
+        },
+        {
+          "slug": "pedodonzia",
+          "titolo": "Odontoiatria pediatrica",
+          "sintesi": "Cure dentali per bambini in un ambiente sereno e accogliente.",
+          "descrizione": "La prima visita è un gioco: accompagniamo i più piccoli a conoscere lo studio senza paura, insegnando loro a prendersi cura dei denti fin da subito e intercettando precocemente eventuali problemi.",
+          "prestazioni": [
+            "Prima visita dai 3 anni",
+            "Cure dei denti da latte",
+            "Sigillature e fluoroprofilassi",
+            "Valutazione ortodontica precoce"
+          ],
+          "icona": "Baby"
+        },
+        {
+          "slug": "chirurgia-orale",
+          "titolo": "Chirurgia orale",
+          "sintesi": "Estrazioni, denti del giudizio e piccola chirurgia in sicurezza.",
+          "descrizione": "Eseguiamo estrazioni semplici e complesse, inclusi i denti del giudizio inclusi, con tecniche atraumatiche e, su richiesta, in sedazione cosciente per il massimo comfort.",
+          "prestazioni": [
+            "Estrazione dei denti del giudizio",
+            "Estrazioni complesse",
+            "Frenulectomie",
+            "Sedazione cosciente"
+          ],
+          "icona": "Syringe"
+        }
+      ],
+      "team": [
+        {
+          "slug": "carlo-briguglia",
+          "nome": "Dott. Carlo Briguglia",
+          "ruolo": "Direttore sanitario",
+          "abilitazione": "Odontoiatra · Implantologia e protesi",
+          "bio": "Fondatore dello Studio, si dedica da oltre vent'anni all'implantologia e alla riabilitazione protesica, con un approccio digitale e mininvasivo.",
+          "bioEstesa": [
+            "Il Dott. Carlo Briguglia si laurea con lode in Odontoiatria e Protesi Dentaria presso l'Università degli Studi di Messina nel 2001 e, dopo alcune esperienze in cliniche del Nord Italia, fonda lo Studio nel 2004.",
+            "Si è perfezionato in implantologia e chirurgia guidata con un Master universitario di II livello e frequenta regolarmente corsi di aggiornamento in Italia e all'estero sulle più recenti tecniche di riabilitazione protesica.",
+            "Da direttore sanitario coordina l'équipe e i protocolli clinici dello Studio, seguendo personalmente i casi implantologici e protesici più complessi."
+          ],
+          "aree": [
+            "Implantologia",
+            "Protesi dentale",
+            "Chirurgia orale"
+          ],
+          "formazione": [
+            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2001)",
+            "Master di II livello in Implantologia e Chirurgia Guidata (2006)",
+            "Socio attivo della Società Italiana di Implantologia (SIdI)"
+          ],
+          "email": "c.briguglia@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "CB",
+          "foto": ""
+        },
+        {
+          "slug": "martina-ferraro",
+          "nome": "Dott.ssa Martina Ferraro",
+          "ruolo": "Ortodontista",
+          "abilitazione": "Specialista in Ortognatodonzia",
+          "bio": "Specialista in ortognatodonzia, segue bambini e adulti con apparecchi fissi e allineatori trasparenti.",
+          "bioEstesa": [
+            "La Dott.ssa Martina Ferraro si laurea in Odontoiatria presso l'Università degli Studi di Catania e consegue la specializzazione in Ortognatodonzia presso l'Università di Roma “La Sapienza”.",
+            "Nello Studio dal 2014, ha sviluppato un percorso ortodontico dedicato ai bambini, basato sull'intercettazione precoce delle malocclusioni, e un protocollo con allineatori trasparenti per i pazienti adulti.",
+            "È certificata per i principali sistemi di allineatori invisibili e partecipa come relatrice a corsi di aggiornamento in ortodonzia digitale."
+          ],
+          "aree": [
+            "Ortodonzia",
+            "Odontoiatria pediatrica"
+          ],
+          "formazione": [
+            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Catania (2008)",
+            "Specializzazione in Ortognatodonzia, Sapienza Università di Roma (2012)",
+            "Certificazione in ortodonzia con allineatori trasparenti (2016)"
+          ],
+          "email": "m.ferraro@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "MF",
+          "foto": ""
+        },
+        {
+          "slug": "luca-santangelo",
+          "nome": "Dott. Luca Santangelo",
+          "ruolo": "Odontoiatra",
+          "abilitazione": "Endodonzia e conservativa",
+          "bio": "Si occupa di endodonzia al microscopio operatorio, conservativa ed estetica dentale.",
+          "bioEstesa": [
+            "Il Dott. Luca Santangelo si laurea in Odontoiatria presso l'Università degli Studi di Messina nel 2013 e frequenta un corso annuale di perfezionamento in endodonzia clinica.",
+            "Entrato nello Studio nel 2016, si dedica alla conservativa e all'endodonzia con l'ausilio del microscopio operatorio, con l'obiettivo di salvare anche i denti più compromessi.",
+            "Segue inoltre i trattamenti di estetica dentale, dallo sbiancamento alle faccette, e la progettazione del sorriso con il Digital Smile Design."
+          ],
+          "aree": [
+            "Conservativa ed endodonzia",
+            "Estetica dentale"
+          ],
+          "formazione": [
+            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2013)",
+            "Corso di perfezionamento in Endodonzia clinica (2015)",
+            "Corso avanzato di Digital Smile Design (2019)"
+          ],
+          "email": "l.santangelo@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "LS",
+          "foto": ""
+        },
+        {
+          "slug": "chiara-lopresti",
+          "nome": "Dott.ssa Chiara Lo Presti",
+          "ruolo": "Igienista dentale",
+          "abilitazione": "Igiene e prevenzione · Parodontologia",
+          "bio": "Igienista dentale, si occupa di prevenzione, igiene professionale e terapia di mantenimento parodontale.",
+          "bioEstesa": [
+            "La Dott.ssa Chiara Lo Presti si laurea in Igiene Dentale presso l'Università degli Studi di Messina e collabora con lo Studio dal 2017.",
+            "Segue i pazienti nei programmi di prevenzione e nelle terapie parodontali non chirurgiche, con particolare attenzione alla motivazione e all'educazione all'igiene orale domiciliare.",
+            "Si occupa anche della prevenzione nei più piccoli, con sigillature e sedute di igiene pensate per i bambini."
+          ],
+          "aree": [
+            "Igiene e prevenzione",
+            "Parodontologia"
+          ],
+          "formazione": [
+            "Laurea in Igiene Dentale, Università degli Studi di Messina (2016)",
+            "Corso di perfezionamento in Parodontologia non chirurgica (2018)"
+          ],
+          "email": "c.lopresti@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "CL",
+          "foto": ""
+        }
+      ],
+      "ui": {
+        "header": {
+          "brandPrefix": "Studio Dentistico",
+          "menuOpenAriaLabel": "Apri menu",
+          "menuCloseAriaLabel": "Chiudi menu",
+          "navHome": "Home",
+          "navStudio": "Lo Studio",
+          "navAree": "I nostri servizi",
+          "navTeam": "Professionisti",
+          "navContatti": "Contatti"
+        },
+        "footer": {
+          "areeHeading": "I nostri servizi",
+          "navigationHeading": "Navigazione",
+          "hqHeading": "Sede principale",
+          "navStudio": "Lo Studio",
+          "navTeam": "Professionisti",
+          "navContatti": "Contatti",
+          "rightsReservedLabel": "Tutti i diritti riservati.",
+          "vatLabel": "P.IVA",
+          "privacyLabel": "Privacy",
+          "mainOfficeBadge": "Sede principale"
+        },
+        "hero": {
+          "primaryCtaLabel": "Prenota una visita",
+          "secondaryCtaLabel": "I nostri servizi"
+        },
+        "home": {
+          "introEyebrow": "Lo Studio",
+          "introTitle": "Cure dentali moderne, con un tocco umano",
+          "introCtaLabel": "Scopri lo Studio",
+          "areasEyebrow": "I nostri servizi",
+          "areasTitle": "Tutto ciò che serve al tuo sorriso, in un unico studio",
+          "areasDescription": "Dalla prevenzione all'implantologia, un'équipe multidisciplinare segue ogni fase del percorso di cura con tecnologie digitali e protocolli condivisi.",
+          "areasCtaLabel": "Tutti i servizi",
+          "valuesEyebrow": "I nostri valori",
+          "valuesTitle": "Il modo in cui ci prendiamo cura di te",
+          "valuesDescription": "Principi che guidano ogni visita, dal primo colloquio ai controlli di mantenimento.",
+          "teamEyebrow": "I professionisti",
+          "teamTitle": "Professionisti al servizio del tuo sorriso",
+          "teamDescription": "Odontoiatri, ortodontisti e igienisti con competenze complementari, uniti da un metodo di lavoro attento e condiviso.",
+          "teamCtaLabel": "Conosci tutto il team"
+        },
+        "seo": {
+          "homeTitleSuffix": "Dentista a Messina e Milazzo",
+          "studioTitle": "Lo Studio",
+          "studioDescription": "Storia, missione e valori dello Studio Dentistico Briguglia: dal 2004 al fianco dei pazienti di Messina e provincia.",
+          "practiceAreasTitle": "I nostri servizi",
+          "practiceAreasDescription": "I trattamenti dello Studio Dentistico Briguglia: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
+          "teamTitle": "Professionisti",
+          "teamDescription": "L'équipe dello Studio Dentistico Briguglia: odontoiatri, ortodontisti e igienisti dentali a Messina e Milazzo.",
+          "contactTitle": "Contatti",
+          "contactDescription": "Contatta lo Studio Dentistico Briguglia. Sedi a Messina e Milazzo. Prenota una visita o una seduta di igiene.",
+          "privacyTitle": "Informativa Privacy",
+          "privacyDescription": "Informativa sul trattamento dei dati personali (art. 13 GDPR) dello Studio Dentistico Briguglia."
+        },
+        "studioPage": {
+          "heroEyebrow": "Lo Studio",
+          "heroTitle": "Salute orale e benessere dal 2004",
+          "heroDescription": "Un'équipe multidisciplinare, tecnologie digitali e un'accoglienza attenta per prenderci cura del sorriso di tutta la famiglia.",
+          "aboutEyebrow": "Chi siamo",
+          "aboutTitle": "Il nostro Studio",
+          "missionEyebrow": "La missione",
+          "missionTitle": "Il nostro impegno",
+          "historyEyebrow": "La nostra storia",
+          "historyTitle": "Le tappe di un percorso",
+          "valuesEyebrow": "I nostri valori",
+          "valuesTitle": "I principi che ci guidano"
+        },
+        "teamPage": {
+          "heroEyebrow": "Professionisti",
+          "heroTitle": "Le persone dietro ogni sorriso",
+          "heroDescription": "Odontoiatri, specialisti e igienisti che condividono protocolli, aggiornamento continuo e attenzione al paziente.",
+          "cardCtaLabel": "Profilo completo",
+          "backLabel": "Tutti i professionisti",
+          "profileEyebrow": "Profilo",
+          "biographyTitle": "Biografia",
+          "educationTitle": "Formazione",
+          "expertiseTitle": "Ambiti clinici",
+          "contactsTitle": "Contatti",
+          "otherProfessionalsTitle": "Altri professionisti",
+          "viewAllLabel": "Vedi tutti",
+          "notFoundTitle": "Profilo non trovato"
+        },
+        "privacyPage": {
+          "heroEyebrow": "Privacy",
+          "heroTitle": "Informativa sul trattamento dei dati personali",
+          "heroDescription": "Art. 13 GDPR - trattamento dei dati personali degli utenti che consultano il sito e utilizzano il modulo di contatto."
+        },
+        "contactPage": {
+          "heroEyebrow": "Contatti",
+          "heroTitle": "Prenota la tua visita",
+          "heroDescription": "Compila il modulo o chiamaci: ti ricontatteremo per fissare un appuntamento nella sede e nell'orario più comodi per te.",
+          "detailsEyebrow": "Recapiti",
+          "detailsTitle": "Come raggiungerci",
+          "phoneLabel": "Telefono",
+          "emailLabel": "Email",
+          "pecLabel": "PEC",
+          "hoursLabel": "Orari",
+          "officesEyebrow": "Le nostre sedi",
+          "mainOfficeBadge": "Sede principale",
+          "mapTitlePrefix": "Mappa"
+        },
+        "practiceAreasPage": {
+          "heroEyebrow": "I nostri servizi",
+          "heroTitle": "Cure complete per ogni esigenza del sorriso",
+          "heroDescription": "Prevenzione, cura e riabilitazione per adulti e bambini, con tecnologie digitali e un piano di trattamento sempre chiaro e condiviso.",
+          "ctaTitle": "Non trovi il trattamento che cerchi?",
+          "ctaText": "Contattaci comunque: durante la prima visita valuteremo insieme la tua situazione e le soluzioni più adatte."
+        },
+        "cta": {
+          "defaultTitle": "È il momento di prenderti cura del tuo sorriso",
+          "defaultText": "Prenota una prima visita: valuteremo insieme la tua salute orale e ti proporremo un piano di cura chiaro, con tempi e costi definiti.",
+          "buttonLabel": "Prenota una visita"
+        }
+      }
+    },
+    "en": {
+      "studio": {
+        "nome": "Briguglia Dental Practice",
+        "nomeBreve": "Briguglia",
+        "claim": "Your smile, cared for with precision and gentleness.",
+        "sottoClaim": "Complete dentistry for adults and children: prevention, implants, invisible orthodontics and cosmetic dentistry, with digital technology and a dedicated team.",
+        "annoFondazione": 2004,
+        "metaDescription": "Briguglia Dental Practice: hygiene and prevention, dental implants, clear aligners, cosmetic and paediatric dentistry. Clinics in Messina and Milazzo.",
+        "heroImmagine": "/uploads/cms/jumbotron1.webp",
+        "citazione": {
+          "testo": "Good treatment always begins with listening: before looking at the teeth, we look at the person.",
+          "autore": "Dr Carlo Briguglia"
+        },
+        "presentazione": "Founded in 2004 by Dr Carlo Briguglia, Briguglia Dental Practice is today a point of reference in Messina for the oral health of the whole family. A multidisciplinary team of dentists, orthodontists and hygienists works together to provide complete care pathways, from the first visit to long-term maintenance. We constantly invest in digital technology — intraoral scanning, low-dose 3D imaging, computer-aided prosthetic design — to make every treatment more precise, comfortable and predictable.",
+        "missione": "We want every patient to leave the practice feeling more at ease than when they arrived. That is why we explain every diagnosis clearly, provide a written treatment plan with defined timing and costs, and always favour the least invasive approach, focusing on prevention to preserve natural teeth for as long as possible.",
+        "storia": [
+          {
+            "anno": "2004",
+            "titolo": "The practice opens",
+            "testo": "Dr Carlo Briguglia opens the first practice in Via Garibaldi, Messina, with two dental chairs and a particular focus on restorative and prosthetic dentistry."
+          },
+          {
+            "anno": "2009",
+            "titolo": "Implant department",
+            "testo": "The practice sets up a dedicated surgical room and introduces a guided implant protocol, integrating 3D radiological diagnostics."
+          },
+          {
+            "anno": "2014",
+            "titolo": "Orthodontics and paediatric dentistry",
+            "testo": "With Dr Martina Ferraro joining the team, the practice expands into orthodontics for children and adults and a dedicated pathway for young patients."
+          },
+          {
+            "anno": "2018",
+            "titolo": "Digital workflow",
+            "testo": "Intraoral scanning and CAD/CAM design arrive: no more impression paste, and prostheses made more precisely and in less time."
+          },
+          {
+            "anno": "2022",
+            "titolo": "New clinic in Milazzo",
+            "testo": "To be closer to patients across the province, we open a second clinic in Milazzo, with the same protocols and the same team."
+          }
+        ],
+        "valori": [
+          {
+            "titolo": "Listening",
+            "testo": "Every care pathway starts with a conversation: the patient's needs, worries and expectations guide our choices."
+          },
+          {
+            "titolo": "Transparency",
+            "testo": "A written treatment plan, a detailed estimate and no surprises: you always know what we will do, when, and what it will cost."
+          },
+          {
+            "titolo": "Precision",
+            "testo": "Digital diagnostics, certified materials and traceable sterilisation protocols for reliable, long-lasting results."
+          },
+          {
+            "titolo": "Gentleness",
+            "testo": "Minimally invasive techniques, computer-controlled anaesthesia and conscious sedation for treatments that are as comfortable as possible, even for anxious patients."
+          }
+        ],
+        "numeri": [
+          {
+            "valore": 22,
+            "suffisso": "+",
+            "etichetta": "Years of practice"
+          },
+          {
+            "valore": 12000,
+            "suffisso": "+",
+            "etichetta": "Patients treated"
+          },
+          {
+            "valore": 2,
+            "suffisso": "",
+            "etichetta": "Clinics"
+          },
+          {
+            "valore": 4,
+            "suffisso": "",
+            "etichetta": "Clinicians"
+          }
+        ],
+        "sedi": [
+          {
+            "citta": "Messina",
+            "indirizzo": "Via Garibaldi 118, 98122 Messina (ME)",
+            "telefono": "+39 090 7123456 - +39 347 1234567",
+            "email": "info@studiodentisticobriguglia.it",
+            "principale": true
+          },
+          {
+            "citta": "Milazzo",
+            "indirizzo": "Via Umberto I 45, 98057 Milazzo (ME)",
+            "telefono": "+39 090 9281234",
+            "email": "milazzo@studiodentisticobriguglia.it",
+            "principale": false
+          }
+        ],
+        "contatti": {
+          "emailGenerale": "info@studiodentisticobriguglia.it",
+          "pec": "studiobriguglia@pec.it",
+          "telefono": "+39 090 7123456 - +39 347 1234567",
+          "orari": "Mon – Fri, 9:00 – 13:00 / 15:00 – 19:30 · Sat 9:00 – 13:00"
+        },
+        "legale": {
+          "pIva": "03456780831",
+          "ordine": "Order of Physicians and Dentists of Messina"
+        }
+      },
+      "privacy": {
+        "siteUrl": "www.studiodentisticobriguglia.it",
+        "titolare": "Briguglia Dental Practice",
+        "sedeLegale": "Via Garibaldi 118, 98122 Messina (ME)",
+        "pIva": "03456780831",
+        "codiceFiscale": "",
+        "ordine": "Order of Physicians and Dentists of Messina",
+        "emailPrivacy": "privacy@studiodentisticobriguglia.it",
+        "pec": "studiobriguglia@pec.it",
+        "conservazioneSenzaIncaricoMesi": 12
+      },
+      "aree": [
+        {
+          "slug": "igiene-prevenzione",
+          "titolo": "Hygiene and prevention",
+          "sintesi": "Professional cleaning, regular check-ups and home oral care education.",
+          "descrizione": "Prevention is the most effective and least expensive treatment. Our hygienists carry out personalised professional cleaning sessions and teach each patient the right techniques to keep teeth and gums healthy between check-ups.",
+          "prestazioni": [
+            "Scaling and polishing",
+            "Airflow and surface stain removal",
+            "Fissure sealants for children",
+            "Fluoride treatment",
+            "Personalised recall programme"
+          ],
+          "icona": "ShieldCheck"
+        },
+        {
+          "slug": "conservativa-endodonzia",
+          "titolo": "Restorative dentistry and endodontics",
+          "sintesi": "Treating decay and root canals to save the natural tooth.",
+          "descrizione": "We treat decay with tooth-coloured composite fillings and, when infection reaches the pulp, perform root canal treatment with nickel-titanium rotary instruments and magnification, to preserve the tooth for as long as possible.",
+          "prestazioni": [
+            "Tooth-coloured composite fillings",
+            "Ceramic and composite inlays",
+            "Root canal treatment",
+            "Endodontic retreatment"
+          ],
+          "icona": "Microscope"
+        },
+        {
+          "slug": "implantologia",
+          "titolo": "Dental implants",
+          "sintesi": "Replacing missing teeth with titanium implants, including immediate loading.",
+          "descrizione": "We plan every procedure with 3D CT scans and guided surgery software, placing implants with maximum precision and minimum discomfort. Where indicated, temporary fixed teeth can be fitted on the same day.",
+          "prestazioni": [
+            "Single and multiple implants",
+            "Immediate loading",
+            "Guided implant surgery",
+            "Sinus lift and bone regeneration",
+            "Implant-supported fixed bridges (All-on-4 / All-on-6)"
+          ],
+          "icona": "Crown"
+        },
+        {
+          "slug": "ortodonzia",
+          "titolo": "Orthodontics",
+          "sintesi": "Fixed and removable braces and clear aligners for children and adults.",
+          "descrizione": "We correct tooth position and jaw relationships with tailored solutions: from interceptive orthodontics for children to invisible clear aligners, ideal for adults who want discretion.",
+          "prestazioni": [
+            "Clear aligners",
+            "Aesthetic fixed braces",
+            "Interceptive orthodontics for children",
+            "Post-treatment retention"
+          ],
+          "icona": "Smile"
+        },
+        {
+          "slug": "protesi",
+          "titolo": "Prosthodontics",
+          "sintesi": "Crowns, bridges and dentures made with a digital workflow.",
+          "descrizione": "Thanks to intraoral scanning and CAD/CAM design, we create precise, natural-looking and comfortable prostheses in collaboration with certified dental laboratories.",
+          "prestazioni": [
+            "Zirconia and lithium disilicate crowns",
+            "Fixed bridges",
+            "Full and partial dentures",
+            "Repairs and relines"
+          ],
+          "icona": "Gem"
+        },
+        {
+          "slug": "estetica-dentale",
+          "titolo": "Cosmetic dentistry",
+          "sintesi": "Whitening, veneers and reshaping for a natural, harmonious smile.",
+          "descrizione": "We design your new smile with Digital Smile Design, showing a preview of the result before we begin. We always favour conservative techniques and natural-looking results.",
+          "prestazioni": [
+            "In-office and at-home professional whitening",
+            "Ceramic and composite veneers",
+            "Digital Smile Design",
+            "Gum contouring"
+          ],
+          "icona": "Sparkles"
+        },
+        {
+          "slug": "parodontologia",
+          "titolo": "Periodontics",
+          "sintesi": "Diagnosing and treating gum disease to protect the supporting tissues.",
+          "descrizione": "Bleeding gums or loose teeth are signs not to be ignored. With accurate diagnosis and non-surgical and surgical therapy, we stop periodontal disease and keep results stable over time.",
+          "prestazioni": [
+            "Periodontal probing and charting",
+            "Root planing",
+            "Regenerative periodontal surgery",
+            "Maintenance therapy"
+          ],
+          "icona": "HeartPulse"
+        },
+        {
+          "slug": "pedodonzia",
+          "titolo": "Paediatric dentistry",
+          "sintesi": "Dental care for children in a calm, welcoming environment.",
+          "descrizione": "The first visit is a game: we help little ones get to know the practice without fear, teaching them to look after their teeth from the start and catching any problems early.",
+          "prestazioni": [
+            "First visit from age 3",
+            "Treatment of baby teeth",
+            "Sealants and fluoride treatment",
+            "Early orthodontic assessment"
+          ],
+          "icona": "Baby"
+        },
+        {
+          "slug": "chirurgia-orale",
+          "titolo": "Oral surgery",
+          "sintesi": "Extractions, wisdom teeth and minor surgery, safely.",
+          "descrizione": "We perform simple and complex extractions, including impacted wisdom teeth, with atraumatic techniques and, on request, under conscious sedation for maximum comfort.",
+          "prestazioni": [
+            "Wisdom tooth removal",
+            "Complex extractions",
+            "Frenectomy",
+            "Conscious sedation"
+          ],
+          "icona": "Syringe"
+        }
+      ],
+      "team": [
+        {
+          "slug": "carlo-briguglia",
+          "nome": "Dr Carlo Briguglia",
+          "ruolo": "Clinical director",
+          "abilitazione": "Dentist · Implants and prosthodontics",
+          "bio": "Founder of the practice, he has focused for over twenty years on dental implants and prosthetic rehabilitation, with a digital and minimally invasive approach.",
+          "bioEstesa": [
+            "Dr Carlo Briguglia graduated with honours in Dentistry from the University of Messina in 2001 and, after working in clinics in northern Italy, founded the practice in 2004.",
+            "He completed a postgraduate Master's in implantology and guided surgery and regularly attends continuing education courses in Italy and abroad on the latest prosthetic rehabilitation techniques.",
+            "As clinical director he coordinates the team and the practice's clinical protocols, personally following the most complex implant and prosthetic cases."
+          ],
+          "aree": [
+            "Dental implants",
+            "Prosthodontics",
+            "Oral surgery"
+          ],
+          "formazione": [
+            "Degree in Dentistry, University of Messina (2001)",
+            "Postgraduate Master's in Implantology and Guided Surgery (2006)",
+            "Active member of the Italian Society of Implantology (SIdI)"
+          ],
+          "email": "c.briguglia@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "CB",
+          "foto": ""
+        },
+        {
+          "slug": "martina-ferraro",
+          "nome": "Dr Martina Ferraro",
+          "ruolo": "Orthodontist",
+          "abilitazione": "Specialist in Orthodontics",
+          "bio": "Orthodontic specialist, she treats children and adults with fixed braces and clear aligners.",
+          "bioEstesa": [
+            "Dr Martina Ferraro graduated in Dentistry from the University of Catania and completed her specialisation in Orthodontics at Sapienza University of Rome.",
+            "At the practice since 2014, she has developed an orthodontic pathway for children based on early interception of malocclusions, and a clear aligner protocol for adult patients.",
+            "She is certified in the leading invisible aligner systems and speaks at continuing education courses on digital orthodontics."
+          ],
+          "aree": [
+            "Orthodontics",
+            "Paediatric dentistry"
+          ],
+          "formazione": [
+            "Degree in Dentistry, University of Catania (2008)",
+            "Specialisation in Orthodontics, Sapienza University of Rome (2012)",
+            "Certification in clear aligner orthodontics (2016)"
+          ],
+          "email": "m.ferraro@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "MF",
+          "foto": ""
+        },
+        {
+          "slug": "luca-santangelo",
+          "nome": "Dr Luca Santangelo",
+          "ruolo": "Dentist",
+          "abilitazione": "Endodontics and restorative dentistry",
+          "bio": "He focuses on microscope-assisted endodontics, restorative and cosmetic dentistry.",
+          "bioEstesa": [
+            "Dr Luca Santangelo graduated in Dentistry from the University of Messina in 2013 and completed a one-year advanced course in clinical endodontics.",
+            "At the practice since 2016, he focuses on restorative dentistry and endodontics using the operating microscope, with the aim of saving even the most compromised teeth.",
+            "He also handles cosmetic treatments, from whitening to veneers, and smile design with Digital Smile Design."
+          ],
+          "aree": [
+            "Restorative dentistry and endodontics",
+            "Cosmetic dentistry"
+          ],
+          "formazione": [
+            "Degree in Dentistry, University of Messina (2013)",
+            "Advanced course in Clinical Endodontics (2015)",
+            "Advanced Digital Smile Design course (2019)"
+          ],
+          "email": "l.santangelo@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "LS",
+          "foto": ""
+        },
+        {
+          "slug": "chiara-lopresti",
+          "nome": "Chiara Lo Presti",
+          "ruolo": "Dental hygienist",
+          "abilitazione": "Hygiene and prevention · Periodontics",
+          "bio": "Dental hygienist, she handles prevention, professional cleaning and periodontal maintenance therapy.",
+          "bioEstesa": [
+            "Chiara Lo Presti graduated in Dental Hygiene from the University of Messina and has worked with the practice since 2017.",
+            "She supports patients in prevention programmes and non-surgical periodontal therapy, with particular attention to motivation and home oral care education.",
+            "She also looks after prevention for younger patients, with sealants and hygiene sessions designed for children."
+          ],
+          "aree": [
+            "Hygiene and prevention",
+            "Periodontics"
+          ],
+          "formazione": [
+            "Degree in Dental Hygiene, University of Messina (2016)",
+            "Advanced course in Non-surgical Periodontics (2018)"
+          ],
+          "email": "c.lopresti@studiodentisticobriguglia.it",
+          "telefono": "+39 090 7123456",
+          "iniziali": "CL",
+          "foto": ""
+        }
+      ],
+      "ui": {
+        "header": {
+          "brandPrefix": "Dental Practice",
+          "menuOpenAriaLabel": "Open menu",
+          "menuCloseAriaLabel": "Close menu",
+          "navHome": "Home",
+          "navStudio": "About",
+          "navAree": "Our services",
+          "navTeam": "Professionals",
+          "navContatti": "Contact"
+        },
+        "footer": {
+          "areeHeading": "Our services",
+          "navigationHeading": "Navigation",
+          "hqHeading": "Main clinic",
+          "navStudio": "About",
+          "navTeam": "Professionals",
+          "navContatti": "Contact",
+          "rightsReservedLabel": "All rights reserved.",
+          "vatLabel": "VAT No.",
+          "privacyLabel": "Privacy",
+          "mainOfficeBadge": "Main clinic"
+        },
+        "hero": {
+          "primaryCtaLabel": "Book a visit",
+          "secondaryCtaLabel": "Our services"
+        },
+        "home": {
+          "introEyebrow": "About us",
+          "introTitle": "Modern dental care, with a human touch",
+          "introCtaLabel": "Discover the practice",
+          "areasEyebrow": "Our services",
+          "areasTitle": "Everything your smile needs, in one practice",
+          "areasDescription": "From prevention to implants, a multidisciplinary team follows every step of your care with digital technology and shared protocols.",
+          "areasCtaLabel": "All services",
+          "valuesEyebrow": "Our values",
+          "valuesTitle": "How we take care of you",
+          "valuesDescription": "Principles that guide every visit, from the first consultation to maintenance check-ups.",
+          "teamEyebrow": "Our professionals",
+          "teamTitle": "Clinicians devoted to your smile",
+          "teamDescription": "Dentists, orthodontists and hygienists with complementary skills, united by a careful, shared way of working.",
+          "teamCtaLabel": "Meet the whole team"
+        },
+        "seo": {
+          "homeTitleSuffix": "Dentist in Messina and Milazzo",
+          "studioTitle": "About",
+          "studioDescription": "History, mission and values of Briguglia Dental Practice: caring for patients in Messina and its province since 2004.",
+          "practiceAreasTitle": "Our services",
+          "practiceAreasDescription": "Treatments at Briguglia Dental Practice: hygiene and prevention, restorative dentistry, implants, orthodontics, prosthodontics, cosmetic dentistry, periodontics and paediatric dentistry.",
+          "teamTitle": "Professionals",
+          "teamDescription": "The team at Briguglia Dental Practice: dentists, orthodontists and dental hygienists in Messina and Milazzo.",
+          "contactTitle": "Contact",
+          "contactDescription": "Contact Briguglia Dental Practice. Clinics in Messina and Milazzo. Book a visit or a hygiene appointment.",
+          "privacyTitle": "Privacy Policy",
+          "privacyDescription": "Information on the processing of personal data (art. 13 GDPR) of Briguglia Dental Practice."
+        },
+        "studioPage": {
+          "heroEyebrow": "About",
+          "heroTitle": "Oral health and wellbeing since 2004",
+          "heroDescription": "A multidisciplinary team, digital technology and a warm welcome to care for the smiles of the whole family.",
+          "aboutEyebrow": "Who we are",
+          "aboutTitle": "Our practice",
+          "missionEyebrow": "Our mission",
+          "missionTitle": "Our commitment",
+          "historyEyebrow": "Our story",
+          "historyTitle": "Milestones along the way",
+          "valuesEyebrow": "Our values",
+          "valuesTitle": "The principles that guide us"
+        },
+        "teamPage": {
+          "heroEyebrow": "Professionals",
+          "heroTitle": "The people behind every smile",
+          "heroDescription": "Dentists, specialists and hygienists who share protocols, continuous training and attention to the patient.",
+          "cardCtaLabel": "Full profile",
+          "backLabel": "All professionals",
+          "profileEyebrow": "Profile",
+          "biographyTitle": "Biography",
+          "educationTitle": "Education",
+          "expertiseTitle": "Clinical areas",
+          "contactsTitle": "Contact",
+          "otherProfessionalsTitle": "Other clinicians",
+          "viewAllLabel": "View all",
+          "notFoundTitle": "Profile not found"
+        },
+        "privacyPage": {
+          "heroEyebrow": "Privacy",
+          "heroTitle": "Information on the processing of personal data",
+          "heroDescription": "Art. 13 GDPR - processing of personal data of users who visit the website and use the contact form."
+        },
+        "contactPage": {
+          "heroEyebrow": "Contact",
+          "heroTitle": "Book your visit",
+          "heroDescription": "Fill in the form or call us: we will get back to you to arrange an appointment at the clinic and time that suit you best.",
+          "detailsEyebrow": "Details",
+          "detailsTitle": "How to reach us",
+          "phoneLabel": "Phone",
+          "emailLabel": "Email",
+          "pecLabel": "Certified email (PEC)",
+          "hoursLabel": "Opening hours",
+          "officesEyebrow": "Our clinics",
+          "mainOfficeBadge": "Main clinic",
+          "mapTitlePrefix": "Map"
+        },
+        "practiceAreasPage": {
+          "heroEyebrow": "Our services",
+          "heroTitle": "Complete care for every smile",
+          "heroDescription": "Prevention, treatment and rehabilitation for adults and children, with digital technology and a treatment plan that is always clear and shared.",
+          "ctaTitle": "Can't find the treatment you're looking for?",
+          "ctaText": "Get in touch anyway: at your first visit we will assess your situation together and find the most suitable solutions."
+        },
+        "cta": {
+          "defaultTitle": "It's time to take care of your smile",
+          "defaultText": "Book a first visit: we will assess your oral health together and propose a clear care plan, with defined timing and costs.",
+          "buttonLabel": "Book a visit"
+        }
+      }
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "slot": "hero",
+        "url": "/uploads/cms/jumbotron1.webp",
+        "mimeType": "image/webp",
+        "bytes": 65784
+      }
+    ]
+  }
+}
