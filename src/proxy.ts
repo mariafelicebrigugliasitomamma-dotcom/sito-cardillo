@@ -1,8 +1,31 @@
 import { NextResponse, type NextRequest } from "next/server";
 import { SESSION_COOKIE, verifySession } from "@/lib/auth";
+import { UNDER_CONSTRUCTION_PATH, isUnderConstruction } from "@/lib/maintenance";
+
+function isAdminPath(pathname: string) {
+  return pathname === "/admin" || pathname.startsWith("/admin/");
+}
 
 export default async function proxy(req: NextRequest) {
   const { pathname } = req.nextUrl;
+
+  if (!isAdminPath(pathname)) {
+    // Pagine pubbliche: con SITE_UNDER_CONSTRUCTION attivo mostra la pagina di cortesia.
+    // Chi ha una sessione admin valida può comunque navigare il sito per controllarlo.
+    if (!isUnderConstruction() || pathname === UNDER_CONSTRUCTION_PATH) {
+      return NextResponse.next();
+    }
+    if (await verifySession(req.cookies.get(SESSION_COOKIE)?.value)) {
+      return NextResponse.next();
+    }
+    const url = req.nextUrl.clone();
+    url.pathname = UNDER_CONSTRUCTION_PATH;
+    url.search = "";
+    const res = NextResponse.rewrite(url, { status: 503 });
+    res.headers.set("Retry-After", "3600");
+    res.headers.set("X-Robots-Tag", "noindex, nofollow");
+    return res;
+  }
 
   // La pagina di login è sempre accessibile
   if (pathname === "/admin/login") {
@@ -23,5 +46,6 @@ export default async function proxy(req: NextRequest) {
 }
 
 export const config = {
-  matcher: ["/admin/:path*"],
+  // Tutto tranne API, asset di Next e file statici (con estensione).
+  matcher: ["/((?!api|_next|.*\\..*).*)"],
 };
