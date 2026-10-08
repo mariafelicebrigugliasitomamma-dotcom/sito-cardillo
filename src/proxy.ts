@@ -2,6 +2,8 @@ import { NextResponse, type NextRequest } from "next/server";
 import { SESSION_COOKIE, verifySession } from "@/lib/auth";
 import { UNDER_CONSTRUCTION_PATH, isUnderConstruction } from "@/lib/maintenance";
 
+const PREVIEW_COOKIE = "site_preview";
+
 function isAdminPath(pathname: string) {
   return pathname === "/admin" || pathname.startsWith("/admin/");
 }
@@ -15,6 +17,25 @@ export default async function proxy(req: NextRequest) {
     if (!isUnderConstruction() || pathname === UNDER_CONSTRUCTION_PATH) {
       return NextResponse.next();
     }
+    // Anteprima per il cliente: ?test=1 imposta un cookie di sessione che sblocca il sito,
+    // ?test=0 lo rimuove.
+    const test = req.nextUrl.searchParams.get("test");
+    if (test === "1") {
+      const res = NextResponse.next();
+      res.cookies.set(PREVIEW_COOKIE, "1", { path: "/", httpOnly: true, sameSite: "lax" });
+      return res;
+    }
+    if (test === "0") {
+      const url = req.nextUrl.clone();
+      url.searchParams.delete("test");
+      const res = NextResponse.redirect(url);
+      res.cookies.delete(PREVIEW_COOKIE);
+      return res;
+    }
+    if (req.cookies.get(PREVIEW_COOKIE)?.value === "1") {
+      return NextResponse.next();
+    }
+    // Chi ha una sessione admin valida può comunque navigare il sito per controllarlo.
     if (await verifySession(req.cookies.get(SESSION_COOKIE)?.value)) {
       return NextResponse.next();
     }
