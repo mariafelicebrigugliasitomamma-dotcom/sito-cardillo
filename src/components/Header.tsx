@@ -41,15 +41,15 @@ export default function Header({
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         solid
           ? "bg-navy/95 backdrop-blur-md shadow-lg shadow-black/10 py-3"
-          : "bg-transparent py-5"
+          : "bg-gradient-to-b from-navy/90 via-navy/60 to-transparent py-5"
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5">
         <Link href="/" className="group flex flex-col leading-none">
-          <span className="font-serif text-xl font-semibold tracking-tight text-white sm:text-2xl">
+          <span className="font-serif text-xl font-semibold tracking-tight text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
             {ui.brandPrefix}
           </span>
-          <span className="font-serif text-xl font-semibold tracking-tight text-gold-light sm:text-2xl">
+          <span className="font-serif text-xl font-semibold tracking-tight text-gold-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
             {nomeBreve}
           </span>
         </Link>
