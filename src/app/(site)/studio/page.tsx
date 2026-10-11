@@ -50,6 +50,36 @@ export default async function StudioPage() {
         </div>
       </section>
 
+      {/* Galleria dello studio */}
+      {studio.galleria?.length > 0 && (
+        <section className="bg-white py-24">
+          <div className="mx-auto max-w-6xl px-5">
+            <SectionHeading
+              eyebrow={ui.studioPage.galleryEyebrow}
+              title={ui.studioPage.galleryTitle}
+              align="center"
+            />
+            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+              {studio.galleria.map((foto, i) => (
+                <Reveal
+                  key={`${foto.src}-${i}`}
+                  delay={(i % 3) * 0.08}
+                  className="overflow-hidden rounded-xl bg-cream"
+                >
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={foto.src}
+                    alt={foto.alt}
+                    loading="lazy"
+                    className="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105"
+                  />
+                </Reveal>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
+
       {/* Storia / timeline */}
       <section className="bg-cream py-24">
         <div className="mx-auto max-w-6xl px-5">

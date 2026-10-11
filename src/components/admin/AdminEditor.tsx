@@ -6,6 +6,7 @@ import type {
   SiteContent,
   Area,
   Professionista,
+  GalleriaFoto,
   Locale,
   SiteBundle,
   SitePalette,
@@ -176,6 +177,30 @@ export default function AdminEditor({
                 label="Immagine di sfondo hero (opzionale)"
                 value={studio.heroImmagine}
                 onChange={(v) => setStudio({ heroImmagine: v })}
+              />
+            </Card>
+
+            <Card title="Galleria dello Studio (pagina Lo Studio)">
+              <ListEditor<GalleriaFoto>
+                items={studio.galleria ?? []}
+                onChange={(galleria) => setStudio({ galleria })}
+                newItem={() => ({ src: "", alt: "" })}
+                titleOf={(f, i) => f.alt || `Foto ${i + 1}`}
+                addLabel="Aggiungi foto"
+                render={(f, update) => (
+                  <div className="space-y-4">
+                    <ImageField
+                      label="Foto"
+                      value={f.src}
+                      onChange={(v) => update({ src: v })}
+                    />
+                    <TextField
+                      label="Descrizione (testo alternativo)"
+                      value={f.alt}
+                      onChange={(v) => update({ alt: v })}
+                    />
+                  </div>
+                )}
               />
             </Card>
 
@@ -531,6 +556,20 @@ export default function AdminEditor({
                 value={ui.studioPage.valuesTitle}
                 onChange={(v) =>
                   setUi({ studioPage: { ...ui.studioPage, valuesTitle: v } })
+                }
+              />
+              <TextField
+                label="Galleria - eyebrow"
+                value={ui.studioPage.galleryEyebrow}
+                onChange={(v) =>
+                  setUi({ studioPage: { ...ui.studioPage, galleryEyebrow: v } })
+                }
+              />
+              <TextField
+                label="Galleria - titolo"
+                value={ui.studioPage.galleryTitle}
+                onChange={(v) =>
+                  setUi({ studioPage: { ...ui.studioPage, galleryTitle: v } })
                 }
               />
             </Card>

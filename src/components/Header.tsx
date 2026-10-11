@@ -49,7 +49,7 @@ export default function Header({
           <span className="font-serif text-xl font-semibold tracking-tight text-white sm:text-2xl">
             {ui.brandPrefix}
           </span>
-          <span className="font-serif text-xl font-semibold tracking-tight text-gold sm:text-2xl">
+          <span className="font-serif text-xl font-semibold tracking-tight text-gold-light sm:text-2xl">
             {nomeBreve}
           </span>
         </Link>

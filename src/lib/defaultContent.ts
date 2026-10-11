@@ -3,24 +3,24 @@ import { SITE_URL } from "./site";
 
 const customerContent = {
   "studio": {
-    "nome": "Studio Dentistico Briguglia",
-    "nomeBreve": "Briguglia",
+    "nome": "Studio Dentistico Cardillo",
+    "nomeBreve": "Cardillo",
     "claim": "Il tuo sorriso, curato con precisione e delicatezza.",
     "sottoClaim": "Odontoiatria completa per adulti e bambini: prevenzione, implantologia, ortodonzia invisibile ed estetica del sorriso, con tecnologie digitali e un'équipe dedicata.",
     "annoFondazione": 2004,
-    "metaDescription": "Studio Dentistico Briguglia: igiene e prevenzione, implantologia, ortodonzia invisibile, estetica dentale e odontoiatria pediatrica. Sedi a Messina e Milazzo.",
+    "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, implantologia, ortodonzia invisibile, estetica dentale e odontoiatria pediatrica. Sedi a Messina e Milazzo.",
     "heroImmagine": "/uploads/cms/jumbotron1.webp",
     "citazione": {
       "testo": "Un buon trattamento inizia sempre dall'ascolto: prima di guardare i denti, guardiamo la persona.",
-      "autore": "Dott. Carlo Briguglia"
+      "autore": "Dott.ssa Maria Clara Cardillo"
     },
-    "presentazione": "Fondato nel 2004 dal Dott. Carlo Briguglia, lo Studio Dentistico Briguglia è oggi un punto di riferimento a Messina per la salute orale di tutta la famiglia. Un'équipe multidisciplinare di odontoiatri, ortodontisti e igienisti lavora in sinergia per offrire percorsi di cura completi, dalla prima visita al mantenimento nel tempo. Investiamo costantemente in tecnologie digitali — scanner intraorale, radiologia 3D a basso dosaggio, progettazione protesica computerizzata — per rendere ogni trattamento più preciso, confortevole e prevedibile.",
+    "presentazione": "Fondato nel 2004 dalla Dott.ssa Maria Clara Cardillo, lo Studio Dentistico Cardillo è oggi un punto di riferimento a Messina per la salute orale di tutta la famiglia. Un'équipe multidisciplinare di odontoiatri, ortodontisti e igienisti lavora in sinergia per offrire percorsi di cura completi, dalla prima visita al mantenimento nel tempo. Investiamo costantemente in tecnologie digitali — scanner intraorale, radiologia 3D a basso dosaggio, progettazione protesica computerizzata — per rendere ogni trattamento più preciso, confortevole e prevedibile.",
     "missione": "Vogliamo che ogni paziente esca dallo studio più sereno di come è entrato. Per questo spieghiamo ogni diagnosi con chiarezza, presentiamo un piano di cura scritto con tempi e costi definiti, e privilegiamo sempre l'approccio meno invasivo possibile, puntando sulla prevenzione per conservare i denti naturali il più a lungo possibile.",
     "storia": [
       {
         "anno": "2004",
         "titolo": "L'apertura dello Studio",
-        "testo": "Il Dott. Carlo Briguglia apre il primo studio in Via Garibaldi a Messina, con due riuniti e un'attenzione particolare alla conservativa e alla protesi."
+        "testo": "La Dott.ssa Maria Clara Cardillo apre il primo studio in Via Garibaldi a Messina, con due riuniti e un'attenzione particolare alla conservativa e alla protesi."
       },
       {
         "anno": "2009",
@@ -88,37 +88,38 @@ const customerContent = {
         "citta": "Messina",
         "indirizzo": "Via Garibaldi 118, 98122 Messina (ME)",
         "telefono": "+39 090 7123456 - +39 347 1234567",
-        "email": "info@studiodentisticobriguglia.it",
+        "email": "info@studiodentisticocardillo.it",
         "principale": true
       },
       {
         "citta": "Milazzo",
         "indirizzo": "Via Umberto I 45, 98057 Milazzo (ME)",
         "telefono": "+39 090 9281234",
-        "email": "milazzo@studiodentisticobriguglia.it",
+        "email": "milazzo@studiodentisticocardillo.it",
         "principale": false
       }
     ],
     "contatti": {
-      "emailGenerale": "info@studiodentisticobriguglia.it",
-      "pec": "studiobriguglia@pec.it",
+      "emailGenerale": "info@studiodentisticocardillo.it",
+      "pec": "studiocardillo@pec.it",
       "telefono": "+39 090 7123456 - +39 347 1234567",
       "orari": "Lun – Ven, 9:00 – 13:00 / 15:00 – 19:30 · Sab 9:00 – 13:00"
     },
     "legale": {
       "pIva": "03456780831",
       "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
-    }
+    },
+    "galleria": []
   },
   "privacy": {
-    "siteUrl": "www.studiodentisticobriguglia.it",
-    "titolare": "Studio Dentistico Briguglia",
+    "siteUrl": "www.studiodentisticocardillo.it",
+    "titolare": "Studio Dentistico Cardillo",
     "sedeLegale": "Via Garibaldi 118, 98122 Messina (ME)",
     "pIva": "03456780831",
     "codiceFiscale": "",
     "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina",
-    "emailPrivacy": "privacy@studiodentisticobriguglia.it",
-    "pec": "studiobriguglia@pec.it",
+    "emailPrivacy": "privacy@studiodentisticocardillo.it",
+    "pec": "studiocardillo@pec.it",
     "conservazioneSenzaIncaricoMesi": 12
   },
   "aree": [
@@ -244,15 +245,15 @@ const customerContent = {
   ],
   "team": [
     {
-      "slug": "carlo-briguglia",
-      "nome": "Dott. Carlo Briguglia",
-      "ruolo": "Direttore sanitario",
+      "slug": "maria-clara-cardillo",
+      "nome": "Dott.ssa Maria Clara Cardillo",
+      "ruolo": "Direttrice sanitaria",
       "abilitazione": "Odontoiatra · Implantologia e protesi",
-      "bio": "Fondatore dello Studio, si dedica da oltre vent'anni all'implantologia e alla riabilitazione protesica, con un approccio digitale e mininvasivo.",
+      "bio": "Fondatrice dello Studio, si dedica da oltre vent'anni all'implantologia e alla riabilitazione protesica, con un approccio digitale e mininvasivo.",
       "bioEstesa": [
-        "Il Dott. Carlo Briguglia si laurea con lode in Odontoiatria e Protesi Dentaria presso l'Università degli Studi di Messina nel 2001 e, dopo alcune esperienze in cliniche del Nord Italia, fonda lo Studio nel 2004.",
-        "Si è perfezionato in implantologia e chirurgia guidata con un Master universitario di II livello e frequenta regolarmente corsi di aggiornamento in Italia e all'estero sulle più recenti tecniche di riabilitazione protesica.",
-        "Da direttore sanitario coordina l'équipe e i protocolli clinici dello Studio, seguendo personalmente i casi implantologici e protesici più complessi."
+        "La Dott.ssa Maria Clara Cardillo si laurea con lode in Odontoiatria e Protesi Dentaria presso l'Università degli Studi di Messina nel 2001 e, dopo alcune esperienze in cliniche del Nord Italia, fonda lo Studio nel 2004.",
+        "Si è perfezionata in implantologia e chirurgia guidata con un Master universitario di II livello e frequenta regolarmente corsi di aggiornamento in Italia e all'estero sulle più recenti tecniche di riabilitazione protesica.",
+        "Da direttrice sanitaria coordina l'équipe e i protocolli clinici dello Studio, seguendo personalmente i casi implantologici e protesici più complessi."
       ],
       "aree": [
         "Implantologia",
@@ -262,11 +263,11 @@ const customerContent = {
       "formazione": [
         "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2001)",
         "Master di II livello in Implantologia e Chirurgia Guidata (2006)",
-        "Socio attivo della Società Italiana di Implantologia (SIdI)"
+        "Socia attiva della Società Italiana di Implantologia (SIdI)"
       ],
-      "email": "c.briguglia@studiodentisticobriguglia.it",
+      "email": "m.cardillo@studiodentisticocardillo.it",
       "telefono": "+39 090 7123456",
-      "iniziali": "CB",
+      "iniziali": "MC",
       "foto": ""
     },
     {
@@ -289,7 +290,7 @@ const customerContent = {
         "Specializzazione in Ortognatodonzia, Sapienza Università di Roma (2012)",
         "Certificazione in ortodonzia con allineatori trasparenti (2016)"
       ],
-      "email": "m.ferraro@studiodentisticobriguglia.it",
+      "email": "m.ferraro@studiodentisticocardillo.it",
       "telefono": "+39 090 7123456",
       "iniziali": "MF",
       "foto": ""
@@ -314,7 +315,7 @@ const customerContent = {
         "Corso di perfezionamento in Endodonzia clinica (2015)",
         "Corso avanzato di Digital Smile Design (2019)"
       ],
-      "email": "l.santangelo@studiodentisticobriguglia.it",
+      "email": "l.santangelo@studiodentisticocardillo.it",
       "telefono": "+39 090 7123456",
       "iniziali": "LS",
       "foto": ""
@@ -338,7 +339,7 @@ const customerContent = {
         "Laurea in Igiene Dentale, Università degli Studi di Messina (2016)",
         "Corso di perfezionamento in Parodontologia non chirurgica (2018)"
       ],
-      "email": "c.lopresti@studiodentisticobriguglia.it",
+      "email": "c.lopresti@studiodentisticocardillo.it",
       "telefono": "+39 090 7123456",
       "iniziali": "CL",
       "foto": ""
@@ -390,15 +391,15 @@ const customerContent = {
     "seo": {
       "homeTitleSuffix": "Dentista a Messina e Milazzo",
       "studioTitle": "Lo Studio",
-      "studioDescription": "Storia, missione e valori dello Studio Dentistico Briguglia: dal 2004 al fianco dei pazienti di Messina e provincia.",
+      "studioDescription": "Storia, missione e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
       "practiceAreasTitle": "I nostri servizi",
-      "practiceAreasDescription": "I trattamenti dello Studio Dentistico Briguglia: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
+      "practiceAreasDescription": "I trattamenti dello Studio Dentistico Cardillo: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
       "teamTitle": "Professionisti",
-      "teamDescription": "L'équipe dello Studio Dentistico Briguglia: odontoiatri, ortodontisti e igienisti dentali a Messina e Milazzo.",
+      "teamDescription": "L'équipe dello Studio Dentistico Cardillo: odontoiatri, ortodontisti e igienisti dentali a Messina e Milazzo.",
       "contactTitle": "Contatti",
-      "contactDescription": "Contatta lo Studio Dentistico Briguglia. Sedi a Messina e Milazzo. Prenota una visita o una seduta di igiene.",
+      "contactDescription": "Contatta lo Studio Dentistico Cardillo. Sedi a Messina e Milazzo. Prenota una visita o una seduta di igiene.",
       "privacyTitle": "Informativa Privacy",
-      "privacyDescription": "Informativa sul trattamento dei dati personali (art. 13 GDPR) dello Studio Dentistico Briguglia."
+      "privacyDescription": "Informativa sul trattamento dei dati personali (art. 13 GDPR) dello Studio Dentistico Cardillo."
     },
     "studioPage": {
       "heroEyebrow": "Lo Studio",
@@ -411,7 +412,9 @@ const customerContent = {
       "historyEyebrow": "La nostra storia",
       "historyTitle": "Le tappe di un percorso",
       "valuesEyebrow": "I nostri valori",
-      "valuesTitle": "I principi che ci guidano"
+      "valuesTitle": "I principi che ci guidano",
+      "galleryEyebrow": "Gli ambienti",
+      "galleryTitle": "Uno sguardo allo Studio"
     },
     "teamPage": {
       "heroEyebrow": "Professionisti",

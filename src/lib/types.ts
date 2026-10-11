@@ -17,6 +17,8 @@ export type Contatti = {
 export type Legale = { pIva: string; ordine: string };
 export type Citazione = { testo: string; autore: string };
 
+export type GalleriaFoto = { src: string; alt: string };
+
 export type Studio = {
   nome: string;
   nomeBreve: string;
@@ -25,6 +27,7 @@ export type Studio = {
   annoFondazione: number;
   metaDescription: string;
   heroImmagine: string;
+  galleria: GalleriaFoto[];
   citazione: Citazione;
   presentazione: string;
   missione: string;
@@ -130,6 +133,8 @@ export type StudioPageUiContent = {
   historyTitle: string;
   valuesEyebrow: string;
   valuesTitle: string;
+  galleryEyebrow: string;
+  galleryTitle: string;
 };
 
 export type TeamPageUiContent = {

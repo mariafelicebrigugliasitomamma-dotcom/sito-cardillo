@@ -113,7 +113,8 @@
         "legale": {
           "pIva": "03456780831",
           "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
-        }
+        },
+        "galleria": []
       },
       "privacy": {
         "siteUrl": "www.studiodentisticocardillo.it",
@@ -416,7 +417,9 @@
           "historyEyebrow": "La nostra storia",
           "historyTitle": "Le tappe di un percorso",
           "valuesEyebrow": "I nostri valori",
-          "valuesTitle": "I principi che ci guidano"
+          "valuesTitle": "I principi che ci guidano",
+          "galleryEyebrow": "Gli ambienti",
+          "galleryTitle": "Uno sguardo allo Studio"
         },
         "teamPage": {
           "heroEyebrow": "Professionisti",
@@ -573,7 +576,8 @@
         "legale": {
           "pIva": "03456780831",
           "ordine": "Order of Physicians and Dentists of Messina"
-        }
+        },
+        "galleria": []
       },
       "privacy": {
         "siteUrl": "www.studiodentisticocardillo.it",
@@ -876,7 +880,9 @@
           "historyEyebrow": "Our story",
           "historyTitle": "Milestones along the way",
           "valuesEyebrow": "Our values",
-          "valuesTitle": "The principles that guide us"
+          "valuesTitle": "The principles that guide us",
+          "galleryEyebrow": "Our spaces",
+          "galleryTitle": "A look inside the practice"
         },
         "teamPage": {
           "heroEyebrow": "Professionals",
