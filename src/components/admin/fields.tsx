@@ -151,6 +151,8 @@ export function ImageField({
   const id = useId();
   const [uploading, setUploading] = useState(false);
   const [uploadError, setUploadError] = useState("");
+  // Anteprima locale: il file caricato è raggiungibile sul sito solo dopo il deploy di Vercel
+  const [local, setLocal] = useState<{ url: string; preview: string } | null>(null);
 
   async function handleUpload(file: File | null) {
     if (!file) return;
@@ -158,7 +160,8 @@ export function ImageField({
     setUploading(true);
     try {
       const form = new FormData();
-      form.append("file", await imageToWebp(file));
+      const converted = await imageToWebp(file);
+      form.append("file", converted);
       const res = await fetch("/api/admin/media", {
         method: "POST",
         body: form,
@@ -167,6 +170,7 @@ export function ImageField({
       if (!res.ok || !data?.url) {
         throw new Error(data?.error || "Upload non riuscito");
       }
+      setLocal({ url: data.url as string, preview: URL.createObjectURL(converted) });
       onChange(data.url as string);
     } catch (error) {
       setUploadError(error instanceof Error ? error.message : "Errore upload");
@@ -184,7 +188,11 @@ export function ImageField({
         <div className="flex h-20 w-20 shrink-0 items-center justify-center overflow-hidden rounded-lg border border-slate-300 bg-slate-100 text-slate-400">
           {value ? (
             // eslint-disable-next-line @next/next/no-img-element
-            <img src={value} alt="" className="h-full w-full object-cover" />
+            <img
+              src={local && local.url === value ? local.preview : value}
+              alt=""
+              className="h-full w-full object-cover"
+            />
           ) : (
             <ImageIcon size={24} />
           )}
