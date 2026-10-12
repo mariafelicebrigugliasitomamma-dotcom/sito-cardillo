@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "37baa075-6b1e-4f20-932d-900e73018d84",
-    "updatedAt": "2026-10-12T10:57:36.794Z",
+    "revision": "8f2765f7-e14a-4062-913a-630ba0bf769b",
+    "updatedAt": "2026-10-12T10:58:57.726Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1791802655937-nsk5p55e"
+    "idempotencyKey": "1791802736854-2pnftc1a"
   },
   "content": {
     "it": {
@@ -114,12 +114,7 @@
           "pIva": "03456780831",
           "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
         },
-        "galleria": [
-          {
-            "src": "/uploads/cms/593e76c5490d41e6b5.webp",
-            "alt": ""
-          }
-        ]
+        "galleria": []
       },
       "privacy": {
         "siteUrl": "www.studiodentisticocardillo.it",
