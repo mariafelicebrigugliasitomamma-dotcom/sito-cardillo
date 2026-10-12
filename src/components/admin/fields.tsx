@@ -2,6 +2,7 @@
 
 import { useId, useState } from "react";
 import { ImageIcon, Loader2, Upload } from "lucide-react";
+import { imageToWebp } from "@/lib/imageToWebp";
 
 const inputClass =
   "w-full rounded-lg border border-slate-300 bg-white px-3 py-2 text-sm text-slate-900 outline-none transition-colors placeholder:text-slate-400 focus:border-navy focus:ring-2 focus:ring-navy/15";
@@ -157,7 +158,7 @@ export function ImageField({
     setUploading(true);
     try {
       const form = new FormData();
-      form.append("file", file);
+      form.append("file", await imageToWebp(file));
       const res = await fetch("/api/admin/media", {
         method: "POST",
         body: form,
@@ -216,7 +217,7 @@ export function ImageField({
               onChange={(e) => void handleUpload(e.target.files?.[0] || null)}
             />
             <p className="text-xs text-slate-500">
-              Max 700 KB. Formati: WEBP, JPG, PNG. Limite CMS: 3 immagini.
+              Anche foto pesanti: vengono ridimensionate e convertite in WebP automaticamente. Formati: WEBP, JPG, PNG. Limite CMS: 20 immagini.
             </p>
           </div>
           {uploadError ? (

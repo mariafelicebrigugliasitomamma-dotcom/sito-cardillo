@@ -12,8 +12,8 @@ import {
 
 export const runtime = "nodejs";
 
-const MAX_FILES = 3;
-const MAX_BYTES = 700 * 1024;
+const MAX_FILES = 20;
+const MAX_BYTES = 3 * 1024 * 1024;
 const LOCAL_UPLOAD_DIR = path.join(process.cwd(), "public", "uploads", "cms");
 const REPO_UPLOAD_DIR = "public/uploads/cms";
 const ALLOWED_MIME = new Set(["image/webp", "image/jpeg", "image/png"]);
@@ -66,7 +66,7 @@ export async function POST(req: Request) {
 
   if (file.size > MAX_BYTES) {
     return NextResponse.json(
-      { error: `File troppo grande (${Math.round(file.size / 1024)} KB). Limite 700 KB.` },
+      { error: `File troppo grande (${Math.round(file.size / 1024)} KB). Limite 3 MB.` },
       { status: 400 }
     );
   }
@@ -82,7 +82,7 @@ export async function POST(req: Request) {
   const existsAlready = existing.includes(repoPath);
   if (!existsAlready && existing.length >= MAX_FILES) {
     return NextResponse.json(
-      { error: "Hai raggiunto il limite di 3 immagini CMS. Sostituisci una immagine esistente." },
+      { error: `Hai raggiunto il limite di ${MAX_FILES} immagini CMS. Sostituisci una immagine esistente.` },
       { status: 400 }
     );
   }
