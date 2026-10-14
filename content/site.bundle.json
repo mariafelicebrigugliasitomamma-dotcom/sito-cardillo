@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "061adaa2-67bb-4693-8763-ba653e8af759",
-    "updatedAt": "2026-10-14T18:44:27.478Z",
+    "revision": "2b244a5d-b1eb-4aec-92a2-fc01a7974d2d",
+    "updatedAt": "2026-10-14T18:50:33.304Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792003465205-yklzfpn6"
+    "idempotencyKey": "1792003832210-8pmkp5wr"
   },
   "content": {
     "it": {
@@ -13,14 +13,14 @@
         "claim": "Ogni sorriso racconta una storia. Prenditi cura del tuo.",
         "sottoClaim": " Ti accompagniamo con un approccio personalizzato, attenzione ai dettagli e cure mirate, per rispondere al meglio alle tue esigenze e garantirti un’esperienza di cura attenta e professionale.\n",
         "annoFondazione": 1997,
-        "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, implantologia, ortodonzia invisibile, estetica dentale e odontoiatria pediatrica. Sedi a Messina e Milazzo.",
+        "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
         "citazione": {
-          "testo": "Un buon trattamento inizia sempre dall'ascolto: prima di guardare i denti, guardiamo la persona.",
+          "testo": "",
           "autore": "Dott.ssa Maria Clara Cardillo"
         },
         "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
-        "missione": "Vogliamo che ogni paziente esca dallo studio più sereno di come è entrato. Per questo spieghiamo ogni diagnosi con chiarezza, presentiamo un piano di cura scritto con tempi e costi definiti, e privilegiamo sempre l'approccio meno invasivo possibile, puntando sulla prevenzione per conservare i denti naturali il più a lungo possibile.",
+        "missione": "",
         "storia": [
           {
             "anno": "2004",
