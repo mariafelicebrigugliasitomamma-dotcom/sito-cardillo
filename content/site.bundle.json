@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "ef31be99-c846-4c39-9e14-b6607d38560b",
-    "updatedAt": "2026-10-14T19:04:40.543Z",
+    "revision": "0f2e7dbb-7820-4d86-8ce2-31f9356d0cba",
+    "updatedAt": "2026-10-14T19:08:41.145Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792004678601-f3ctxq38"
+    "idempotencyKey": "1792004920085-3c7hagnx"
   },
   "content": {
     "it": {
@@ -102,10 +102,10 @@
       "privacy": {
         "siteUrl": "www.studiodentisticocardillo.it",
         "titolare": "Studio Dentistico Cardillo",
-        "sedeLegale": "Via Garibaldi 118, 98122 Messina (ME)",
-        "pIva": "03456780831",
-        "codiceFiscale": "",
-        "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina",
+        "sedeLegale": "Via Giuseppe Giusti 1, PA, 90143",
+        "pIva": "",
+        "codiceFiscale": "CRDMCL57B47H269H",
+        "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
         "emailPrivacy": "privacy@studiodentisticocardillo.it",
         "pec": "studiocardillo@pec.it",
         "conservazioneSenzaIncaricoMesi": 12
