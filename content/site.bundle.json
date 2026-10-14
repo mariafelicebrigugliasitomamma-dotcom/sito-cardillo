@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "8f2765f7-e14a-4062-913a-630ba0bf769b",
-    "updatedAt": "2026-10-12T10:58:57.726Z",
+    "revision": "4f62d828-8ec4-4879-ba6e-c7bede9fc2bb",
+    "updatedAt": "2026-10-14T09:40:27.343Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1791802736854-2pnftc1a"
+    "idempotencyKey": "1791970825061-xshgv8qb"
   },
   "content": {
     "it": {
@@ -90,18 +90,11 @@
         ],
         "sedi": [
           {
-            "citta": "Messina",
-            "indirizzo": "Via Garibaldi 118, 98122 Messina (ME)",
-            "telefono": "+39 090 7123456 - +39 347 1234567",
-            "email": "info@studiodentisticocardillo.it",
+            "citta": "Palermo ",
+            "indirizzo": "Via Giuseppe Giusti 1",
+            "telefono": "091 6258918",
+            "email": "",
             "principale": true
-          },
-          {
-            "citta": "Milazzo",
-            "indirizzo": "Via Umberto I 45, 98057 Milazzo (ME)",
-            "telefono": "+39 090 9281234",
-            "email": "milazzo@studiodentisticocardillo.it",
-            "principale": false
           }
         ],
         "contatti": {
@@ -273,80 +266,6 @@
           "email": "m.cardillo@studiodentisticocardillo.it",
           "telefono": "+39 090 7123456",
           "iniziali": "MC",
-          "foto": ""
-        },
-        {
-          "slug": "martina-ferraro",
-          "nome": "Dott.ssa Martina Ferraro",
-          "ruolo": "Ortodontista",
-          "abilitazione": "Specialista in Ortognatodonzia",
-          "bio": "Specialista in ortognatodonzia, segue bambini e adulti con apparecchi fissi e allineatori trasparenti.",
-          "bioEstesa": [
-            "La Dott.ssa Martina Ferraro si laurea in Odontoiatria presso l'Università degli Studi di Catania e consegue la specializzazione in Ortognatodonzia presso l'Università di Roma “La Sapienza”.",
-            "Nello Studio dal 2014, ha sviluppato un percorso ortodontico dedicato ai bambini, basato sull'intercettazione precoce delle malocclusioni, e un protocollo con allineatori trasparenti per i pazienti adulti.",
-            "È certificata per i principali sistemi di allineatori invisibili e partecipa come relatrice a corsi di aggiornamento in ortodonzia digitale."
-          ],
-          "aree": [
-            "Ortodonzia",
-            "Odontoiatria pediatrica"
-          ],
-          "formazione": [
-            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Catania (2008)",
-            "Specializzazione in Ortognatodonzia, Sapienza Università di Roma (2012)",
-            "Certificazione in ortodonzia con allineatori trasparenti (2016)"
-          ],
-          "email": "m.ferraro@studiodentisticocardillo.it",
-          "telefono": "+39 090 7123456",
-          "iniziali": "MF",
-          "foto": ""
-        },
-        {
-          "slug": "luca-santangelo",
-          "nome": "Dott. Luca Santangelo",
-          "ruolo": "Odontoiatra",
-          "abilitazione": "Endodonzia e conservativa",
-          "bio": "Si occupa di endodonzia al microscopio operatorio, conservativa ed estetica dentale.",
-          "bioEstesa": [
-            "Il Dott. Luca Santangelo si laurea in Odontoiatria presso l'Università degli Studi di Messina nel 2013 e frequenta un corso annuale di perfezionamento in endodonzia clinica.",
-            "Entrato nello Studio nel 2016, si dedica alla conservativa e all'endodonzia con l'ausilio del microscopio operatorio, con l'obiettivo di salvare anche i denti più compromessi.",
-            "Segue inoltre i trattamenti di estetica dentale, dallo sbiancamento alle faccette, e la progettazione del sorriso con il Digital Smile Design."
-          ],
-          "aree": [
-            "Conservativa ed endodonzia",
-            "Estetica dentale"
-          ],
-          "formazione": [
-            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2013)",
-            "Corso di perfezionamento in Endodonzia clinica (2015)",
-            "Corso avanzato di Digital Smile Design (2019)"
-          ],
-          "email": "l.santangelo@studiodentisticocardillo.it",
-          "telefono": "+39 090 7123456",
-          "iniziali": "LS",
-          "foto": ""
-        },
-        {
-          "slug": "chiara-lopresti",
-          "nome": "Dott.ssa Chiara Lo Presti",
-          "ruolo": "Igienista dentale",
-          "abilitazione": "Igiene e prevenzione · Parodontologia",
-          "bio": "Igienista dentale, si occupa di prevenzione, igiene professionale e terapia di mantenimento parodontale.",
-          "bioEstesa": [
-            "La Dott.ssa Chiara Lo Presti si laurea in Igiene Dentale presso l'Università degli Studi di Messina e collabora con lo Studio dal 2017.",
-            "Segue i pazienti nei programmi di prevenzione e nelle terapie parodontali non chirurgiche, con particolare attenzione alla motivazione e all'educazione all'igiene orale domiciliare.",
-            "Si occupa anche della prevenzione nei più piccoli, con sigillature e sedute di igiene pensate per i bambini."
-          ],
-          "aree": [
-            "Igiene e prevenzione",
-            "Parodontologia"
-          ],
-          "formazione": [
-            "Laurea in Igiene Dentale, Università degli Studi di Messina (2016)",
-            "Corso di perfezionamento in Parodontologia non chirurgica (2018)"
-          ],
-          "email": "c.lopresti@studiodentisticocardillo.it",
-          "telefono": "+39 090 7123456",
-          "iniziali": "CL",
           "foto": ""
         }
       ],
