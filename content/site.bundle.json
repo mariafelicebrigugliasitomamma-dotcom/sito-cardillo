@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "58187049-d737-49ae-9cc7-046eb58f8596",
-    "updatedAt": "2026-10-14T18:51:21.730Z",
+    "revision": "ef31be99-c846-4c39-9e14-b6607d38560b",
+    "updatedAt": "2026-10-14T19:04:40.543Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792003880777-ziuz8ore"
+    "idempotencyKey": "1792004678601-f3ctxq38"
   },
   "content": {
     "it": {
@@ -68,24 +68,14 @@
         ],
         "numeri": [
           {
-            "valore": 22,
-            "suffisso": "+",
+            "valore": 29,
+            "suffisso": "",
             "etichetta": "Anni di attività"
           },
           {
-            "valore": 12000,
-            "suffisso": "+",
-            "etichetta": "Pazienti seguiti"
-          },
-          {
-            "valore": 2,
+            "valore": 1,
             "suffisso": "",
             "etichetta": "Sedi sul territorio"
-          },
-          {
-            "valore": 4,
-            "suffisso": "",
-            "etichetta": "Professionisti"
           }
         ],
         "sedi": [
@@ -93,19 +83,19 @@
             "citta": "Palermo ",
             "indirizzo": "Via Giuseppe Giusti 1",
             "telefono": "091 6258918",
-            "email": "",
+            "email": "cardillomariaclara@libero.it",
             "principale": true
           }
         ],
         "contatti": {
-          "emailGenerale": "info@studiodentisticocardillo.it",
-          "pec": "studiocardillo@pec.it",
-          "telefono": "+39 090 7123456 - +39 347 1234567",
-          "orari": "Lun – Ven, 9:00 – 13:00 / 15:00 – 19:30 · Sab 9:00 – 13:00"
+          "emailGenerale": "cardillomariaclara@libero.it",
+          "pec": "",
+          "telefono": "0916258918 - +393475888815",
+          "orari": "Lun – Giov, 10:00 – 18:00 "
         },
         "legale": {
-          "pIva": "03456780831",
-          "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
+          "pIva": "",
+          "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo"
         },
         "galleria": []
       },
