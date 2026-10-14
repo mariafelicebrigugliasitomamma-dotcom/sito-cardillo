@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "2b244a5d-b1eb-4aec-92a2-fc01a7974d2d",
-    "updatedAt": "2026-10-14T18:50:33.304Z",
+    "revision": "58187049-d737-49ae-9cc7-046eb58f8596",
+    "updatedAt": "2026-10-14T18:51:21.730Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792003832210-8pmkp5wr"
+    "idempotencyKey": "1792003880777-ziuz8ore"
   },
   "content": {
     "it": {
@@ -17,7 +17,7 @@
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
         "citazione": {
           "testo": "",
-          "autore": "Dott.ssa Maria Clara Cardillo"
+          "autore": ""
         },
         "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
         "missione": "",
