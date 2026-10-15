@@ -15,12 +15,7 @@
         "annoFondazione": 1997,
         "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
-        "citazione": {
-          "testo": "",
-          "autore": ""
-        },
         "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
-        "missione": "",
         "storia": [
           {
             "anno": "2004",
@@ -306,7 +301,7 @@
         "seo": {
           "homeTitleSuffix": "Dentista a Messina e Milazzo",
           "studioTitle": "Lo Studio",
-          "studioDescription": "Storia, missione e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
+          "studioDescription": "Storia, ambienti e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
           "practiceAreasTitle": "I nostri servizi",
           "practiceAreasDescription": "I trattamenti dello Studio Dentistico Cardillo: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
           "teamTitle": "Professionisti",
@@ -322,8 +317,6 @@
           "heroDescription": "Un'équipe multidisciplinare, tecnologie digitali e un'accoglienza attenta per prenderci cura del sorriso di tutta la famiglia.",
           "aboutEyebrow": "Chi siamo",
           "aboutTitle": "Il nostro Studio",
-          "missionEyebrow": "La missione",
-          "missionTitle": "Il nostro impegno",
           "historyEyebrow": "La nostra storia",
           "historyTitle": "Le tappe di un percorso",
           "valuesEyebrow": "I nostri valori",
@@ -388,12 +381,7 @@
         "annoFondazione": 2004,
         "metaDescription": "Cardillo Dental Practice: hygiene and prevention, dental implants, clear aligners, cosmetic and paediatric dentistry. Clinics in Messina and Milazzo.",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
-        "citazione": {
-          "testo": "Good treatment always begins with listening: before looking at the teeth, we look at the person.",
-          "autore": "Dr Maria Clara Cardillo"
-        },
         "presentazione": "Founded in 2004 by Dr Maria Clara Cardillo, Cardillo Dental Practice is today a point of reference in Messina for the oral health of the whole family. A multidisciplinary team of dentists, orthodontists and hygienists works together to provide complete care pathways, from the first visit to long-term maintenance. We constantly invest in digital technology — intraoral scanning, low-dose 3D imaging, computer-aided prosthetic design — to make every treatment more precise, comfortable and predictable.",
-        "missione": "We want every patient to leave the practice feeling more at ease than when they arrived. That is why we explain every diagnosis clearly, provide a written treatment plan with defined timing and costs, and always favour the least invasive approach, focusing on prevention to preserve natural teeth for as long as possible.",
         "storia": [
           {
             "anno": "2004",
@@ -770,7 +758,7 @@
         "seo": {
           "homeTitleSuffix": "Dentist in Messina and Milazzo",
           "studioTitle": "About",
-          "studioDescription": "History, mission and values of Cardillo Dental Practice: caring for patients in Messina and its province since 2004.",
+          "studioDescription": "History, facilities and values of Cardillo Dental Practice: caring for patients in Messina and its province since 2004.",
           "practiceAreasTitle": "Our services",
           "practiceAreasDescription": "Treatments at Cardillo Dental Practice: hygiene and prevention, restorative dentistry, implants, orthodontics, prosthodontics, cosmetic dentistry, periodontics and paediatric dentistry.",
           "teamTitle": "Professionals",
@@ -786,8 +774,6 @@
           "heroDescription": "A multidisciplinary team, digital technology and a warm welcome to care for the smiles of the whole family.",
           "aboutEyebrow": "Who we are",
           "aboutTitle": "Our practice",
-          "missionEyebrow": "Our mission",
-          "missionTitle": "Our commitment",
           "historyEyebrow": "Our story",
           "historyTitle": "Milestones along the way",
           "valuesEyebrow": "Our values",

@@ -10,12 +10,7 @@ const customerContent = {
     "annoFondazione": 1997,
     "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
     "heroImmagine": "/uploads/cms/jumbotron1.webp",
-    "citazione": {
-      "testo": "",
-      "autore": ""
-    },
     "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
-    "missione": "",
     "storia": [
       {
         "anno": "2004",
@@ -301,7 +296,7 @@ const customerContent = {
     "seo": {
       "homeTitleSuffix": "Dentista a Messina e Milazzo",
       "studioTitle": "Lo Studio",
-      "studioDescription": "Storia, missione e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
+      "studioDescription": "Storia, ambienti e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
       "practiceAreasTitle": "I nostri servizi",
       "practiceAreasDescription": "I trattamenti dello Studio Dentistico Cardillo: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
       "teamTitle": "Professionisti",
@@ -317,8 +312,6 @@ const customerContent = {
       "heroDescription": "Un'équipe multidisciplinare, tecnologie digitali e un'accoglienza attenta per prenderci cura del sorriso di tutta la famiglia.",
       "aboutEyebrow": "Chi siamo",
       "aboutTitle": "Il nostro Studio",
-      "missionEyebrow": "La missione",
-      "missionTitle": "Il nostro impegno",
       "historyEyebrow": "La nostra storia",
       "historyTitle": "Le tappe di un percorso",
       "valuesEyebrow": "I nostri valori",

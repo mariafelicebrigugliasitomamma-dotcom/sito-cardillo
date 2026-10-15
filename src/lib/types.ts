@@ -15,7 +15,6 @@ export type Contatti = {
   orari: string;
 };
 export type Legale = { pIva: string; ordine: string };
-export type Citazione = { testo: string; autore: string };
 
 export type GalleriaFoto = { src: string; alt: string };
 
@@ -28,9 +27,7 @@ export type Studio = {
   metaDescription: string;
   heroImmagine: string;
   galleria: GalleriaFoto[];
-  citazione: Citazione;
   presentazione: string;
-  missione: string;
   storia: TappaStoria[];
   valori: Valore[];
   numeri: Numero[];
@@ -128,8 +125,6 @@ export type StudioPageUiContent = {
   heroDescription: string;
   aboutEyebrow: string;
   aboutTitle: string;
-  missionEyebrow: string;
-  missionTitle: string;
   historyEyebrow: string;
   historyTitle: string;
   valuesEyebrow: string;

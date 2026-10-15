@@ -205,37 +205,12 @@ export default function AdminEditor({
               />
             </Card>
 
-            <Card title="Presentazione e citazione">
+            <Card title="Presentazione">
               <TextArea
                 label="Presentazione dello Studio"
                 value={studio.presentazione}
                 onChange={(v) => setStudio({ presentazione: v })}
                 rows={5}
-              />
-              <TextArea
-                label="Missione"
-                value={studio.missione}
-                onChange={(v) => setStudio({ missione: v })}
-                rows={4}
-              />
-              <TextArea
-                label="Citazione"
-                value={studio.citazione.testo}
-                onChange={(v) =>
-                  setStudio({
-                    citazione: { ...studio.citazione, testo: v },
-                  })
-                }
-                rows={3}
-              />
-              <TextField
-                label="Autore citazione"
-                value={studio.citazione.autore}
-                onChange={(v) =>
-                  setStudio({
-                    citazione: { ...studio.citazione, autore: v },
-                  })
-                }
               />
             </Card>
 
@@ -522,20 +497,6 @@ export default function AdminEditor({
                 value={ui.studioPage.aboutTitle}
                 onChange={(v) =>
                   setUi({ studioPage: { ...ui.studioPage, aboutTitle: v } })
-                }
-              />
-              <TextField
-                label="Missione - eyebrow"
-                value={ui.studioPage.missionEyebrow}
-                onChange={(v) =>
-                  setUi({ studioPage: { ...ui.studioPage, missionEyebrow: v } })
-                }
-              />
-              <TextField
-                label="Missione - titolo"
-                value={ui.studioPage.missionTitle}
-                onChange={(v) =>
-                  setUi({ studioPage: { ...ui.studioPage, missionTitle: v } })
                 }
               />
               <TextField

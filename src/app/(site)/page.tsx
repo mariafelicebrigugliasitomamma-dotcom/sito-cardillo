@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRight, Quote } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import Hero from "@/components/Hero";
 import Reveal from "@/components/Reveal";
 import Counter from "@/components/Counter";
@@ -30,7 +30,7 @@ export default async function HomePage() {
 
       {/* Presentazione */}
       <section className="bg-white py-24">
-        <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-2 lg:gap-16">
+        <div className="mx-auto max-w-3xl px-5">
           <Reveal>
             <p className="eyebrow text-gold-ink">{ui.home.introEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy sm:text-4xl">
@@ -50,18 +50,6 @@ export default async function HomePage() {
                 className="transition-transform group-hover:translate-x-1"
               />
             </Link>
-          </Reveal>
-
-          <Reveal delay={0.15}>
-            <figure className="relative rounded-2xl bg-navy p-9 sm:p-11">
-              <Quote size={40} className="text-gold/40" />
-              <blockquote className="mt-4 font-serif text-2xl leading-snug text-white">
-                {studio.citazione.testo}
-              </blockquote>
-              <figcaption className="mt-6 text-base font-medium text-gold-light">
-                — {studio.citazione.autore}
-              </figcaption>
-            </figure>
           </Reveal>
         </div>
       </section>

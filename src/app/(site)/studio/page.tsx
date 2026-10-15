@@ -24,9 +24,9 @@ export default async function StudioPage() {
         description={ui.studioPage.heroDescription}
       />
 
-      {/* Presentazione + missione */}
+      {/* Presentazione */}
       <section className="bg-white py-24">
-        <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-2 lg:gap-16">
+        <div className="mx-auto max-w-3xl px-5">
           <Reveal>
             <p className="eyebrow text-gold-ink">{ui.studioPage.aboutEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy">
@@ -35,16 +35,6 @@ export default async function StudioPage() {
             <div className="rule-gold mt-5" />
             <p className="mt-6 text-lg leading-relaxed text-muted">
               {studio.presentazione}
-            </p>
-          </Reveal>
-          <Reveal delay={0.12}>
-            <p className="eyebrow text-gold-ink">{ui.studioPage.missionEyebrow}</p>
-            <h2 className="mt-3 text-3xl font-semibold text-navy">
-              {ui.studioPage.missionTitle}
-            </h2>
-            <div className="rule-gold mt-5" />
-            <p className="mt-6 text-lg leading-relaxed text-muted">
-              {studio.missione}
             </p>
           </Reveal>
         </div>
