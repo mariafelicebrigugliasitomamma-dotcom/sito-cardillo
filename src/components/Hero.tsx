@@ -10,6 +10,7 @@ type HeroProps = {
   claim: string;
   sottoClaim: string;
   immagine?: string;
+  sinceLabel: string;
   primaryCtaLabel: string;
   secondaryCtaLabel: string;
 };
@@ -20,6 +21,7 @@ export default function Hero({
   claim,
   sottoClaim,
   immagine,
+  sinceLabel,
   primaryCtaLabel,
   secondaryCtaLabel,
 }: HeroProps) {
@@ -27,6 +29,11 @@ export default function Hero({
   const y = useTransform(scrollY, [0, 600], [0, 140]);
   const scale = useTransform(scrollY, [0, 600], [1, 1.12]);
   const overlayOpacity = useTransform(scrollY, [0, 400], [1, 0.6]);
+  // Eyebrow "Nome · dal 2004": ogni parte vuota viene omessa
+  const since = annoFondazione
+    ? [sinceLabel.trim(), String(annoFondazione)].filter(Boolean).join(" ")
+    : "";
+  const eyebrow = [nome.trim(), since].filter(Boolean).join(" · ");
 
   return (
     <section
@@ -81,56 +88,68 @@ export default function Hero({
           immagine ? "pb-20 pt-[40svh]" : "pt-28"
         }`}
       >
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
-          className="eyebrow text-gold-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]"
-        >
-          {nome} · dal {annoFondazione}
-        </motion.p>
-
-        <motion.h1
-          initial={{ opacity: 0, y: 28 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-6 max-w-3xl text-balance font-serif text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl"
-        >
-          {claim}
-        </motion.h1>
-
-        <motion.p
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-7 max-w-xl text-lg leading-relaxed text-white/85 sm:text-xl"
-        >
-          {sottoClaim}
-        </motion.p>
-
-        <motion.div
-          initial={{ opacity: 0, y: 24 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.36, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-10 flex flex-wrap items-center gap-4"
-        >
-          <Link
-            href="/contatti"
-            className="group inline-flex items-center gap-2 rounded-full bg-gold-btn px-7 py-3.5 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
+        {eyebrow && (
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
+            className="mb-6 eyebrow text-gold-light drop-shadow-[0_1px_6px_rgba(0,0,0,0.6)]"
           >
-            {primaryCtaLabel}
-            <ArrowRight
-              size={18}
-              className="transition-transform group-hover:translate-x-1"
-            />
-          </Link>
-          <Link
-            href="/servizi"
-            className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-base font-semibold text-white transition-colors hover:border-gold-light hover:text-gold-light"
+            {eyebrow}
+          </motion.p>
+        )}
+
+        {claim.trim() && (
+          <motion.h1
+            initial={{ opacity: 0, y: 28 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.12, ease: [0.22, 1, 0.36, 1] }}
+            className="mb-7 max-w-3xl text-balance font-serif text-4xl font-semibold leading-[1.08] text-white sm:text-5xl lg:text-6xl"
           >
-            {secondaryCtaLabel}
-          </Link>
-        </motion.div>
+            {claim}
+          </motion.h1>
+        )}
+
+        {sottoClaim.trim() && (
+          <motion.p
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
+            className="max-w-xl text-lg leading-relaxed text-white/85 sm:text-xl"
+          >
+            {sottoClaim}
+          </motion.p>
+        )}
+
+        {(primaryCtaLabel.trim() || secondaryCtaLabel.trim()) && (
+          <motion.div
+            initial={{ opacity: 0, y: 24 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8, delay: 0.36, ease: [0.22, 1, 0.36, 1] }}
+            className="mt-10 flex flex-wrap items-center gap-4"
+          >
+            {primaryCtaLabel.trim() && (
+              <Link
+                href="/contatti"
+                className="group inline-flex items-center gap-2 rounded-full bg-gold-btn px-7 py-3.5 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
+              >
+                {primaryCtaLabel}
+                <ArrowRight
+                  size={18}
+                  className="transition-transform group-hover:translate-x-1"
+                />
+              </Link>
+            )}
+            {secondaryCtaLabel.trim() && (
+              <Link
+                href="/servizi"
+                className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-base font-semibold text-white transition-colors hover:border-gold-light hover:text-gold-light"
+              >
+                {secondaryCtaLabel}
+              </Link>
+            )}
+          </motion.div>
+        )}
       </div>
 
       {/* Indicatore di scroll */}

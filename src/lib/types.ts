@@ -94,10 +94,11 @@ export type FooterUiContent = {
   rightsReservedLabel: string;
   vatLabel: string;
   privacyLabel: string;
-  mainOfficeBadge: string;
 };
 
 export type HeroUiContent = {
+  /** Parola prima dell'anno di fondazione nell'eyebrow dell'hero ("dal" / "since"). */
+  sinceLabel: string;
   primaryCtaLabel: string;
   secondaryCtaLabel: string;
 };

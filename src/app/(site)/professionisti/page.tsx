@@ -24,17 +24,19 @@ export default async function TeamPage() {
         description={ui.teamPage.heroDescription}
       />
 
-      <section className="bg-cream py-24">
-        <div className="mx-auto max-w-6xl px-5">
-          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-            {team.map((p, i) => (
-              <Reveal key={p.slug} delay={(i % 3) * 0.1}>
-                <TeamCard p={p} ctaLabel={ui.teamPage.cardCtaLabel} />
-              </Reveal>
-            ))}
+      {team.length > 0 && (
+        <section className="bg-cream py-24">
+          <div className="mx-auto max-w-6xl px-5">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+              {team.map((p, i) => (
+                <Reveal key={p.slug} delay={(i % 3) * 0.1}>
+                  <TeamCard p={p} ctaLabel={ui.teamPage.cardCtaLabel} />
+                </Reveal>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <CTASection
         title={ui.cta.defaultTitle}

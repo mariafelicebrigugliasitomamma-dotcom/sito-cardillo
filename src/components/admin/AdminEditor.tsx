@@ -139,6 +139,10 @@ export default function AdminEditor({
       </div>
 
       <div className="mx-auto max-w-3xl space-y-5">
+        <p className="rounded-lg border border-slate-200 bg-white px-4 py-3 text-sm text-slate-600">
+          Ogni campo lasciato vuoto viene nascosto dal sito; una sezione senza
+          testi né elementi sparisce del tutto.
+        </p>
         {tab === "generale" && (
           <>
             <Card title="Identità dello Studio">
@@ -206,11 +210,27 @@ export default function AdminEditor({
             </Card>
 
             <Card title="Presentazione">
+              <TextField
+                label="Home - eyebrow (piccolo testo sopra il titolo)"
+                value={ui.home.introEyebrow}
+                onChange={(v) => setUi({ home: { ...ui.home, introEyebrow: v } })}
+              />
+              <TextField
+                label="Home - titolo"
+                value={ui.home.introTitle}
+                onChange={(v) => setUi({ home: { ...ui.home, introTitle: v } })}
+              />
               <TextArea
                 label="Presentazione dello Studio"
                 value={studio.presentazione}
                 onChange={(v) => setStudio({ presentazione: v })}
                 rows={5}
+                hint="Compare in home e nella pagina Lo Studio. Eyebrow e titolo della pagina Lo Studio sono in Interfaccia → Pagina Lo Studio (“Chi siamo”)."
+              />
+              <TextField
+                label="Home - testo del link a “Lo Studio”"
+                value={ui.home.introCtaLabel}
+                onChange={(v) => setUi({ home: { ...ui.home, introCtaLabel: v } })}
               />
             </Card>
 
@@ -345,6 +365,11 @@ export default function AdminEditor({
 
             <Card title="Hero e CTA globale">
               <TextField
+                label="Hero - parola prima dell’anno di fondazione (es. “dal”)"
+                value={ui.hero.sinceLabel}
+                onChange={(v) => setUi({ hero: { ...ui.hero, sinceLabel: v } })}
+              />
+              <TextField
                 label="Hero CTA primaria"
                 value={ui.hero.primaryCtaLabel}
                 onChange={(v) =>
@@ -377,21 +402,6 @@ export default function AdminEditor({
             </Card>
 
             <Card title="Home - testi sezione">
-              <TextField
-                label="Intro eyebrow"
-                value={ui.home.introEyebrow}
-                onChange={(v) => setUi({ home: { ...ui.home, introEyebrow: v } })}
-              />
-              <TextField
-                label="Intro titolo"
-                value={ui.home.introTitle}
-                onChange={(v) => setUi({ home: { ...ui.home, introTitle: v } })}
-              />
-              <TextField
-                label="Intro CTA"
-                value={ui.home.introCtaLabel}
-                onChange={(v) => setUi({ home: { ...ui.home, introCtaLabel: v } })}
-              />
               <TextField
                 label="Servizi eyebrow"
                 value={ui.home.areasEyebrow}

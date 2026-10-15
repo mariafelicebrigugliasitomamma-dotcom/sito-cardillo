@@ -24,17 +24,19 @@ export default async function AreePage() {
         description={ui.practiceAreasPage.heroDescription}
       />
 
-      <section className="bg-white py-24">
-        <div className="mx-auto max-w-6xl px-5">
-          <div className="grid gap-6 md:grid-cols-2">
-            {aree.map((area, i) => (
-              <Reveal key={area.slug} delay={(i % 2) * 0.1}>
-                <AreaCard area={area} detailed />
-              </Reveal>
-            ))}
+      {aree.length > 0 && (
+        <section className="bg-white py-24">
+          <div className="mx-auto max-w-6xl px-5">
+            <div className="grid gap-6 md:grid-cols-2">
+              {aree.map((area, i) => (
+                <Reveal key={area.slug} delay={(i % 2) * 0.1}>
+                  <AreaCard area={area} detailed />
+                </Reveal>
+              ))}
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <CTASection
         title={ui.practiceAreasPage.ctaTitle}

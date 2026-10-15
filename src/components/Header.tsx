@@ -13,7 +13,7 @@ function navFromUi(ui: HeaderUiContent) {
     { href: "/professionisti", label: ui.navTeam },
     { href: "/servizi", label: ui.navAree },
     { href: "/contatti", label: ui.navContatti },
-  ];
+  ].filter((item) => item.label.trim());
 }
 
 export default function Header({
@@ -46,9 +46,11 @@ export default function Header({
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5">
         <Link href="/" className="group flex flex-col leading-none">
-          <span className="font-serif text-xl font-semibold tracking-tight text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
-            {ui.brandPrefix}
-          </span>
+          {ui.brandPrefix.trim() && (
+            <span className="font-serif text-xl font-semibold tracking-tight text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
+              {ui.brandPrefix}
+            </span>
+          )}
           <span className="font-serif text-xl font-semibold tracking-tight text-gold-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
             {nomeBreve}
           </span>

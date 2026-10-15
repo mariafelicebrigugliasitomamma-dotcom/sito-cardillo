@@ -10,6 +10,7 @@ import {
   ArrowRight,
 } from "lucide-react";
 import Reveal from "@/components/Reveal";
+import SectionHeading from "@/components/SectionHeading";
 import CTASection from "@/components/CTASection";
 import JsonLd from "@/components/JsonLd";
 import { getContent } from "@/lib/content";
@@ -47,6 +48,13 @@ export default async function ProfiloPage({
   if (!p) notFound();
 
   const altri = team.filter((m) => m.slug !== slug);
+  const bio = (p.bioEstesa.length > 0 ? p.bioEstesa : [p.bio]).filter((par) =>
+    par.trim()
+  );
+  const formazione = p.formazione.filter((f) => f.trim());
+  const aree = p.aree.filter((a) => a.trim());
+  const hasContacts = Boolean(p.email.trim() || p.telefono.trim());
+  const hasSidebar = aree.length > 0 || hasContacts;
 
   return (
     <>
@@ -63,15 +71,17 @@ export default async function ProfiloPage({
           }}
         />
         <div className="relative mx-auto max-w-6xl px-5">
-          <Link
-            href="/professionisti"
-            className="inline-flex items-center gap-2 text-base font-medium text-white/80 transition-colors hover:text-gold-light"
-          >
-            <ArrowLeft size={16} />
-            {ui.teamPage.backLabel}
-          </Link>
+          {ui.teamPage.backLabel.trim() && (
+            <Link
+              href="/professionisti"
+              className="mb-8 inline-flex items-center gap-2 text-base font-medium text-white/80 transition-colors hover:text-gold-light"
+            >
+              <ArrowLeft size={16} />
+              {ui.teamPage.backLabel}
+            </Link>
+          )}
 
-          <div className="mt-8 flex flex-col gap-8 sm:flex-row sm:items-end">
+          <div className="flex flex-col gap-8 sm:flex-row sm:items-end">
             <div className="relative h-40 w-40 shrink-0 overflow-hidden rounded-2xl border border-gold/30 bg-[radial-gradient(circle_at_30%_25%,var(--color-navy-700),var(--color-navy))]">
               {p.foto ? (
                 // eslint-disable-next-line @next/next/no-img-element
@@ -87,11 +97,15 @@ export default async function ProfiloPage({
               )}
             </div>
             <div>
-              <p className="eyebrow text-gold-light">{p.ruolo}</p>
-              <h1 className="mt-3 text-4xl font-semibold text-white sm:text-5xl">
+              {p.ruolo.trim() && (
+                <p className="mb-3 eyebrow text-gold-light">{p.ruolo}</p>
+              )}
+              <h1 className="text-4xl font-semibold text-white sm:text-5xl">
                 {p.nome}
               </h1>
-              <p className="mt-2 text-lg text-white/80">{p.abilitazione}</p>
+              {p.abilitazione.trim() && (
+                <p className="mt-2 text-lg text-white/80">{p.abilitazione}</p>
+              )}
             </div>
           </div>
         </div>
@@ -99,30 +113,36 @@ export default async function ProfiloPage({
 
       {/* Corpo */}
       <section className="bg-white py-20">
-        <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[1.6fr_1fr] lg:gap-16">
+        <div
+          className={`mx-auto grid max-w-6xl gap-12 px-5 lg:gap-16 ${
+            hasSidebar ? "lg:grid-cols-[1.6fr_1fr]" : ""
+          }`}
+        >
           {/* Biografia */}
-          <Reveal>
-            <p className="eyebrow text-gold-ink">{ui.teamPage.profileEyebrow}</p>
-            <h2 className="mt-3 text-3xl font-semibold text-navy">
-              {ui.teamPage.biographyTitle}
-            </h2>
-            <div className="rule-gold mt-5" />
-            <div className="mt-6 space-y-4 text-lg leading-relaxed text-muted">
-              {(p.bioEstesa.length > 0 ? p.bioEstesa : [p.bio]).map(
-                (par, i) => (
+          <div>
+            <SectionHeading
+              eyebrow={ui.teamPage.profileEyebrow}
+              title={ui.teamPage.biographyTitle}
+              className="mb-6"
+            />
+            {bio.length > 0 && (
+              <Reveal className="mb-10 space-y-4 text-lg leading-relaxed text-muted">
+                {bio.map((par, i) => (
                   <p key={i}>{par}</p>
-                )
-              )}
-            </div>
+                ))}
+              </Reveal>
+            )}
 
-            {p.formazione.length > 0 && (
-              <div className="mt-10">
-                <h3 className="flex items-center gap-2 text-xl font-semibold text-navy">
-                  <GraduationCap size={22} className="text-gold-ink" />
-                  {ui.teamPage.educationTitle}
-                </h3>
-                <ul className="mt-4 space-y-3 border-l border-gold/30 pl-5">
-                  {p.formazione.map((f) => (
+            {formazione.length > 0 && (
+              <Reveal>
+                {ui.teamPage.educationTitle.trim() && (
+                  <h3 className="mb-4 flex items-center gap-2 text-xl font-semibold text-navy">
+                    <GraduationCap size={22} className="text-gold-ink" />
+                    {ui.teamPage.educationTitle}
+                  </h3>
+                )}
+                <ul className="space-y-3 border-l border-gold/30 pl-5">
+                  {formazione.map((f) => (
                     <li
                       key={f}
                       className="relative text-base leading-relaxed text-ink/80"
@@ -132,76 +152,94 @@ export default async function ProfiloPage({
                     </li>
                   ))}
                 </ul>
-              </div>
+              </Reveal>
             )}
-          </Reveal>
+          </div>
 
           {/* Sidebar */}
-          <Reveal delay={0.12}>
-            <div className="rounded-2xl border border-gold/20 bg-cream/50 p-7">
-              <h3 className="flex items-center gap-2 text-lg font-semibold text-navy">
-                <Stethoscope size={20} className="text-gold-ink" />
-                {ui.teamPage.expertiseTitle}
-              </h3>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {p.aree.map((a) => (
-                  <span
-                    key={a}
-                    className="rounded-full bg-white px-3 py-1.5 text-sm font-medium text-navy ring-1 ring-gold/20"
-                  >
-                    {a}
-                  </span>
-                ))}
-              </div>
-
-              <h3 className="mt-8 text-lg font-semibold text-navy">
-                {ui.teamPage.contactsTitle}
-              </h3>
-              <ul className="mt-4 space-y-3 text-base">
-                <li>
-                  <a
-                    href={`mailto:${p.email}`}
-                    className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
-                  >
-                    <Mail size={18} className="text-gold-ink" />
-                    {p.email}
-                  </a>
-                </li>
-                {p.telefono && (
-                  <li>
-                    <a
-                      href={`tel:${p.telefono.replace(/\s/g, "")}`}
-                      className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
-                    >
-                      <Phone size={18} className="text-gold-ink" />
-                      {p.telefono}
-                    </a>
-                  </li>
+          {hasSidebar && (
+            <Reveal delay={0.12}>
+              <div className="space-y-8 rounded-2xl border border-gold/20 bg-cream/50 p-7">
+                {aree.length > 0 && (
+                  <div>
+                    {ui.teamPage.expertiseTitle.trim() && (
+                      <h3 className="mb-4 flex items-center gap-2 text-lg font-semibold text-navy">
+                        <Stethoscope size={20} className="text-gold-ink" />
+                        {ui.teamPage.expertiseTitle}
+                      </h3>
+                    )}
+                    <div className="flex flex-wrap gap-2">
+                      {aree.map((a) => (
+                        <span
+                          key={a}
+                          className="rounded-full bg-white px-3 py-1.5 text-sm font-medium text-navy ring-1 ring-gold/20"
+                        >
+                          {a}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
                 )}
-              </ul>
-            </div>
-          </Reveal>
+
+                {hasContacts && (
+                  <div>
+                    {ui.teamPage.contactsTitle.trim() && (
+                      <h3 className="mb-4 text-lg font-semibold text-navy">
+                        {ui.teamPage.contactsTitle}
+                      </h3>
+                    )}
+                    <ul className="space-y-3 text-base">
+                      {p.email.trim() && (
+                        <li>
+                          <a
+                            href={`mailto:${p.email}`}
+                            className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
+                          >
+                            <Mail size={18} className="text-gold-ink" />
+                            {p.email}
+                          </a>
+                        </li>
+                      )}
+                      {p.telefono.trim() && (
+                        <li>
+                          <a
+                            href={`tel:${p.telefono.replace(/\s/g, "")}`}
+                            className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
+                          >
+                            <Phone size={18} className="text-gold-ink" />
+                            {p.telefono}
+                          </a>
+                        </li>
+                      )}
+                    </ul>
+                  </div>
+                )}
+              </div>
+            </Reveal>
+          )}
         </div>
 
         {/* Altri professionisti */}
         {altri.length > 0 && (
           <div className="mx-auto mt-20 max-w-6xl px-5">
-            <div className="flex items-center justify-between">
+            <div className="mb-8 flex items-center justify-between gap-4">
               <h2 className="text-2xl font-semibold text-navy">
                 {ui.teamPage.otherProfessionalsTitle}
               </h2>
-              <Link
-                href="/professionisti"
-                className="group inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors hover:text-gold-ink"
-              >
-                {ui.teamPage.viewAllLabel}
-                <ArrowRight
-                  size={16}
-                  className="transition-transform group-hover:translate-x-1"
-                />
-              </Link>
+              {ui.teamPage.viewAllLabel.trim() && (
+                <Link
+                  href="/professionisti"
+                  className="group inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors hover:text-gold-ink"
+                >
+                  {ui.teamPage.viewAllLabel}
+                  <ArrowRight
+                    size={16}
+                    className="transition-transform group-hover:translate-x-1"
+                  />
+                </Link>
+              )}
             </div>
-            <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {altri.map((m) => (
                 <Link
                   key={m.slug}
@@ -224,7 +262,11 @@ export default async function ProfiloPage({
                     <span className="block text-lg font-semibold text-navy transition-colors group-hover:text-gold-ink">
                       {m.nome}
                     </span>
-                    <span className="block text-sm text-muted">{m.ruolo}</span>
+                    {m.ruolo.trim() && (
+                      <span className="block text-sm text-muted">
+                        {m.ruolo}
+                      </span>
+                    )}
                   </span>
                 </Link>
               ))}

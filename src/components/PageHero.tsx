@@ -3,8 +3,8 @@
 import { motion } from "framer-motion";
 
 type PageHeroProps = {
-  eyebrow: string;
-  title: string;
+  eyebrow?: string;
+  title?: string;
   description?: string;
 };
 
@@ -25,24 +25,28 @@ export default function PageHero({
         }}
       />
       <div className="relative mx-auto max-w-6xl px-5">
-        <motion.p
-          initial={{ opacity: 0, y: 16 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
-          className="eyebrow text-gold-light"
-        >
-          {eyebrow}
-        </motion.p>
-        <motion.h1
-          initial={{ opacity: 0, y: 22 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.1 }}
-          className="mt-4 max-w-3xl text-4xl font-semibold text-white sm:text-5xl"
-        >
-          {title}
-        </motion.h1>
-        <div className="rule-gold mt-6" />
-        {description && (
+        {eyebrow?.trim() && (
+          <motion.p
+            initial={{ opacity: 0, y: 16 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            className="mb-4 eyebrow text-gold-light"
+          >
+            {eyebrow}
+          </motion.p>
+        )}
+        {title?.trim() && (
+          <motion.h1
+            initial={{ opacity: 0, y: 22 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.1 }}
+            className="max-w-3xl text-4xl font-semibold text-white sm:text-5xl"
+          >
+            {title}
+          </motion.h1>
+        )}
+        {(eyebrow?.trim() || title?.trim()) && <div className="rule-gold mt-6" />}
+        {description?.trim() && (
           <motion.p
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}

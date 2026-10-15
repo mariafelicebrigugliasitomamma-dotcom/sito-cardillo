@@ -16,6 +16,11 @@ export async function generateMetadata(): Promise<Metadata> {
 
 export default async function StudioPage() {
   const { studio, ui } = await getContent();
+  const hasAbout = [
+    ui.studioPage.aboutEyebrow,
+    ui.studioPage.aboutTitle,
+    studio.presentazione,
+  ].some((t) => t.trim());
   return (
     <>
       <PageHero
@@ -25,20 +30,24 @@ export default async function StudioPage() {
       />
 
       {/* Presentazione */}
-      <section className="bg-white py-24">
-        <div className="mx-auto max-w-3xl px-5">
-          <Reveal>
-            <p className="eyebrow text-gold-ink">{ui.studioPage.aboutEyebrow}</p>
-            <h2 className="mt-3 text-3xl font-semibold text-navy">
-              {ui.studioPage.aboutTitle}
-            </h2>
-            <div className="rule-gold mt-5" />
-            <p className="mt-6 text-lg leading-relaxed text-muted">
-              {studio.presentazione}
-            </p>
-          </Reveal>
-        </div>
-      </section>
+      {hasAbout && (
+        <section className="bg-white py-24">
+          <div className="mx-auto max-w-3xl px-5">
+            <SectionHeading
+              eyebrow={ui.studioPage.aboutEyebrow}
+              title={ui.studioPage.aboutTitle}
+              className="mb-6"
+            />
+            {studio.presentazione.trim() && (
+              <Reveal>
+                <p className="text-lg leading-relaxed text-muted">
+                  {studio.presentazione}
+                </p>
+              </Reveal>
+            )}
+          </div>
+        </section>
+      )}
 
       {/* Galleria dello studio */}
       {studio.galleria?.length > 0 && (
@@ -48,8 +57,9 @@ export default async function StudioPage() {
               eyebrow={ui.studioPage.galleryEyebrow}
               title={ui.studioPage.galleryTitle}
               align="center"
+              className="mb-12"
             />
-            <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {studio.galleria.map((foto, i) => (
                 <Reveal
                   key={`${foto.src}-${i}`}
@@ -71,69 +81,75 @@ export default async function StudioPage() {
       )}
 
       {/* Storia / timeline */}
-      <section className="bg-cream py-24">
-        <div className="mx-auto max-w-6xl px-5">
-          <SectionHeading
-            eyebrow={ui.studioPage.historyEyebrow}
-            title={ui.studioPage.historyTitle}
-            align="center"
-          />
-          <div className="mx-auto mt-14 max-w-3xl">
-            <div className="relative border-l border-gold/30 pl-8">
-              {studio.storia.map((tappa, i) => (
+      {studio.storia.length > 0 && (
+        <section className="bg-cream py-24">
+          <div className="mx-auto max-w-6xl px-5">
+            <SectionHeading
+              eyebrow={ui.studioPage.historyEyebrow}
+              title={ui.studioPage.historyTitle}
+              align="center"
+              className="mb-14"
+            />
+            <div className="mx-auto max-w-3xl">
+              <div className="relative border-l border-gold/30 pl-8">
+                {studio.storia.map((tappa, i) => (
+                  <Reveal
+                    key={tappa.anno}
+                    delay={i * 0.08}
+                    className="relative pb-12 last:pb-0"
+                  >
+                    <span className="absolute -left-[2.35rem] top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 border-gold bg-cream">
+                      <span className="h-2 w-2 rounded-full bg-gold" />
+                    </span>
+                    <span className="font-serif text-2xl font-semibold text-gold-ink">
+                      {tappa.anno}
+                    </span>
+                    <h3 className="mt-1 text-xl font-semibold text-navy">
+                      {tappa.titolo}
+                    </h3>
+                    <p className="mt-2 text-base leading-relaxed text-muted">
+                      {tappa.testo}
+                    </p>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* Valori */}
+      {studio.valori.length > 0 && (
+        <section className="bg-navy py-24">
+          <div className="mx-auto max-w-6xl px-5">
+            <SectionHeading
+              eyebrow={ui.studioPage.valuesEyebrow}
+              title={ui.studioPage.valuesTitle}
+              light
+              className="mb-12"
+            />
+            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+              {studio.valori.map((v, i) => (
                 <Reveal
-                  key={tappa.anno}
+                  key={v.titolo}
                   delay={i * 0.08}
-                  className="relative pb-12 last:pb-0"
+                  className="rounded-xl border border-white/10 bg-navy-800 p-7 transition-colors hover:border-gold/40"
                 >
-                  <span className="absolute -left-[2.35rem] top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 border-gold bg-cream">
-                    <span className="h-2 w-2 rounded-full bg-gold" />
+                  <span className="font-serif text-3xl font-semibold text-gold-light">
+                    0{i + 1}
                   </span>
-                  <span className="font-serif text-2xl font-semibold text-gold-ink">
-                    {tappa.anno}
-                  </span>
-                  <h3 className="mt-1 text-xl font-semibold text-navy">
-                    {tappa.titolo}
+                  <h3 className="mt-4 text-lg font-semibold text-white">
+                    {v.titolo}
                   </h3>
-                  <p className="mt-2 text-base leading-relaxed text-muted">
-                    {tappa.testo}
+                  <p className="mt-3 text-base leading-relaxed text-white/80">
+                    {v.testo}
                   </p>
                 </Reveal>
               ))}
             </div>
           </div>
-        </div>
-      </section>
-
-      {/* Valori */}
-      <section className="bg-navy py-24">
-        <div className="mx-auto max-w-6xl px-5">
-          <SectionHeading
-            eyebrow={ui.studioPage.valuesEyebrow}
-            title={ui.studioPage.valuesTitle}
-            light
-          />
-          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {studio.valori.map((v, i) => (
-              <Reveal
-                key={v.titolo}
-                delay={i * 0.08}
-                className="rounded-xl border border-white/10 bg-navy-800 p-7 transition-colors hover:border-gold/40"
-              >
-                <span className="font-serif text-3xl font-semibold text-gold-light">
-                  0{i + 1}
-                </span>
-                <h3 className="mt-4 text-lg font-semibold text-white">
-                  {v.titolo}
-                </h3>
-                <p className="mt-3 text-base leading-relaxed text-white/80">
-                  {v.testo}
-                </p>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
 
       <CTASection
         title={ui.cta.defaultTitle}

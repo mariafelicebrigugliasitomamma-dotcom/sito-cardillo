@@ -8,11 +8,9 @@ type CTASectionProps = {
   buttonLabel?: string;
 };
 
-export default function CTASection({
-  title = "È il momento di prenderti cura del tuo sorriso",
-  text = "Prenota una prima visita: valuteremo insieme la tua salute orale e ti proporremo un piano di cura chiaro.",
-  buttonLabel = "Prenota una visita",
-}: CTASectionProps) {
+/** Invito all'azione: i testi arrivano dal CMS, le parti vuote vengono omesse. */
+export default function CTASection({ title, text, buttonLabel }: CTASectionProps) {
+  if (!title?.trim() && !text?.trim() && !buttonLabel?.trim()) return null;
   return (
     <section className="relative overflow-hidden bg-navy">
       <div
@@ -25,22 +23,28 @@ export default function CTASection({
       />
       <Reveal className="relative mx-auto flex max-w-4xl flex-col items-center px-5 py-20 text-center">
         <div className="rule-gold mx-auto" />
-        <h2 className="mt-6 text-3xl font-semibold text-white sm:text-4xl">
-          {title}
-        </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">
-          {text}
-        </p>
-        <Link
-          href="/contatti"
-          className="group mt-9 inline-flex items-center gap-2 rounded-full bg-gold-btn px-8 py-4 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
-        >
-          {buttonLabel}
-          <ArrowRight
-            size={18}
-            className="transition-transform group-hover:translate-x-1"
-          />
-        </Link>
+        {title?.trim() && (
+          <h2 className="mt-6 text-3xl font-semibold text-white sm:text-4xl">
+            {title}
+          </h2>
+        )}
+        {text?.trim() && (
+          <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">
+            {text}
+          </p>
+        )}
+        {buttonLabel?.trim() && (
+          <Link
+            href="/contatti"
+            className="group mt-9 inline-flex items-center gap-2 rounded-full bg-gold-btn px-8 py-4 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
+          >
+            {buttonLabel}
+            <ArrowRight
+              size={18}
+              className="transition-transform group-hover:translate-x-1"
+            />
+          </Link>
+        )}
       </Reveal>
     </section>
   );

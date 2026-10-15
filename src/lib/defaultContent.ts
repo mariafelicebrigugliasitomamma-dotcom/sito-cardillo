@@ -270,10 +270,10 @@ const customerContent = {
       "navContatti": "Contatti",
       "rightsReservedLabel": "Tutti i diritti riservati.",
       "vatLabel": "P.IVA",
-      "privacyLabel": "Privacy",
-      "mainOfficeBadge": "Sede principale"
+      "privacyLabel": "Privacy"
     },
     "hero": {
+      "sinceLabel": "dal",
       "primaryCtaLabel": "Prenota una visita",
       "secondaryCtaLabel": "I nostri servizi"
     },
