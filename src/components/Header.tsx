@@ -45,19 +45,19 @@ export default function Header({
       }`}
     >
       <div className="mx-auto flex max-w-6xl items-center justify-between px-5">
-        <Link href="/" className="group flex flex-col leading-none">
+        <Link href="/" className="group flex flex-wrap items-baseline gap-x-1.5 leading-none">
           {ui.brandPrefix.trim() && (
-            <span className="font-serif text-xl font-semibold tracking-tight text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
+            <span className="font-serif text-2xl font-semibold tracking-tight text-white drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)]">
               {ui.brandPrefix}
             </span>
           )}
-          <span className="font-serif text-xl font-semibold tracking-tight text-gold-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)] sm:text-2xl">
+          <span className="font-serif text-2xl font-semibold tracking-tight text-gold-light drop-shadow-[0_1px_4px_rgba(0,0,0,0.5)]">
             {nomeBreve}
           </span>
         </Link>
 
         {/* Nav desktop */}
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav className="hidden items-center gap-6 md:flex lg:gap-8">
           {nav.map((item) => {
             const active =
               item.href === "/"
