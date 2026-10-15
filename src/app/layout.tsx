@@ -3,6 +3,7 @@ import { Cormorant_Garamond, Source_Sans_3 } from "next/font/google";
 import "./globals.css";
 import { getBundle, getContent, getPreferredLocale } from "@/lib/content";
 import { SITE_URL } from "@/lib/site";
+import { paletteCss } from "@/lib/palette";
 
 const sourceSans = Source_Sans_3({
   variable: "--font-source-sans",
@@ -67,10 +68,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const [locale, bundle] = await Promise.all([getPreferredLocale(), getBundle()]);
-  const p = bundle.palette;
-  const paletteStyle = p
-    ? `:root{--color-navy:${p.bgHex};--color-navy-800:${p.bgV800};--color-navy-700:${p.bgV700};--color-gold:${p.ctaHex};--color-gold-light:${p.ctaLight}}`
-    : "";
+  const paletteStyle = bundle.palette ? paletteCss(bundle.palette) : "";
 
   return (
     <html

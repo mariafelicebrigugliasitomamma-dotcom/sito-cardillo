@@ -27,7 +27,7 @@ export default async function ContattiPage() {
         <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[1fr_1.2fr] lg:gap-16">
           {/* Recapiti */}
           <Reveal>
-            <p className="eyebrow text-gold">{ui.contactPage.detailsEyebrow}</p>
+            <p className="eyebrow text-gold-ink">{ui.contactPage.detailsEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy">
               {ui.contactPage.detailsTitle}
             </h2>
@@ -35,28 +35,28 @@ export default async function ContattiPage() {
 
             <ul className="mt-8 space-y-5">
               <li className="flex gap-4">
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold-ink">
                   <Phone size={20} />
                 </span>
                 <div>
                   <p className="text-sm font-medium text-muted">{ui.contactPage.phoneLabel}</p>
                   <a
                     href={`tel:${studio.contatti.telefono.replace(/\s/g, "")}`}
-                    className="text-base font-semibold text-navy transition-colors hover:text-gold"
+                    className="text-base font-semibold text-navy transition-colors hover:text-gold-ink"
                   >
                     {studio.contatti.telefono}
                   </a>
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold-ink">
                   <Mail size={20} />
                 </span>
                 <div>
                   <p className="text-sm font-medium text-muted">{ui.contactPage.emailLabel}</p>
                   <a
                     href={`mailto:${studio.contatti.emailGenerale}`}
-                    className="text-base font-semibold text-navy transition-colors hover:text-gold"
+                    className="text-base font-semibold text-navy transition-colors hover:text-gold-ink"
                   >
                     {studio.contatti.emailGenerale}
                   </a>
@@ -66,7 +66,7 @@ export default async function ContattiPage() {
                 </div>
               </li>
               <li className="flex gap-4">
-                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold">
+                <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-cream text-gold-ink">
                   <Clock size={20} />
                 </span>
                 <div>
@@ -80,7 +80,7 @@ export default async function ContattiPage() {
 
             {/* Sedi */}
             <div className="mt-10">
-              <p className="eyebrow text-gold">{ui.contactPage.officesEyebrow}</p>
+              <p className="eyebrow text-gold-ink">{ui.contactPage.officesEyebrow}</p>
               <div className="mt-5 space-y-4">
                 {studio.sedi.map((sede) => (
                   <div
@@ -88,18 +88,18 @@ export default async function ContattiPage() {
                     className="rounded-xl border border-gold/15 bg-cream/60 p-5"
                   >
                     <div className="flex items-center gap-2">
-                      <Building2 size={18} className="text-gold" />
+                      <Building2 size={18} className="text-gold-ink" />
                       <h3 className="font-semibold text-navy">
                         {sede.citta}
                         {sede.principale && (
-                          <span className="ml-2 rounded-full bg-gold/15 px-2 py-0.5 text-xs font-medium text-gold">
+                          <span className="ml-2 rounded-full bg-white px-2.5 py-0.5 text-sm font-medium text-gold-ink ring-1 ring-gold/40">
                             {ui.contactPage.mainOfficeBadge}
                           </span>
                         )}
                       </h3>
                     </div>
-                    <p className="mt-2 flex items-start gap-2 text-sm text-muted">
-                      <MapPin size={16} className="mt-0.5 shrink-0 text-gold" />
+                    <p className="mt-2 flex items-start gap-2 text-base text-muted">
+                      <MapPin size={18} className="mt-0.5 shrink-0 text-gold-ink" />
                       {sede.indirizzo}
                     </p>
                   </div>

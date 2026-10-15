@@ -12,6 +12,7 @@ import type {
   SitePalette,
 } from "@/lib/types";
 import { iconNames } from "@/lib/icons";
+import { paletteCssVars } from "@/lib/palette";
 import {
   TextField,
   TextArea,
@@ -271,6 +272,13 @@ export default function AdminEditor({
                 value={ui.header.menuCloseAriaLabel}
                 onChange={(v) =>
                   setUi({ header: { ...ui.header, menuCloseAriaLabel: v } })
+                }
+              />
+              <TextField
+                label="Link “Salta al contenuto” (accessibilità)"
+                value={ui.header.skipToContentLabel}
+                onChange={(v) =>
+                  setUi({ header: { ...ui.header, skipToContentLabel: v } })
                 }
               />
               <TextField
@@ -1418,18 +1426,20 @@ const CTA_OPTIONS: { n: number; label: string; hex: string; light: string }[] = 
 ];
 
 function applyPaletteVars(
-  bg: { hex: string; v800: string; v700: string } | null,
-  cta: { hex: string; light: string } | null,
+  bg: { hex: string; v800: string; v700: string },
+  cta: { hex: string; light: string },
 ) {
+  // Ricalcola anche le varianti ad alto contrasto, come fa il layout del sito
+  const vars = paletteCssVars({
+    bgHex: bg.hex,
+    bgV800: bg.v800,
+    bgV700: bg.v700,
+    ctaHex: cta.hex,
+    ctaLight: cta.light,
+  });
   const root = document.documentElement;
-  if (bg) {
-    root.style.setProperty("--color-navy",     bg.hex);
-    root.style.setProperty("--color-navy-800", bg.v800);
-    root.style.setProperty("--color-navy-700", bg.v700);
-  }
-  if (cta) {
-    root.style.setProperty("--color-gold",       cta.hex);
-    root.style.setProperty("--color-gold-light", cta.light);
+  for (const [name, value] of Object.entries(vars)) {
+    root.style.setProperty(name, value);
   }
 }
 
@@ -1503,12 +1513,12 @@ function PaletteTab({ initialPalette }: { initialPalette: SitePalette | null }) 
   function chooseBg(n: number) {
     setSelBg(n);
     const o = BG_OPTIONS.find(x => x.n === n)!;
-    applyPaletteVars(o, null);
+    applyPaletteVars(o, ctaOpt);
   }
   function chooseCta(n: number) {
     setSelCta(n);
     const o = CTA_OPTIONS.find(x => x.n === n)!;
-    applyPaletteVars(null, o);
+    applyPaletteVars(bgOpt, o);
   }
 
   async function handleSave() {

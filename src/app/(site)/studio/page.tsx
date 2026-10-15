@@ -28,22 +28,22 @@ export default async function StudioPage() {
       <section className="bg-white py-24">
         <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-2 lg:gap-16">
           <Reveal>
-            <p className="eyebrow text-gold">{ui.studioPage.aboutEyebrow}</p>
+            <p className="eyebrow text-gold-ink">{ui.studioPage.aboutEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy">
               {ui.studioPage.aboutTitle}
             </h2>
             <div className="rule-gold mt-5" />
-            <p className="mt-6 text-base leading-relaxed text-muted">
+            <p className="mt-6 text-lg leading-relaxed text-muted">
               {studio.presentazione}
             </p>
           </Reveal>
           <Reveal delay={0.12}>
-            <p className="eyebrow text-gold">{ui.studioPage.missionEyebrow}</p>
+            <p className="eyebrow text-gold-ink">{ui.studioPage.missionEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy">
               {ui.studioPage.missionTitle}
             </h2>
             <div className="rule-gold mt-5" />
-            <p className="mt-6 text-base leading-relaxed text-muted">
+            <p className="mt-6 text-lg leading-relaxed text-muted">
               {studio.missione}
             </p>
           </Reveal>
@@ -99,13 +99,13 @@ export default async function StudioPage() {
                   <span className="absolute -left-[2.35rem] top-1 flex h-5 w-5 items-center justify-center rounded-full border-2 border-gold bg-cream">
                     <span className="h-2 w-2 rounded-full bg-gold" />
                   </span>
-                  <span className="font-serif text-2xl font-semibold text-gold">
+                  <span className="font-serif text-2xl font-semibold text-gold-ink">
                     {tappa.anno}
                   </span>
                   <h3 className="mt-1 text-xl font-semibold text-navy">
                     {tappa.titolo}
                   </h3>
-                  <p className="mt-2 text-sm leading-relaxed text-muted">
+                  <p className="mt-2 text-base leading-relaxed text-muted">
                     {tappa.testo}
                   </p>
                 </Reveal>
@@ -130,13 +130,13 @@ export default async function StudioPage() {
                 delay={i * 0.08}
                 className="rounded-xl border border-white/10 bg-navy-800 p-7 transition-colors hover:border-gold/40"
               >
-                <span className="font-serif text-3xl font-semibold text-gold">
+                <span className="font-serif text-3xl font-semibold text-gold-light">
                   0{i + 1}
                 </span>
                 <h3 className="mt-4 text-lg font-semibold text-white">
                   {v.titolo}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-white/65">
+                <p className="mt-3 text-base leading-relaxed text-white/80">
                   {v.testo}
                 </p>
               </Reveal>

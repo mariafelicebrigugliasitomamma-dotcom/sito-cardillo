@@ -28,12 +28,12 @@ export default function CTASection({
         <h2 className="mt-6 text-3xl font-semibold text-white sm:text-4xl">
           {title}
         </h2>
-        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/70">
+        <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">
           {text}
         </p>
         <Link
           href="/contatti"
-          className="group mt-9 inline-flex items-center gap-2 rounded-full bg-gold px-8 py-4 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
+          className="group mt-9 inline-flex items-center gap-2 rounded-full bg-gold-btn px-8 py-4 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
         >
           {buttonLabel}
           <ArrowRight

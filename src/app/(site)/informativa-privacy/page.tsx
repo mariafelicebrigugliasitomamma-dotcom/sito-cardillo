@@ -265,7 +265,7 @@ export default async function InformativaPrivacyPage() {
                 href="https://policies.google.com/privacy"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-medium text-navy underline decoration-gold/70 underline-offset-2 transition-colors hover:text-gold"
+                className="font-medium text-navy underline decoration-gold/70 underline-offset-2 transition-colors hover:text-gold-ink"
               >
                 policies.google.com/privacy
               </a>

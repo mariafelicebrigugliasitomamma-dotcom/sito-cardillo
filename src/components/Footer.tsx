@@ -100,7 +100,7 @@ export default function Footer({
       </div>
 
       <div className="border-t border-white/10">
-        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-6 text-xs text-white/70 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-5 py-6 text-sm text-white/80 sm:flex-row sm:items-center sm:justify-between">
           <p>
             © {new Date().getFullYear()} {studio.nome}. {ui.rightsReservedLabel} — {ui.vatLabel} {studio.legale.pIva}
           </p>

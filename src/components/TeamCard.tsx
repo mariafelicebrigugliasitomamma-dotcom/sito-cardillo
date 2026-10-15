@@ -24,7 +24,7 @@ export default function TeamCard({
             className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
         ) : (
-          <span className="font-serif text-5xl font-semibold text-gold/90">
+          <span className="font-serif text-5xl font-semibold text-gold-light">
             {p.iniziali}
           </span>
         )}
@@ -32,10 +32,10 @@ export default function TeamCard({
       </div>
 
       <div className="flex flex-1 flex-col p-6">
-        <p className="eyebrow text-gold">{p.ruolo}</p>
-        <h3 className="mt-2 text-xl font-semibold text-navy">{p.nome}</h3>
+        <p className="eyebrow text-gold-ink">{p.ruolo}</p>
+        <h3 className="mt-2 text-2xl font-semibold text-navy">{p.nome}</h3>
         <p className="mt-1 text-sm text-muted">{p.abilitazione}</p>
-        <p className="mt-4 flex-1 text-sm leading-relaxed text-ink/80">
+        <p className="mt-4 flex-1 text-base leading-relaxed text-ink/80">
           {p.bio}
         </p>
 
@@ -43,14 +43,14 @@ export default function TeamCard({
           {p.aree.map((a) => (
             <span
               key={a}
-              className="rounded-full bg-cream px-3 py-1 text-xs font-medium text-navy"
+              className="rounded-full bg-cream px-3 py-1 text-sm font-medium text-navy"
             >
               {a}
             </span>
           ))}
         </div>
 
-        <span className="mt-5 inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors group-hover:text-gold">
+        <span className="mt-5 inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors group-hover:text-gold-ink">
           {ctaLabel}
           <ArrowRight
             size={16}

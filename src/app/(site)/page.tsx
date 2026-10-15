@@ -32,17 +32,17 @@ export default async function HomePage() {
       <section className="bg-white py-24">
         <div className="mx-auto grid max-w-6xl items-center gap-12 px-5 lg:grid-cols-2 lg:gap-16">
           <Reveal>
-            <p className="eyebrow text-gold">{ui.home.introEyebrow}</p>
+            <p className="eyebrow text-gold-ink">{ui.home.introEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy sm:text-4xl">
               {ui.home.introTitle}
             </h2>
             <div className="rule-gold mt-5" />
-            <p className="mt-6 text-base leading-relaxed text-muted">
+            <p className="mt-6 text-lg leading-relaxed text-muted">
               {studio.presentazione}
             </p>
             <Link
               href="/studio"
-              className="group mt-8 inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-gold"
+              className="group mt-8 inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors hover:text-gold-ink"
             >
               {ui.home.introCtaLabel}
               <ArrowRight
@@ -58,7 +58,7 @@ export default async function HomePage() {
               <blockquote className="mt-4 font-serif text-2xl leading-snug text-white">
                 {studio.citazione.testo}
               </blockquote>
-              <figcaption className="mt-6 text-sm font-medium text-gold">
+              <figcaption className="mt-6 text-base font-medium text-gold-light">
                 — {studio.citazione.autore}
               </figcaption>
             </figure>
@@ -100,7 +100,7 @@ export default async function HomePage() {
           <Reveal className="mt-10 text-center">
             <Link
               href="/servizi"
-              className="group inline-flex items-center gap-2 rounded-full border border-navy/20 px-7 py-3.5 text-sm font-semibold text-navy transition-colors hover:border-gold hover:text-gold"
+              className="group inline-flex items-center gap-2 rounded-full border border-navy/30 px-7 py-3.5 text-base font-semibold text-navy transition-colors hover:border-gold-ink hover:text-gold-ink"
             >
               {ui.home.areasCtaLabel}
               <ArrowRight
@@ -128,13 +128,13 @@ export default async function HomePage() {
                 delay={i * 0.08}
                 className="bg-navy p-8 transition-colors hover:bg-navy-800"
               >
-                <span className="font-serif text-3xl font-semibold text-gold">
+                <span className="font-serif text-3xl font-semibold text-gold-light">
                   0{i + 1}
                 </span>
                 <h3 className="mt-4 text-lg font-semibold text-white">
                   {v.titolo}
                 </h3>
-                <p className="mt-3 text-sm leading-relaxed text-white/65">
+                <p className="mt-3 text-base leading-relaxed text-white/80">
                   {v.testo}
                 </p>
               </Reveal>
@@ -161,7 +161,7 @@ export default async function HomePage() {
           <Reveal className="mt-10 text-center">
             <Link
               href="/professionisti"
-              className="group inline-flex items-center gap-2 rounded-full border border-navy/20 px-7 py-3.5 text-sm font-semibold text-navy transition-colors hover:border-gold hover:text-gold"
+              className="group inline-flex items-center gap-2 rounded-full border border-navy/30 px-7 py-3.5 text-base font-semibold text-navy transition-colors hover:border-gold-ink hover:text-gold-ink"
             >
               {ui.home.teamCtaLabel}
               <ArrowRight

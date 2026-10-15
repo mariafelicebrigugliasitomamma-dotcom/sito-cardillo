@@ -6,9 +6,15 @@
   --color-navy-700: #1e3450;
   --color-gold: #b8924f;
   --color-gold-light: #d4b577;
+  /* Varianti dell'accento con contrasto AA garantito: vengono ricalcolate dalla
+     palette del CMS in src/lib/palette.ts (questi sono i valori di Blu notte + Oro). */
+  --color-gold-ink: #886c3a;
+  --color-gold-btn: #b8924f;
+  --color-gold-btn-hover: #c6a872;
   --color-cream: #f7f5f0;
   --color-ink: #1a1a1a;
-  --color-muted: #6b7280;
+  /* Grigio per testi secondari: 7.5:1 su bianco, 6.9:1 su crema */
+  --color-muted: #4b5563;
 
   --font-serif: var(--font-cormorant), Georgia, "Times New Roman", serif;
   --font-sans: var(--font-source-sans), system-ui, -apple-system, sans-serif;
@@ -34,18 +40,29 @@ body {
   text-rendering: optimizeLegibility;
 }
 
-h1, h2, h3, h4 {
-  font-family: var(--font-serif);
-  letter-spacing: -0.01em;
+/* In @layer base così le utility (es. font-sans sui titoli del footer) possono sovrascriverla */
+@layer base {
+  h1, h2, h3, h4 {
+    font-family: var(--font-serif);
+    letter-spacing: -0.01em;
+  }
 }
 
 /* Etichette eyebrow con tracking ampio */
 .eyebrow {
   font-family: var(--font-sans);
   text-transform: uppercase;
-  letter-spacing: 0.22em;
-  font-size: 0.75rem;
+  letter-spacing: 0.16em;
+  font-size: 0.875rem;
+  line-height: 1.4;
   font-weight: 600;
+}
+
+/* Focus da tastiera visibile su qualsiasi sfondo: anello bianco + anello navy */
+:focus-visible {
+  outline: 2px solid var(--color-navy);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 2px #ffffff;
 }
 
 /* Filo decorativo oro */

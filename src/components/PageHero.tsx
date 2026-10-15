@@ -29,7 +29,7 @@ export default function PageHero({
           initial={{ opacity: 0, y: 16 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="eyebrow text-gold"
+          className="eyebrow text-gold-light"
         >
           {eyebrow}
         </motion.p>
@@ -47,7 +47,7 @@ export default function PageHero({
             initial={{ opacity: 0, y: 18 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="mt-6 max-w-2xl text-lg leading-relaxed text-white/70"
+            className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80"
           >
             {description}
           </motion.p>

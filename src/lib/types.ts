@@ -79,6 +79,7 @@ export type HeaderUiContent = {
   brandPrefix: string;
   menuOpenAriaLabel: string;
   menuCloseAriaLabel: string;
+  skipToContentLabel: string;
   navHome: string;
   navStudio: string;
   navAree: string;

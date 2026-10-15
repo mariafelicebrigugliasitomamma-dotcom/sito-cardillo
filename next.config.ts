@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: ["192.168.1.5"],
+  // Accesso al dev server da altri dispositivi della rete locale (l'IP del Mac cambia)
+  allowedDevOrigins: ["192.168.*.*"],
   // Vecchi URL del sito (template studio legale) reindirizzati alle nuove pagine
   async redirects() {
     return [

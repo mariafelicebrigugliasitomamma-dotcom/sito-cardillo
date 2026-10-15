@@ -65,7 +65,7 @@ export default async function ProfiloPage({
         <div className="relative mx-auto max-w-6xl px-5">
           <Link
             href="/professionisti"
-            className="inline-flex items-center gap-2 text-sm font-medium text-white/70 transition-colors hover:text-gold"
+            className="inline-flex items-center gap-2 text-base font-medium text-white/80 transition-colors hover:text-gold-light"
           >
             <ArrowLeft size={16} />
             {ui.teamPage.backLabel}
@@ -81,17 +81,17 @@ export default async function ProfiloPage({
                   className="h-full w-full object-cover"
                 />
               ) : (
-                <span className="flex h-full w-full items-center justify-center font-serif text-5xl font-semibold text-gold/90">
+                <span className="flex h-full w-full items-center justify-center font-serif text-5xl font-semibold text-gold-light">
                   {p.iniziali}
                 </span>
               )}
             </div>
             <div>
-              <p className="eyebrow text-gold">{p.ruolo}</p>
+              <p className="eyebrow text-gold-light">{p.ruolo}</p>
               <h1 className="mt-3 text-4xl font-semibold text-white sm:text-5xl">
                 {p.nome}
               </h1>
-              <p className="mt-2 text-white/70">{p.abilitazione}</p>
+              <p className="mt-2 text-lg text-white/80">{p.abilitazione}</p>
             </div>
           </div>
         </div>
@@ -102,12 +102,12 @@ export default async function ProfiloPage({
         <div className="mx-auto grid max-w-6xl gap-12 px-5 lg:grid-cols-[1.6fr_1fr] lg:gap-16">
           {/* Biografia */}
           <Reveal>
-            <p className="eyebrow text-gold">{ui.teamPage.profileEyebrow}</p>
+            <p className="eyebrow text-gold-ink">{ui.teamPage.profileEyebrow}</p>
             <h2 className="mt-3 text-3xl font-semibold text-navy">
               {ui.teamPage.biographyTitle}
             </h2>
             <div className="rule-gold mt-5" />
-            <div className="mt-6 space-y-4 text-base leading-relaxed text-muted">
+            <div className="mt-6 space-y-4 text-lg leading-relaxed text-muted">
               {(p.bioEstesa.length > 0 ? p.bioEstesa : [p.bio]).map(
                 (par, i) => (
                   <p key={i}>{par}</p>
@@ -118,16 +118,16 @@ export default async function ProfiloPage({
             {p.formazione.length > 0 && (
               <div className="mt-10">
                 <h3 className="flex items-center gap-2 text-xl font-semibold text-navy">
-                  <GraduationCap size={22} className="text-gold" />
+                  <GraduationCap size={22} className="text-gold-ink" />
                   {ui.teamPage.educationTitle}
                 </h3>
                 <ul className="mt-4 space-y-3 border-l border-gold/30 pl-5">
                   {p.formazione.map((f) => (
                     <li
                       key={f}
-                      className="relative text-sm leading-relaxed text-ink/80"
+                      className="relative text-base leading-relaxed text-ink/80"
                     >
-                      <span className="absolute -left-[1.45rem] top-1.5 h-2 w-2 rounded-full bg-gold" />
+                      <span className="absolute -left-[1.45rem] top-2 h-2 w-2 rounded-full bg-gold" />
                       {f}
                     </li>
                   ))}
@@ -140,14 +140,14 @@ export default async function ProfiloPage({
           <Reveal delay={0.12}>
             <div className="rounded-2xl border border-gold/20 bg-cream/50 p-7">
               <h3 className="flex items-center gap-2 text-lg font-semibold text-navy">
-                <Stethoscope size={20} className="text-gold" />
+                <Stethoscope size={20} className="text-gold-ink" />
                 {ui.teamPage.expertiseTitle}
               </h3>
               <div className="mt-4 flex flex-wrap gap-2">
                 {p.aree.map((a) => (
                   <span
                     key={a}
-                    className="rounded-full bg-white px-3 py-1.5 text-xs font-medium text-navy ring-1 ring-gold/20"
+                    className="rounded-full bg-white px-3 py-1.5 text-sm font-medium text-navy ring-1 ring-gold/20"
                   >
                     {a}
                   </span>
@@ -157,13 +157,13 @@ export default async function ProfiloPage({
               <h3 className="mt-8 text-lg font-semibold text-navy">
                 {ui.teamPage.contactsTitle}
               </h3>
-              <ul className="mt-4 space-y-3 text-sm">
+              <ul className="mt-4 space-y-3 text-base">
                 <li>
                   <a
                     href={`mailto:${p.email}`}
-                    className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold"
+                    className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
                   >
-                    <Mail size={18} className="text-gold" />
+                    <Mail size={18} className="text-gold-ink" />
                     {p.email}
                   </a>
                 </li>
@@ -171,9 +171,9 @@ export default async function ProfiloPage({
                   <li>
                     <a
                       href={`tel:${p.telefono.replace(/\s/g, "")}`}
-                      className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold"
+                      className="flex items-center gap-2.5 text-navy transition-colors hover:text-gold-ink"
                     >
-                      <Phone size={18} className="text-gold" />
+                      <Phone size={18} className="text-gold-ink" />
                       {p.telefono}
                     </a>
                   </li>
@@ -192,7 +192,7 @@ export default async function ProfiloPage({
               </h2>
               <Link
                 href="/professionisti"
-                className="group inline-flex items-center gap-2 text-sm font-semibold text-navy transition-colors hover:text-gold"
+                className="group inline-flex items-center gap-2 text-base font-semibold text-navy transition-colors hover:text-gold-ink"
               >
                 {ui.teamPage.viewAllLabel}
                 <ArrowRight
@@ -208,7 +208,7 @@ export default async function ProfiloPage({
                   href={`/professionisti/${m.slug}`}
                   className="group flex items-center gap-4 rounded-xl border border-gold/15 bg-white p-5 transition-all hover:-translate-y-0.5 hover:border-gold/40 hover:shadow-lg hover:shadow-navy/5"
                 >
-                  <span className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[radial-gradient(circle_at_30%_25%,var(--color-navy-700),var(--color-navy))] font-serif text-lg font-semibold text-gold">
+                  <span className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full bg-[radial-gradient(circle_at_30%_25%,var(--color-navy-700),var(--color-navy))] font-serif text-lg font-semibold text-gold-light">
                     {m.foto ? (
                       // eslint-disable-next-line @next/next/no-img-element
                       <img
@@ -221,7 +221,7 @@ export default async function ProfiloPage({
                     )}
                   </span>
                   <span>
-                    <span className="block font-semibold text-navy transition-colors group-hover:text-gold">
+                    <span className="block text-lg font-semibold text-navy transition-colors group-hover:text-gold-ink">
                       {m.nome}
                     </span>
                     <span className="block text-sm text-muted">{m.ruolo}</span>

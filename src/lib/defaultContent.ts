@@ -5,17 +5,17 @@ const customerContent = {
   "studio": {
     "nome": "Studio Dentistico Cardillo",
     "nomeBreve": "Cardillo",
-    "claim": "Il tuo sorriso, curato con precisione e delicatezza.",
-    "sottoClaim": "Odontoiatria completa per adulti e bambini: prevenzione, implantologia, ortodonzia invisibile ed estetica del sorriso, con tecnologie digitali e un'équipe dedicata.",
-    "annoFondazione": 2004,
-    "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, implantologia, ortodonzia invisibile, estetica dentale e odontoiatria pediatrica. Sedi a Messina e Milazzo.",
+    "claim": "Ogni sorriso racconta una storia. Prenditi cura del tuo.",
+    "sottoClaim": " Ti accompagniamo con un approccio personalizzato, attenzione ai dettagli e cure mirate, per rispondere al meglio alle tue esigenze e garantirti un’esperienza di cura attenta e professionale.\n",
+    "annoFondazione": 1997,
+    "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
     "heroImmagine": "/uploads/cms/jumbotron1.webp",
     "citazione": {
-      "testo": "Un buon trattamento inizia sempre dall'ascolto: prima di guardare i denti, guardiamo la persona.",
-      "autore": "Dott.ssa Maria Clara Cardillo"
+      "testo": "",
+      "autore": ""
     },
-    "presentazione": "Fondato nel 2004 dalla Dott.ssa Maria Clara Cardillo, lo Studio Dentistico Cardillo è oggi un punto di riferimento a Messina per la salute orale di tutta la famiglia. Un'équipe multidisciplinare di odontoiatri, ortodontisti e igienisti lavora in sinergia per offrire percorsi di cura completi, dalla prima visita al mantenimento nel tempo. Investiamo costantemente in tecnologie digitali — scanner intraorale, radiologia 3D a basso dosaggio, progettazione protesica computerizzata — per rendere ogni trattamento più preciso, confortevole e prevedibile.",
-    "missione": "Vogliamo che ogni paziente esca dallo studio più sereno di come è entrato. Per questo spieghiamo ogni diagnosi con chiarezza, presentiamo un piano di cura scritto con tempi e costi definiti, e privilegiamo sempre l'approccio meno invasivo possibile, puntando sulla prevenzione per conservare i denti naturali il più a lungo possibile.",
+    "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
+    "missione": "",
     "storia": [
       {
         "anno": "2004",
@@ -63,61 +63,44 @@ const customerContent = {
     ],
     "numeri": [
       {
-        "valore": 22,
-        "suffisso": "+",
+        "valore": 29,
+        "suffisso": "",
         "etichetta": "Anni di attività"
       },
       {
-        "valore": 12000,
-        "suffisso": "+",
-        "etichetta": "Pazienti seguiti"
-      },
-      {
-        "valore": 2,
+        "valore": 1,
         "suffisso": "",
         "etichetta": "Sedi sul territorio"
-      },
-      {
-        "valore": 4,
-        "suffisso": "",
-        "etichetta": "Professionisti"
       }
     ],
     "sedi": [
       {
-        "citta": "Messina",
-        "indirizzo": "Via Garibaldi 118, 98122 Messina (ME)",
-        "telefono": "+39 090 7123456 - +39 347 1234567",
-        "email": "info@studiodentisticocardillo.it",
+        "citta": "Palermo ",
+        "indirizzo": "Via Giuseppe Giusti 1",
+        "telefono": "091 6258918",
+        "email": "cardillomariaclara@libero.it",
         "principale": true
-      },
-      {
-        "citta": "Milazzo",
-        "indirizzo": "Via Umberto I 45, 98057 Milazzo (ME)",
-        "telefono": "+39 090 9281234",
-        "email": "milazzo@studiodentisticocardillo.it",
-        "principale": false
       }
     ],
     "contatti": {
-      "emailGenerale": "info@studiodentisticocardillo.it",
-      "pec": "studiocardillo@pec.it",
-      "telefono": "+39 090 7123456 - +39 347 1234567",
-      "orari": "Lun – Ven, 9:00 – 13:00 / 15:00 – 19:30 · Sab 9:00 – 13:00"
+      "emailGenerale": "cardillomariaclara@libero.it",
+      "pec": "",
+      "telefono": "0916258918 - +393475888815",
+      "orari": "Lun – Giov, 10:00 – 18:00 "
     },
     "legale": {
-      "pIva": "03456780831",
-      "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina"
+      "pIva": "",
+      "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo"
     },
     "galleria": []
   },
   "privacy": {
     "siteUrl": "www.studiodentisticocardillo.it",
     "titolare": "Studio Dentistico Cardillo",
-    "sedeLegale": "Via Garibaldi 118, 98122 Messina (ME)",
-    "pIva": "03456780831",
-    "codiceFiscale": "",
-    "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Messina",
+    "sedeLegale": "Via Giuseppe Giusti 1, PA, 90143",
+    "pIva": "",
+    "codiceFiscale": "CRDMCL57B47H269H",
+    "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
     "emailPrivacy": "privacy@studiodentisticocardillo.it",
     "pec": "studiocardillo@pec.it",
     "conservazioneSenzaIncaricoMesi": 12
@@ -269,80 +252,6 @@ const customerContent = {
       "telefono": "+39 090 7123456",
       "iniziali": "MC",
       "foto": ""
-    },
-    {
-      "slug": "martina-ferraro",
-      "nome": "Dott.ssa Martina Ferraro",
-      "ruolo": "Ortodontista",
-      "abilitazione": "Specialista in Ortognatodonzia",
-      "bio": "Specialista in ortognatodonzia, segue bambini e adulti con apparecchi fissi e allineatori trasparenti.",
-      "bioEstesa": [
-        "La Dott.ssa Martina Ferraro si laurea in Odontoiatria presso l'Università degli Studi di Catania e consegue la specializzazione in Ortognatodonzia presso l'Università di Roma “La Sapienza”.",
-        "Nello Studio dal 2014, ha sviluppato un percorso ortodontico dedicato ai bambini, basato sull'intercettazione precoce delle malocclusioni, e un protocollo con allineatori trasparenti per i pazienti adulti.",
-        "È certificata per i principali sistemi di allineatori invisibili e partecipa come relatrice a corsi di aggiornamento in ortodonzia digitale."
-      ],
-      "aree": [
-        "Ortodonzia",
-        "Odontoiatria pediatrica"
-      ],
-      "formazione": [
-        "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Catania (2008)",
-        "Specializzazione in Ortognatodonzia, Sapienza Università di Roma (2012)",
-        "Certificazione in ortodonzia con allineatori trasparenti (2016)"
-      ],
-      "email": "m.ferraro@studiodentisticocardillo.it",
-      "telefono": "+39 090 7123456",
-      "iniziali": "MF",
-      "foto": ""
-    },
-    {
-      "slug": "luca-santangelo",
-      "nome": "Dott. Luca Santangelo",
-      "ruolo": "Odontoiatra",
-      "abilitazione": "Endodonzia e conservativa",
-      "bio": "Si occupa di endodonzia al microscopio operatorio, conservativa ed estetica dentale.",
-      "bioEstesa": [
-        "Il Dott. Luca Santangelo si laurea in Odontoiatria presso l'Università degli Studi di Messina nel 2013 e frequenta un corso annuale di perfezionamento in endodonzia clinica.",
-        "Entrato nello Studio nel 2016, si dedica alla conservativa e all'endodonzia con l'ausilio del microscopio operatorio, con l'obiettivo di salvare anche i denti più compromessi.",
-        "Segue inoltre i trattamenti di estetica dentale, dallo sbiancamento alle faccette, e la progettazione del sorriso con il Digital Smile Design."
-      ],
-      "aree": [
-        "Conservativa ed endodonzia",
-        "Estetica dentale"
-      ],
-      "formazione": [
-        "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2013)",
-        "Corso di perfezionamento in Endodonzia clinica (2015)",
-        "Corso avanzato di Digital Smile Design (2019)"
-      ],
-      "email": "l.santangelo@studiodentisticocardillo.it",
-      "telefono": "+39 090 7123456",
-      "iniziali": "LS",
-      "foto": ""
-    },
-    {
-      "slug": "chiara-lopresti",
-      "nome": "Dott.ssa Chiara Lo Presti",
-      "ruolo": "Igienista dentale",
-      "abilitazione": "Igiene e prevenzione · Parodontologia",
-      "bio": "Igienista dentale, si occupa di prevenzione, igiene professionale e terapia di mantenimento parodontale.",
-      "bioEstesa": [
-        "La Dott.ssa Chiara Lo Presti si laurea in Igiene Dentale presso l'Università degli Studi di Messina e collabora con lo Studio dal 2017.",
-        "Segue i pazienti nei programmi di prevenzione e nelle terapie parodontali non chirurgiche, con particolare attenzione alla motivazione e all'educazione all'igiene orale domiciliare.",
-        "Si occupa anche della prevenzione nei più piccoli, con sigillature e sedute di igiene pensate per i bambini."
-      ],
-      "aree": [
-        "Igiene e prevenzione",
-        "Parodontologia"
-      ],
-      "formazione": [
-        "Laurea in Igiene Dentale, Università degli Studi di Messina (2016)",
-        "Corso di perfezionamento in Parodontologia non chirurgica (2018)"
-      ],
-      "email": "c.lopresti@studiodentisticocardillo.it",
-      "telefono": "+39 090 7123456",
-      "iniziali": "CL",
-      "foto": ""
     }
   ],
   "ui": {
@@ -350,6 +259,7 @@ const customerContent = {
       "brandPrefix": "Studio Dentistico",
       "menuOpenAriaLabel": "Apri menu",
       "menuCloseAriaLabel": "Chiudi menu",
+      "skipToContentLabel": "Salta al contenuto",
       "navHome": "Home",
       "navStudio": "Lo Studio",
       "navAree": "I nostri servizi",

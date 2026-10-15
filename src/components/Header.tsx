@@ -65,13 +65,13 @@ export default function Header({
               <Link
                 key={item.href}
                 href={item.href}
-                className={`relative text-sm font-medium tracking-wide transition-colors ${
-                  active ? "text-gold" : "text-white/85 hover:text-white"
+                className={`relative text-base font-medium tracking-wide transition-colors ${
+                  active ? "text-gold-light" : "text-white/85 hover:text-white"
                 }`}
               >
                 {item.label}
                 <span
-                  className={`absolute -bottom-1.5 left-0 h-px bg-gold transition-all duration-300 ${
+                  className={`absolute -bottom-1.5 left-0 h-0.5 bg-gold-light transition-all duration-300 ${
                     active ? "w-full" : "w-0"
                   }`}
                 />
@@ -83,8 +83,10 @@ export default function Header({
         <button
           type="button"
           aria-label={open ? ui.menuCloseAriaLabel : ui.menuOpenAriaLabel}
+          aria-expanded={open}
+          aria-controls="menu-mobile"
           onClick={() => setOpen((v) => !v)}
-          className="text-white md:hidden"
+          className="-mr-2 p-2 text-white md:hidden"
         >
           {open ? <X size={26} /> : <Menu size={26} />}
         </button>
@@ -92,6 +94,8 @@ export default function Header({
 
       {/* Nav mobile */}
       <div
+        id="menu-mobile"
+        inert={!open}
         className={`overflow-hidden transition-all duration-300 md:hidden ${
           open ? "max-h-96" : "max-h-0"
         }`}
@@ -109,7 +113,7 @@ export default function Header({
                 onClick={() => setOpen(false)}
                 className={`rounded-md px-3 py-2.5 text-base font-medium transition-colors ${
                   active
-                    ? "bg-white/10 text-gold"
+                    ? "bg-white/10 text-gold-light"
                     : "text-white/85 hover:bg-white/5"
                 }`}
               >

@@ -21,7 +21,7 @@ export default function SectionHeading({
       className={`max-w-2xl ${centered ? "mx-auto text-center" : ""}`}
     >
       {eyebrow && (
-        <p className={`eyebrow ${light ? "text-gold-light" : "text-gold"}`}>
+        <p className={`eyebrow ${light ? "text-gold-light" : "text-gold-ink"}`}>
           {eyebrow}
         </p>
       )}
@@ -35,8 +35,8 @@ export default function SectionHeading({
       <div className={`rule-gold mt-5 ${centered ? "mx-auto" : ""}`} />
       {description && (
         <p
-          className={`mt-5 text-base leading-relaxed ${
-            light ? "text-white/70" : "text-muted"
+          className={`mt-5 text-lg leading-relaxed ${
+            light ? "text-white/80" : "text-muted"
           }`}
         >
           {description}

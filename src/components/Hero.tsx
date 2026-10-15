@@ -103,7 +103,7 @@ export default function Hero({
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.24, ease: [0.22, 1, 0.36, 1] }}
-          className="mt-7 max-w-xl text-lg leading-relaxed text-white/75"
+          className="mt-7 max-w-xl text-lg leading-relaxed text-white/85 sm:text-xl"
         >
           {sottoClaim}
         </motion.p>
@@ -116,7 +116,7 @@ export default function Hero({
         >
           <Link
             href="/contatti"
-            className="group inline-flex items-center gap-2 rounded-full bg-gold px-7 py-3.5 text-sm font-semibold text-navy transition-all hover:bg-gold-light hover:shadow-lg hover:shadow-gold/20"
+            className="group inline-flex items-center gap-2 rounded-full bg-gold-btn px-7 py-3.5 text-base font-semibold text-navy transition-all hover:bg-gold-btn-hover hover:shadow-lg hover:shadow-gold/20"
           >
             {primaryCtaLabel}
             <ArrowRight
@@ -126,7 +126,7 @@ export default function Hero({
           </Link>
           <Link
             href="/servizi"
-            className="inline-flex items-center gap-2 rounded-full border border-white/25 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:border-gold hover:text-gold"
+            className="inline-flex items-center gap-2 rounded-full border border-white/40 px-7 py-3.5 text-base font-semibold text-white transition-colors hover:border-gold-light hover:text-gold-light"
           >
             {secondaryCtaLabel}
           </Link>
@@ -138,6 +138,7 @@ export default function Hero({
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1, duration: 1 }}
+        aria-hidden="true"
         className="absolute bottom-8 left-1/2 -translate-x-1/2"
       >
         <motion.div

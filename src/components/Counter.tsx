@@ -38,10 +38,17 @@ export default function Counter({
     return () => cancelAnimationFrame(raf);
   }, [inView, value, duration, reduce]);
 
+  // Gli screen reader leggono subito il valore finale, non i numeri intermedi
   return (
-    <span ref={ref}>
-      {display.toLocaleString("it-IT")}
-      {suffix}
-    </span>
+    <>
+      <span ref={ref} aria-hidden="true">
+        {display.toLocaleString("it-IT")}
+        {suffix}
+      </span>
+      <span className="sr-only">
+        {value.toLocaleString("it-IT")}
+        {suffix}
+      </span>
+    </>
   );
 }

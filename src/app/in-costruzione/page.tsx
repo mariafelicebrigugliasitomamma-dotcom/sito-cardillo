@@ -27,7 +27,7 @@ export default async function InCostruzionePage() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-navy px-6 text-center text-white">
-      <p className="mb-4 text-sm uppercase tracking-[0.3em] text-gold">{studio.nome}</p>
+      <p className="mb-4 text-sm uppercase tracking-[0.3em] text-gold-light">{studio.nome}</p>
       <h1 className="mb-6 font-serif text-4xl sm:text-5xl">{t.titolo}</h1>
       <p className="max-w-xl text-lg text-white/80">{t.testo}</p>
     </main>
