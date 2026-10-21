@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "158bf989-486f-4c4e-bf80-05429491c7c1",
-    "updatedAt": "2026-10-21T18:10:12.704Z",
+    "revision": "84f6afff-9205-4282-9b38-44942173df36",
+    "updatedAt": "2026-10-21T18:37:38.959Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792606211484-evtilo8i"
+    "idempotencyKey": "1792607858004-7zagj8pf"
   },
   "content": {
     "it": {
@@ -92,7 +92,36 @@
           "pIva": "",
           "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo"
         },
-        "galleria": []
+        "galleria": [
+          {
+            "src": "/uploads/cms/8ef32bc817ea8aef0a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/920b77a009a8a92fbc.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/f1442a90299f60e135.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/4498bf07351835131a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/42e99a1f8a99899f73.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/f91b73eeb97a4fd9bc.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/5185446b5ae21fa56a.webp",
+            "alt": ""
+          }
+        ]
       },
       "privacy": {
         "siteUrl": "www.studiodentisticocardillo.it",
