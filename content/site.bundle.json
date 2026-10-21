@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "9942590b-bc36-4ef9-998c-d8228598a5b9",
-    "updatedAt": "2026-10-21T19:02:42.524Z",
+    "revision": "f0f6ba40-f597-4053-a352-7b71221615e4",
+    "updatedAt": "2026-10-21T19:03:20.485Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792609361671-sfjyuzi1"
+    "idempotencyKey": "1792609399073-s2lnu79y"
   },
   "content": {
     "it": {
@@ -11,7 +11,7 @@
         "nome": "Studio Dentistico Cardillo",
         "nomeBreve": "Cardillo",
         "claim": "Ogni sorriso racconta una storia. Prenditi cura del tuo.",
-        "sottoClaim": " Ti accompagniamo con un approccio personalizzato, attenzione ai dettagli e cure mirate, per rispondere al meglio alle tue esigenze e garantirti un’esperienza di cura attenta e professionale.\n",
+        "sottoClaim": " Ti accompagniamo con un approccio personalizzato, attenzione ai dettagli e cure mirate, per rispondere al meglio alle tue esigenze e garantirti un’esperienza di attenta e professionale.\n",
         "annoFondazione": 1997,
         "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
