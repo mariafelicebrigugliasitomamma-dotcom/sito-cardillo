@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "b80a87ea-2c0d-4714-a5c0-a0a01cdff249",
-    "updatedAt": "2026-10-21T17:34:39.325Z",
+    "revision": "28bf0ee4-8efa-409b-befc-decb9118c005",
+    "updatedAt": "2026-10-21T17:35:14.835Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792604077427-fwxyjltq"
+    "idempotencyKey": "1792604113899-klvku6gl"
   },
   "content": {
     "it": {
@@ -20,7 +20,7 @@
           {
             "anno": "1997",
             "titolo": "L'apertura dello Studio",
-            "testo": "La Dott.ssa Maria Clara Cardillo apre il primo studio in Via Garibaldi a Messina, con due riuniti e un'attenzione particolare alla conservativa e alla protesi."
+            "testo": ""
           },
           {
             "anno": "2009",
