@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "84f6afff-9205-4282-9b38-44942173df36",
-    "updatedAt": "2026-10-21T18:37:38.959Z",
+    "revision": "93e89d6c-4862-4a8b-b3ce-0cefdbabf1a4",
+    "updatedAt": "2026-10-21T18:48:58.493Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792607858004-7zagj8pf"
+    "idempotencyKey": "1792608537941-8nilkzc7"
   },
   "content": {
     "it": {
@@ -94,19 +94,7 @@
         },
         "galleria": [
           {
-            "src": "/uploads/cms/8ef32bc817ea8aef0a.webp",
-            "alt": ""
-          },
-          {
-            "src": "/uploads/cms/920b77a009a8a92fbc.webp",
-            "alt": ""
-          },
-          {
-            "src": "/uploads/cms/f1442a90299f60e135.webp",
-            "alt": ""
-          },
-          {
-            "src": "/uploads/cms/4498bf07351835131a.webp",
+            "src": "/uploads/cms/5185446b5ae21fa56a.webp",
             "alt": ""
           },
           {
@@ -114,11 +102,23 @@
             "alt": ""
           },
           {
+            "src": "/uploads/cms/920b77a009a8a92fbc.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/4498bf07351835131a.webp",
+            "alt": ""
+          },
+          {
+            "src": "/uploads/cms/f1442a90299f60e135.webp",
+            "alt": ""
+          },
+          {
             "src": "/uploads/cms/f91b73eeb97a4fd9bc.webp",
             "alt": ""
           },
           {
-            "src": "/uploads/cms/5185446b5ae21fa56a.webp",
+            "src": "/uploads/cms/8ef32bc817ea8aef0a.webp",
             "alt": ""
           }
         ]
