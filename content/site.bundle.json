@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "17eebb99-61c8-477b-8f80-89ddd9ce4ff9",
-    "updatedAt": "2026-10-21T17:26:42.524Z",
+    "revision": "b80a87ea-2c0d-4714-a5c0-a0a01cdff249",
+    "updatedAt": "2026-10-21T17:34:39.325Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792603601372-xr9g57db"
+    "idempotencyKey": "1792604077427-fwxyjltq"
   },
   "content": {
     "it": {
@@ -18,7 +18,7 @@
         "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
         "storia": [
           {
-            "anno": "2004",
+            "anno": "1997",
             "titolo": "L'apertura dello Studio",
             "testo": "La Dott.ssa Maria Clara Cardillo apre il primo studio in Via Garibaldi a Messina, con due riuniti e un'attenzione particolare alla conservativa e alla protesi."
           },
@@ -45,20 +45,20 @@
         ],
         "valori": [
           {
-            "titolo": "Ascolto",
-            "testo": "Ogni percorso di cura inizia da un colloquio: esigenze, timori e aspettative del paziente guidano le nostre scelte."
+            "titolo": "Professionalità e competenza ",
+            "testo": "Garantiamo cure basate su conoscenze aggiornate, precisione clinica ed esperienza."
           },
           {
-            "titolo": "Trasparenza",
-            "testo": "Piano di trattamento scritto, preventivo dettagliato e nessuna sorpresa: sai sempre cosa faremo, quando e quanto costerà."
+            "titolo": "Ascolto ed empatia",
+            "testo": "Accogliamo ogni persona con sensibilità, attenzione e disponibilità."
           },
           {
-            "titolo": "Precisione",
-            "testo": "Diagnosi digitali, materiali certificati e protocolli di sterilizzazione tracciati per risultati affidabili e duraturi."
+            "titolo": "Personalizzazione dei trattamenti",
+            "testo": "Proponiamo percorsi terapeutici su misura, in base alle necessità di ogni paziente."
           },
           {
-            "titolo": "Delicatezza",
-            "testo": "Tecniche mininvasive, anestesia computerizzata e sedazione cosciente per trattamenti il più possibile confortevoli, anche per chi ha paura del dentista."
+            "titolo": "Trasparenza e fiducia",
+            "testo": "Comunichiamo con chiarezza diagnosi, trattamenti e alternative terapeutiche."
           }
         ],
         "numeri": [
