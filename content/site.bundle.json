@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "800ac903-05a5-41d4-a5be-75df8dc3551e",
-    "updatedAt": "2026-10-21T17:25:46.328Z",
+    "revision": "17eebb99-61c8-477b-8f80-89ddd9ce4ff9",
+    "updatedAt": "2026-10-21T17:26:42.524Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792603544389-s5jcqqgw"
+    "idempotencyKey": "1792603601372-xr9g57db"
   },
   "content": {
     "it": {
@@ -101,9 +101,9 @@
         "pIva": "",
         "codiceFiscale": "CRDMCL57B47H269H",
         "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
-        "emailPrivacy": "",
-        "pec": "studiocardillo@pec.it",
-        "conservazioneSenzaIncaricoMesi": 12
+        "emailPrivacy": "cardillomariaclara@libero.it",
+        "pec": "",
+        "conservazioneSenzaIncaricoMesi": 0
       },
       "aree": [
         {
