@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "0f2e7dbb-7820-4d86-8ce2-31f9356d0cba",
-    "updatedAt": "2026-10-14T19:08:41.145Z",
+    "revision": "800ac903-05a5-41d4-a5be-75df8dc3551e",
+    "updatedAt": "2026-10-21T17:25:46.328Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792004920085-3c7hagnx"
+    "idempotencyKey": "1792603544389-s5jcqqgw"
   },
   "content": {
     "it": {
@@ -101,7 +101,7 @@
         "pIva": "",
         "codiceFiscale": "CRDMCL57B47H269H",
         "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
-        "emailPrivacy": "privacy@studiodentisticocardillo.it",
+        "emailPrivacy": "",
         "pec": "studiocardillo@pec.it",
         "conservazioneSenzaIncaricoMesi": 12
       },
@@ -284,7 +284,7 @@
         },
         "home": {
           "introEyebrow": "Lo Studio",
-          "introTitle": "Cure dentali moderne, con un tocco umano",
+          "introTitle": "Il valore della cura, l’importanza di ogni persona",
           "introCtaLabel": "Scopri lo Studio",
           "areasEyebrow": "I nostri servizi",
           "areasTitle": "Tutto ciò che serve al tuo sorriso, in un unico studio",
