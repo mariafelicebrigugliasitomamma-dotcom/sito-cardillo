@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "fbe5c28f-426b-4a66-9693-2adf23b3a00a",
-    "updatedAt": "2026-10-21T18:57:41.806Z",
+    "revision": "1da1e236-9af6-4dc2-bf07-9ee0b576e210",
+    "updatedAt": "2026-10-21T19:00:04.694Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792609060068-dihbetie"
+    "idempotencyKey": "1792609203470-7v22e7p6"
   },
   "content": {
     "it": {
@@ -165,7 +165,7 @@
         {
           "slug": "implantologia",
           "titolo": "Implantologia",
-          "sintesi": "Sostituzione dei denti mancanti con impianti in titanio, anche a carico immediato.",
+          "sintesi": "Sostituzione dei denti mancanti con impianti in titanio.",
           "descrizione": "Pianifichiamo ogni intervento con TAC 3D e software di chirurgia guidata, per inserire gli impianti con la massima precisione e il minimo disagio. Nei casi indicati è possibile ricevere denti fissi provvisori già in giornata.",
           "prestazioni": [
             "Impianti singoli e multipli",
@@ -206,7 +206,7 @@
           "slug": "estetica-dentale",
           "titolo": "Estetica dentale",
           "sintesi": "Sbiancamento, faccette e ricontorno per un sorriso naturale e armonioso.",
-          "descrizione": "Progettiamo il nuovo sorriso con il Digital Smile Design, mostrando al paziente un'anteprima del risultato prima di iniziare. Privilegiamo sempre tecniche conservative e risultati naturali.",
+          "descrizione": "",
           "prestazioni": [
             "Sbiancamento professionale alla poltrona e domiciliare",
             "Faccette in ceramica e composito",
