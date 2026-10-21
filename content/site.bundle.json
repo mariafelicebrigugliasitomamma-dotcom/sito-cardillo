@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "93e89d6c-4862-4a8b-b3ce-0cefdbabf1a4",
-    "updatedAt": "2026-10-21T18:48:58.493Z",
+    "revision": "fbe5c28f-426b-4a66-9693-2adf23b3a00a",
+    "updatedAt": "2026-10-21T18:57:41.806Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792608537941-8nilkzc7"
+    "idempotencyKey": "1792609060068-dihbetie"
   },
   "content": {
     "it": {
@@ -138,7 +138,7 @@
         {
           "slug": "igiene-prevenzione",
           "titolo": "Igiene e prevenzione",
-          "sintesi": "Pulizia professionale, controlli periodici e educazione all'igiene orale domiciliare.",
+          "sintesi": "Ablazione tartaro, controlli periodici e educazione all'igiene orale domiciliare.",
           "descrizione": "La prevenzione è il trattamento più efficace e meno costoso. Le nostre igieniste eseguono sedute di igiene professionale personalizzate e insegnano a ogni paziente le tecniche corrette per mantenere denti e gengive sani tra un controllo e l'altro.",
           "prestazioni": [
             "Ablazione del tartaro e lucidatura",
