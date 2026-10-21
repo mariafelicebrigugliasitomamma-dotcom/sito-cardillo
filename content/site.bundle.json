@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "55a74016-174e-4c00-89fc-a3ee66eb579c",
-    "updatedAt": "2026-10-21T18:04:57.959Z",
+    "revision": "01551a84-4bed-4aac-a9d4-1e777f845bee",
+    "updatedAt": "2026-10-21T18:09:10.168Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792605897114-k4hqowck"
+    "idempotencyKey": "1792606149098-0bap3t2q"
   },
   "content": {
     "it": {
@@ -300,7 +300,7 @@
           "teamTitle": "Professionisti",
           "teamDescription": "",
           "contactTitle": "Contatti",
-          "contactDescription": "Contatta lo Studio Dentistico Cardillo. Sede a Palermo.",
+          "contactDescription": "Contatta lo Studio Dentistico Cardillo. Sede a Palermo. Prenota la tua visita.",
           "privacyTitle": "Informativa Privacy",
           "privacyDescription": "Informativa sul trattamento dei dati personali (art. 13 GDPR) dello Studio Dentistico Cardillo."
         },
