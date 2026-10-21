@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "b76678a4-1e66-40ab-aa88-ff1bc5496a19",
-    "updatedAt": "2026-10-21T17:49:02.282Z",
+    "revision": "7da2d8cf-8fc8-4d3f-b625-1400628730ce",
+    "updatedAt": "2026-10-21T18:02:25.980Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792604941208-kka70pby"
+    "idempotencyKey": "1792605744209-hcl7n0b3"
   },
   "content": {
     "it": {
@@ -283,32 +283,32 @@
           "introCtaLabel": "Scopri lo Studio",
           "areasEyebrow": "I nostri servizi",
           "areasTitle": "Tutto ciò che serve al tuo sorriso, in un unico studio",
-          "areasDescription": "Dalla prevenzione all'implantologia, un'équipe multidisciplinare segue ogni fase del percorso di cura con tecnologie digitali e protocolli condivisi.",
+          "areasDescription": "Dalla prevenzione ai trattamenti più complessi, un’équipe di professionisti accompagna il paziente in ogni fase del percorso di cura, integrando competenze specialistiche, tecnologie moderne e attenzione costante alla qualità delle prestazioni.",
           "areasCtaLabel": "Tutti i servizi",
           "valuesEyebrow": "I nostri valori",
           "valuesTitle": "Il modo in cui ci prendiamo cura di te",
-          "valuesDescription": "Principi che guidano ogni visita, dal primo colloquio ai controlli di mantenimento.",
+          "valuesDescription": "Principi che guidano ogni visita, dalla prima visita ai controlli di mantenimento.",
           "teamEyebrow": "I professionisti",
           "teamTitle": "Professionisti al servizio del tuo sorriso",
-          "teamDescription": "Odontoiatri, ortodontisti e igienisti con competenze complementari, uniti da un metodo di lavoro attento e condiviso.",
+          "teamDescription": "",
           "teamCtaLabel": "Conosci tutto il team"
         },
         "seo": {
-          "homeTitleSuffix": "Dentista a Messina e Milazzo",
+          "homeTitleSuffix": "Dentista a Palermo",
           "studioTitle": "Lo Studio",
-          "studioDescription": "Storia, ambienti e valori dello Studio Dentistico Cardillo: dal 2004 al fianco dei pazienti di Messina e provincia.",
+          "studioDescription": "Storia, ambienti e valori dello Studio Dentistico Cardillo: dal 1997 al fianco dei pazienti di Palermo e  provincia.",
           "practiceAreasTitle": "I nostri servizi",
           "practiceAreasDescription": "I trattamenti dello Studio Dentistico Cardillo: igiene e prevenzione, conservativa, implantologia, ortodonzia, protesi, estetica dentale, parodontologia e odontoiatria pediatrica.",
           "teamTitle": "Professionisti",
-          "teamDescription": "L'équipe dello Studio Dentistico Cardillo: odontoiatri, ortodontisti e igienisti dentali a Messina e Milazzo.",
+          "teamDescription": "",
           "contactTitle": "Contatti",
-          "contactDescription": "Contatta lo Studio Dentistico Cardillo. Sedi a Messina e Milazzo. Prenota una visita o una seduta di igiene.",
+          "contactDescription": "Contatta lo Studio Dentistico Cardillo. Sede a Palermo.",
           "privacyTitle": "Informativa Privacy",
           "privacyDescription": "Informativa sul trattamento dei dati personali (art. 13 GDPR) dello Studio Dentistico Cardillo."
         },
         "studioPage": {
           "heroEyebrow": "Lo Studio",
-          "heroTitle": "Salute orale e benessere dal 2004",
+          "heroTitle": "Salute orale e benessere dal 1997",
           "heroDescription": "Un'équipe multidisciplinare, tecnologie digitali e un'accoglienza attenta per prenderci cura del sorriso di tutta la famiglia.",
           "aboutEyebrow": "Chi siamo",
           "aboutTitle": "Il nostro Studio",
@@ -322,7 +322,7 @@
         "teamPage": {
           "heroEyebrow": "Professionisti",
           "heroTitle": "Le persone dietro ogni sorriso",
-          "heroDescription": "Odontoiatri, specialisti e igienisti che condividono protocolli, aggiornamento continuo e attenzione al paziente.",
+          "heroDescription": "Un team di professionisti che mette al centro la qualità delle cure, la collaborazione e l’attenzione alla persona.",
           "cardCtaLabel": "Profilo completo",
           "backLabel": "Tutti i professionisti",
           "profileEyebrow": "Profilo",
@@ -355,14 +355,14 @@
         },
         "practiceAreasPage": {
           "heroEyebrow": "I nostri servizi",
-          "heroTitle": "Cure complete per ogni esigenza del sorriso",
-          "heroDescription": "Prevenzione, cura e riabilitazione per adulti e bambini, con tecnologie digitali e un piano di trattamento sempre chiaro e condiviso.",
+          "heroTitle": "Un approccio completo alla salute del sorriso",
+          "heroDescription": "Dalla prevenzione alla cura, fino alla riabilitazione del sorriso, accompagniamo adulti e bambini in ogni fase del percorso odontoiatrico, con tecnologie moderne, attenzione costante e un approccio fondato sulla trasparenza e sulla condivisione delle scelte terapeutiche.",
           "ctaTitle": "Non trovi il trattamento che cerchi?",
-          "ctaText": "Contattaci comunque: durante la prima visita valuteremo insieme la tua situazione e le soluzioni più adatte."
+          "ctaText": "Contattaci comunque: durante la prima visita valuteremo insieme la tua situazione clinica e le soluzioni più adatte."
         },
         "cta": {
           "defaultTitle": "È il momento di prenderti cura del tuo sorriso",
-          "defaultText": "Prenota una prima visita: valuteremo insieme la tua salute orale e ti proporremo un piano di cura chiaro, con tempi e costi definiti.",
+          "defaultText": "Prenota la tua prima visita: valuteremo con attenzione la tua salute orale e definiremo insieme un percorso di cura personalizzato, chiaro e mirato alle tue esigenze.",
           "buttonLabel": "Prenota una visita"
         }
       }
