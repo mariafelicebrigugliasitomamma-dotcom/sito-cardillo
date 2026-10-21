@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "2c3de74c-1ef2-4520-9663-3f9f1352cbbd",
-    "updatedAt": "2026-10-21T17:47:30.683Z",
+    "revision": "b76678a4-1e66-40ab-aa88-ff1bc5496a19",
+    "updatedAt": "2026-10-21T17:49:02.282Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792604848714-mvr95r9m"
+    "idempotencyKey": "1792604941208-kka70pby"
   },
   "content": {
     "it": {
@@ -243,8 +243,8 @@
             "Laurea in Medicina e Chirurgia con lode presso l’Università degli Studi di Palermo, conseguita nel [anno].",
             "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo, conseguita nel [anno]."
           ],
-          "email": "",
-          "telefono": "+39 090 7123456",
+          "email": "cardillomariaclara@libero.it",
+          "telefono": "0916258918 ",
           "iniziali": "MC",
           "foto": ""
         }
