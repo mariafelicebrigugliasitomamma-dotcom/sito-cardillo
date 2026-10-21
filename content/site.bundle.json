@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "7da2d8cf-8fc8-4d3f-b625-1400628730ce",
-    "updatedAt": "2026-10-21T18:02:25.980Z",
+    "revision": "55a74016-174e-4c00-89fc-a3ee66eb579c",
+    "updatedAt": "2026-10-21T18:04:57.959Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792605744209-hcl7n0b3"
+    "idempotencyKey": "1792605897114-k4hqowck"
   },
   "content": {
     "it": {
@@ -234,9 +234,7 @@
           "abilitazione": "Odontoiatra ",
           "bio": "Si dedica con attenzione e sensibilità alla cura personalizzata di ogni paziente, partendo da un ascolto attento delle sue esigenze e da una valutazione approfondita durante la prima visita.",
           "bioEstesa": [
-            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo nel [anno], per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria nel [anno].",
-            "Nel corso della sua carriera, approfondisce la propria formazione attraverso master e percorsi di perfezionamento in odontoiatria conservativa ed endodonzia, sviluppando competenze specifiche nella cura e nel recupero degli elementi dentali naturali.",
-            "Il suo approccio professionale si fonda sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
+            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo nel [anno], per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria nel [anno]."
           ],
           "aree": [],
           "formazione": [
