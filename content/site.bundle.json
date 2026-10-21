@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "28bf0ee4-8efa-409b-befc-decb9118c005",
-    "updatedAt": "2026-10-21T17:35:14.835Z",
+    "revision": "2c3de74c-1ef2-4520-9663-3f9f1352cbbd",
+    "updatedAt": "2026-10-21T17:47:30.683Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792604113899-klvku6gl"
+    "idempotencyKey": "1792604848714-mvr95r9m"
   },
   "content": {
     "it": {
@@ -230,25 +230,20 @@
         {
           "slug": "maria-clara-cardillo",
           "nome": "Dott.ssa Maria Clara Cardillo",
-          "ruolo": "Direttrice sanitaria",
-          "abilitazione": "Odontoiatra · Implantologia e protesi",
-          "bio": "Fondatrice dello Studio, si dedica da oltre vent'anni all'implantologia e alla riabilitazione protesica, con un approccio digitale e mininvasivo.",
+          "ruolo": "",
+          "abilitazione": "Odontoiatra ",
+          "bio": "Si dedica con attenzione e sensibilità alla cura personalizzata di ogni paziente, partendo da un ascolto attento delle sue esigenze e da una valutazione approfondita durante la prima visita.",
           "bioEstesa": [
-            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Odontoiatria e Protesi Dentaria presso l'Università degli Studi di Messina nel 2001 e, dopo alcune esperienze in cliniche del Nord Italia, fonda lo Studio nel 2004.",
-            "Si è perfezionata in implantologia e chirurgia guidata con un Master universitario di II livello e frequenta regolarmente corsi di aggiornamento in Italia e all'estero sulle più recenti tecniche di riabilitazione protesica.",
-            "Da direttrice sanitaria coordina l'équipe e i protocolli clinici dello Studio, seguendo personalmente i casi implantologici e protesici più complessi."
+            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo nel [anno], per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria nel [anno].",
+            "Nel corso della sua carriera, approfondisce la propria formazione attraverso master e percorsi di perfezionamento in odontoiatria conservativa ed endodonzia, sviluppando competenze specifiche nella cura e nel recupero degli elementi dentali naturali.",
+            "Il suo approccio professionale si fonda sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
           ],
-          "aree": [
-            "Implantologia",
-            "Protesi dentale",
-            "Chirurgia orale"
-          ],
+          "aree": [],
           "formazione": [
-            "Laurea in Odontoiatria e Protesi Dentaria, Università degli Studi di Messina (2001)",
-            "Master di II livello in Implantologia e Chirurgia Guidata (2006)",
-            "Socia attiva della Società Italiana di Implantologia (SIdI)"
+            "Laurea in Medicina e Chirurgia con lode presso l’Università degli Studi di Palermo, conseguita nel [anno].",
+            "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo, conseguita nel [anno]."
           ],
-          "email": "m.cardillo@studiodentisticocardillo.it",
+          "email": "",
           "telefono": "+39 090 7123456",
           "iniziali": "MC",
           "foto": ""
