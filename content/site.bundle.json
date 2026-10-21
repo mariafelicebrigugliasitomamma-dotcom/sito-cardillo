@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "c088ce3b-241f-4b07-b359-8832af9ae298",
-    "updatedAt": "2026-10-21T19:03:51.741Z",
+    "revision": "75d1cc58-a457-4950-b633-f34acd283b15",
+    "updatedAt": "2026-10-21T19:04:51.540Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792609430869-hjdbkf0v"
+    "idempotencyKey": "1792609490510-n19gg5pm"
   },
   "content": {
     "it": {
@@ -139,7 +139,7 @@
           "slug": "igiene-prevenzione",
           "titolo": "Igiene e prevenzione",
           "sintesi": "Ablazione tartaro, controlli periodici e educazione all'igiene orale domiciliare.",
-          "descrizione": "La salute della tua bocca merita attenzione: inizia con una seduta di igiene orale professionale. \nNel nostro studio adoperiamo sia il protocollo clinico GBT che permette di rimuovere in modo selettivo il biofilm , le macchie e il tartaro offrendo un maggiore comfort per il paziente,  sia il protocollo di igiene orale tradizionale, in base alle tue esigenze.\nDue approcci diversi, da valutare in base alle tue esigenze e alla salute del tuo sorriso.",
+          "descrizione": "La salute della tua bocca merita attenzione: inizia con una seduta di igiene orale professionale. \nNel nostro studio adoperiamo sia il protocollo clinico GBT che permette di rimuovere in modo selettivo il biofilm , le macchie e il tartaro offrendo un maggiore comfort per il paziente,  sia il protocollo di igiene orale tradizionale.\nDue approcci diversi, da valutare in base alle tue esigenze e alla salute del tuo sorriso.",
           "prestazioni": [
             "Ablazione del tartaro e lucidatura",
             "Airflow e sbiancamento delle macchie superficiali",
