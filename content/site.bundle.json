@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "041906f3-ccd8-4aed-9dee-01ec9907e9c1",
-    "updatedAt": "2026-10-22T10:01:58.874Z",
+    "revision": "ea0d351f-8710-48b1-a337-b9c01ef35873",
+    "updatedAt": "2026-10-22T10:03:22.926Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792663317141-py58bnki"
+    "idempotencyKey": "1792663401769-344x2x7e"
   },
   "content": {
     "it": {
@@ -77,7 +77,7 @@
           {
             "citta": "Palermo ",
             "indirizzo": "Via Giuseppe Giusti 1",
-            "telefono": "091 6258918",
+            "telefono": "091 6258918-  +39 3395652418",
             "email": "cardillomariaclara@libero.it",
             "principale": true
           }
