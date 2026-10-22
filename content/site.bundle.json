@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "ea0d351f-8710-48b1-a337-b9c01ef35873",
-    "updatedAt": "2026-10-22T10:03:22.926Z",
+    "revision": "3b93e271-cbed-4e84-89cd-484ead2bf2ab",
+    "updatedAt": "2026-10-22T10:03:56.078Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792663401769-344x2x7e"
+    "idempotencyKey": "1792663434981-iud2mosg"
   },
   "content": {
     "it": {
@@ -85,7 +85,7 @@
         "contatti": {
           "emailGenerale": "cardillomariaclara@libero.it",
           "pec": "cardillomariaclara@pec.it",
-          "telefono": "0916258918 - +393475888815",
+          "telefono": "0916258918 - +39 3395652418",
           "orari": "Lun – Giov, 10:00 – 18:00 "
         },
         "legale": {
