@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "0070ce70-e034-4849-9910-2f6a1c480942",
-    "updatedAt": "2026-10-22T10:01:12.265Z",
+    "revision": "041906f3-ccd8-4aed-9dee-01ec9907e9c1",
+    "updatedAt": "2026-10-22T10:01:58.874Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792663271504-9lymtuhv"
+    "idempotencyKey": "1792663317141-py58bnki"
   },
   "content": {
     "it": {
@@ -84,12 +84,12 @@
         ],
         "contatti": {
           "emailGenerale": "cardillomariaclara@libero.it",
-          "pec": "",
+          "pec": "cardillomariaclara@pec.it",
           "telefono": "0916258918 - +393475888815",
           "orari": "Lun – Giov, 10:00 – 18:00 "
         },
         "legale": {
-          "pIva": "",
+          "pIva": "03007390820",
           "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo"
         },
         "galleria": [
