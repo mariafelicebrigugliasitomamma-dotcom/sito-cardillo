@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "3663bcaa-a868-45ff-b5b6-be2f4d1ef958",
-    "updatedAt": "2026-10-22T10:00:31.385Z",
+    "revision": "0070ce70-e034-4849-9910-2f6a1c480942",
+    "updatedAt": "2026-10-22T10:01:12.265Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792663230571-ldlyc580"
+    "idempotencyKey": "1792663271504-9lymtuhv"
   },
   "content": {
     "it": {
@@ -131,7 +131,7 @@
         "codiceFiscale": "CRDMCL57B47H269H",
         "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
         "emailPrivacy": "cardillomariaclara@libero.it",
-        "pec": "",
+        "pec": "cardillomariaclara@pec.it",
         "conservazioneSenzaIncaricoMesi": 0
       },
       "aree": [
