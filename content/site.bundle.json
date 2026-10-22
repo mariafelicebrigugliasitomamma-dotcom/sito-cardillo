@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "75d1cc58-a457-4950-b633-f34acd283b15",
-    "updatedAt": "2026-10-21T19:04:51.540Z",
+    "revision": "3663bcaa-a868-45ff-b5b6-be2f4d1ef958",
+    "updatedAt": "2026-10-22T10:00:31.385Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1792609490510-n19gg5pm"
+    "idempotencyKey": "1792663230571-ldlyc580"
   },
   "content": {
     "it": {
@@ -127,7 +127,7 @@
         "siteUrl": "www.studiodentisticocardillo.it",
         "titolare": "Studio Dentistico Cardillo",
         "sedeLegale": "Via Giuseppe Giusti 1, PA, 90143",
-        "pIva": "",
+        "pIva": "03007390820",
         "codiceFiscale": "CRDMCL57B47H269H",
         "ordine": "Ordine dei Medici Chirurghi e degli Odontoiatri di Palermo",
         "emailPrivacy": "cardillomariaclara@libero.it",
