@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "4bc4ce0f-3de3-4c87-8e3c-39595036b38e",
-    "updatedAt": "2026-10-28T19:13:03.536Z",
+    "revision": "64ff10e7-735e-4db4-b13b-8ec31d337502",
+    "updatedAt": "2026-10-28T19:20:45.433Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793214782380-psjv53zm"
+    "idempotencyKey": "1793215244960-4asrucwg"
   },
   "content": {
     "it": {
@@ -16,33 +16,7 @@
         "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa,parodontologia, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
         "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
-        "storia": [
-          {
-            "anno": "1997",
-            "titolo": "L'apertura dello Studio",
-            "testo": ""
-          },
-          {
-            "anno": "2009",
-            "titolo": "Nasce il reparto di implantologia",
-            "testo": "Lo Studio si dota di una sala chirurgica dedicata e avvia un protocollo di implantologia guidata, integrando la diagnostica radiologica 3D."
-          },
-          {
-            "anno": "2014",
-            "titolo": "Ortodonzia e pedodonzia",
-            "testo": "Con l'ingresso della Dott.ssa Martina Ferraro lo Studio amplia l'offerta con l'ortodonzia per bambini e adulti e un percorso dedicato ai piccoli pazienti."
-          },
-          {
-            "anno": "2018",
-            "titolo": "Il flusso digitale",
-            "testo": "Arrivano lo scanner intraorale e la progettazione CAD/CAM: niente più impronte in pasta e protesi realizzate con maggiore precisione e in tempi più brevi."
-          },
-          {
-            "anno": "2022",
-            "titolo": "La nuova sede di Milazzo",
-            "testo": "Per essere più vicini ai pazienti della provincia apriamo una seconda sede a Milazzo, con gli stessi protocolli e la stessa équipe."
-          }
-        ],
+        "storia": [],
         "valori": [
           {
             "titolo": "Professionalità e competenza ",
@@ -273,7 +247,7 @@
           "email": "cardillomariaclara@libero.it",
           "telefono": "0916258918 ",
           "iniziali": "MC",
-          "foto": ""
+          "foto": "/uploads/cms/ee3a82b08e7b439b69.webp"
         }
       ],
       "ui": {
