@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "64ff10e7-735e-4db4-b13b-8ec31d337502",
-    "updatedAt": "2026-10-28T19:20:45.433Z",
+    "revision": "0a352198-0059-43ff-a618-1eb020a77b7a",
+    "updatedAt": "2026-10-28T19:23:14.826Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793215244960-4asrucwg"
+    "idempotencyKey": "1793215393778-a57z148x"
   },
   "content": {
     "it": {
@@ -237,12 +237,14 @@
           "abilitazione": "Odontoiatra ",
           "bio": "Si dedica con attenzione e sensibilità alla cura personalizzata di ogni paziente, partendo da un ascolto attento delle sue esigenze e da una valutazione approfondita durante la prima visita.",
           "bioEstesa": [
-            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo nel [anno], per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria nel [anno].Il suo approccio professionale si fonda sull’aggiornamento continuo, sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
+            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo  per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria.Il suo approccio professionale si fonda sull’aggiornamento continuo, sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
           ],
-          "aree": [],
+          "aree": [
+            "Conservativa,parodontologia"
+          ],
           "formazione": [
-            "Laurea in Medicina e Chirurgia con lode presso l’Università degli Studi di Palermo, conseguita nel [anno].",
-            "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo, conseguita nel [anno]."
+            "Laurea in Medicina e Chirurgia con lode presso l’Università degli Studi di Palermo.",
+            "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo."
           ],
           "email": "cardillomariaclara@libero.it",
           "telefono": "0916258918 ",
