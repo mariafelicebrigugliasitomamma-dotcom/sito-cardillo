@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "418f95e7-6712-4fb0-8a0f-3bccaeacc425",
-    "updatedAt": "2026-11-04T20:44:57.769Z",
+    "revision": "183f216f-2d93-4e2c-a83e-2c5e1e8e6372",
+    "updatedAt": "2026-11-04T20:47:20.797Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793825095724-a5x0i1rp"
+    "idempotencyKey": "1793825239776-0hyvrjgo"
   },
   "content": {
     "it": {
@@ -191,7 +191,7 @@
         {
           "slug": "chirurgia-orale",
           "titolo": "CHIRURGIA ORALE",
-          "sintesi": "Estrazioni, denti del giudizio e piccola chirurgia in sicurezza.",
+          "sintesi": "Estrazioni, denti del giudizio e chirurgia mini-invasiva in sicurezza.",
           "descrizione": "Eseguiamo estrazioni semplici e complesse, inclusi i denti del giudizio inclusi, con tecniche atraumatiche.",
           "prestazioni": [],
           "icona": "Syringe"
