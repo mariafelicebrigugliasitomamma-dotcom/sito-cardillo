@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "80fff910-a027-4520-a20a-4dcc5f22e194",
-    "updatedAt": "2026-11-04T14:36:44.599Z",
+    "revision": "36e93fd2-a921-4667-a7fa-a53d6ba07614",
+    "updatedAt": "2026-11-04T14:39:36.230Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793803002433-nl30gjl8"
+    "idempotencyKey": "1793803175296-oo2ivy9a"
   },
   "content": {
     "it": {
@@ -112,7 +112,7 @@
         {
           "slug": "igiene-prevenzione",
           "titolo": "IGIENE E PREVENZIONE",
-          "sintesi": "Ablazione tartaro, controlli periodici e educazione all'igiene orale domiciliare.",
+          "sintesi": "Ablazione tartaro, controlli periodici ed educazione all'igiene orale domiciliare.",
           "descrizione": "La salute della tua bocca merita attenzione: inizia con una seduta di igiene orale professionale. \nNel nostro studio adoperiamo sia il protocollo clinico GBT che permette di rimuovere in modo selettivo il biofilm , le macchie e il tartaro offrendo un maggiore comfort per il paziente,  sia il protocollo di igiene orale tradizionale.\nDue approcci diversi, da valutare in base alle tue esigenze e alla salute del tuo sorriso.",
           "prestazioni": [
             "Ablazione del tartaro e lucidatura",
@@ -126,7 +126,7 @@
         {
           "slug": "area-9",
           "titolo": "SBIANCAMENTO DENTALE ",
-          "sintesi": "Dona al tuo sorriso una maggiore luminosità con sedute si sbiancamento  professionale.",
+          "sintesi": "Dona al tuo sorriso  maggiore luminosità con sedute di sbiancamento  professionale.",
           "descrizione": "",
           "prestazioni": [],
           "icona": "Scale"
