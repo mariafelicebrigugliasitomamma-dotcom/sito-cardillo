@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "6afe1414-cd27-4aa4-beb4-80b8fc03fe01",
-    "updatedAt": "2026-10-28T19:25:53.336Z",
+    "revision": "33b3c9e4-706f-4e71-8ca9-d11537884f7f",
+    "updatedAt": "2026-11-04T14:11:00.359Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793215552659-3qllkhae"
+    "idempotencyKey": "1793801459660-wto7o9fz"
   },
   "content": {
     "it": {
@@ -282,7 +282,7 @@
         },
         "home": {
           "introEyebrow": "Lo Studio",
-          "introTitle": "Il valore della cura, l’importanza di ogni persona",
+          "introTitle": "",
           "introCtaLabel": "Scopri lo Studio",
           "areasEyebrow": "I nostri servizi",
           "areasTitle": "Tutto ciò che serve al tuo sorriso, in un unico studio",
