@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "2255b9f3-730c-4809-859a-c202ab96dae4",
-    "updatedAt": "2026-11-04T20:51:59.723Z",
+    "revision": "588c6d4e-a7c8-48b8-857c-158300fbe7c2",
+    "updatedAt": "2026-11-04T20:53:40.244Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793825518781-7y4u77j3"
+    "idempotencyKey": "1793825619233-vh5988xd"
   },
   "content": {
     "it": {
@@ -210,13 +210,13 @@
           "abilitazione": "Odontoiatra ",
           "bio": "Si dedica con attenzione e sensibilità alla cura personalizzata di ogni paziente, partendo da un ascolto attento delle sue esigenze e da una valutazione approfondita durante la prima visita.",
           "bioEstesa": [
-            "La Dott.ssa Maria Clara Cardillo si laurea con lode in Medicina e Chirurgia presso l’Università degli Studi di Palermo  per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria.Il suo approccio professionale si fonda sull’aggiornamento continuo, sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
+            "La Dott.ssa Maria Clara Cardillo si laurea in Medicina e Chirurgia presso l’Università degli Studi di Palermo  per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria.Il suo approccio professionale si fonda sull’aggiornamento continuo, sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
           ],
           "aree": [
             "Conservativa,parodontologia"
           ],
           "formazione": [
-            "Laurea in Medicina e Chirurgia con lode presso l’Università degli Studi di Palermo.",
+            "Laurea in Medicina e Chirurgia presso l’Università degli Studi di Palermo.",
             "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo."
           ],
           "email": "cardillomariaclara@libero.it",
