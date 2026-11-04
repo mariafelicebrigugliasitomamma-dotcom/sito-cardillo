@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "d3ca1027-0b9a-402a-9204-b4f8688eaa4c",
-    "updatedAt": "2026-11-04T20:59:16.373Z",
+    "revision": "b90741f7-4148-4c2f-ba4f-a9dc1e658e51",
+    "updatedAt": "2026-11-04T21:00:05.657Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793825955644-c3u880be"
+    "idempotencyKey": "1793826004665-kaufp83m"
   },
   "content": {
     "it": {
@@ -121,7 +121,7 @@
             "-Fluoroprofilassi",
             "-Richiami periodici personalizzati"
           ],
-          "icona": "Sparkles"
+          "icona": "Smile"
         },
         {
           "slug": "area-9",
