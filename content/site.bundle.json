@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "33b3c9e4-706f-4e71-8ca9-d11537884f7f",
-    "updatedAt": "2026-11-04T14:11:00.359Z",
+    "revision": "80fff910-a027-4520-a20a-4dcc5f22e194",
+    "updatedAt": "2026-11-04T14:36:44.599Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793801459660-wto7o9fz"
+    "idempotencyKey": "1793803002433-nl30gjl8"
   },
   "content": {
     "it": {
@@ -111,7 +111,7 @@
       "aree": [
         {
           "slug": "igiene-prevenzione",
-          "titolo": "Igiene e prevenzione",
+          "titolo": "IGIENE E PREVENZIONE",
           "sintesi": "Ablazione tartaro, controlli periodici e educazione all'igiene orale domiciliare.",
           "descrizione": "La salute della tua bocca merita attenzione: inizia con una seduta di igiene orale professionale. \nNel nostro studio adoperiamo sia il protocollo clinico GBT che permette di rimuovere in modo selettivo il biofilm , le macchie e il tartaro offrendo un maggiore comfort per il paziente,  sia il protocollo di igiene orale tradizionale.\nDue approcci diversi, da valutare in base alle tue esigenze e alla salute del tuo sorriso.",
           "prestazioni": [
@@ -124,10 +124,18 @@
           "icona": "ShieldCheck"
         },
         {
+          "slug": "area-9",
+          "titolo": "SBIANCAMENTO DENTALE ",
+          "sintesi": "Dona al tuo sorriso una maggiore luminosità con sedute si sbiancamento  professionale.",
+          "descrizione": "",
+          "prestazioni": [],
+          "icona": "Scale"
+        },
+        {
           "slug": "conservativa-endodonzia",
-          "titolo": "Conservativa ed endodonzia",
-          "sintesi": "Cura della carie e devitalizzazioni per salvare il dente naturale.",
-          "descrizione": "Trattiamo la carie con otturazioni estetiche in composito e, quando l'infezione raggiunge la polpa, eseguiamo devitalizzazioni con strumenti rotanti al nichel-titanio e ingrandimento ottico, per conservare il dente il più a lungo possibile.",
+          "titolo": "CONSERVATIVA ED ENDODONZIA",
+          "sintesi": "Otturazioni in composito o terapie canalari per salvare il dente naturale.",
+          "descrizione": "",
           "prestazioni": [
             "Otturazioni estetiche in composito",
             "Intarsi in ceramica e composito",
@@ -137,22 +145,8 @@
           "icona": "Microscope"
         },
         {
-          "slug": "implantologia",
-          "titolo": "Implantologia",
-          "sintesi": "Sostituzione dei denti mancanti con impianti in titanio.",
-          "descrizione": "Pianifichiamo ogni intervento con TAC 3D e software di chirurgia guidata, per inserire gli impianti con la massima precisione e il minimo disagio. Nei casi indicati è possibile ricevere denti fissi provvisori già in giornata.",
-          "prestazioni": [
-            "Impianti singoli e multipli",
-            "Carico immediato",
-            "Chirurgia implantare guidata",
-            "Rialzo del seno mascellare e rigenerazione ossea",
-            "Protesi fissa su impianti (All-on-4 / All-on-6)"
-          ],
-          "icona": "Crown"
-        },
-        {
           "slug": "ortodonzia",
-          "titolo": "Ortodonzia",
+          "titolo": "ORTODONZIA",
           "sintesi": "Apparecchi fissi, mobili e allineatori trasparenti per bambini e adulti.",
           "descrizione": "Correggiamo la posizione dei denti e i rapporti tra le arcate con soluzioni su misura: dall'ortodonzia intercettiva nei bambini agli allineatori trasparenti invisibili, ideali per gli adulti che desiderano discrezione.",
           "prestazioni": [
@@ -165,46 +159,15 @@
         },
         {
           "slug": "protesi",
-          "titolo": "Protesi dentale",
-          "sintesi": "Corone, ponti e protesi mobili realizzate con flusso digitale.",
-          "descrizione": "Grazie allo scanner intraorale e alla progettazione CAD/CAM realizziamo protesi precise, estetiche e confortevoli, in collaborazione con laboratori odontotecnici certificati.",
-          "prestazioni": [
-            "Corone in zirconia e disilicato di litio",
-            "Ponti fissi",
-            "Protesi mobili totali e parziali",
-            "Riparazioni e ribasature"
-          ],
+          "titolo": "PROTESI DENTALE E IMPLANTOLOGIA",
+          "sintesi": "Protesi mobile e  fissa, sia su denti naturali che impianti; in base alle tue condizioni cliniche ed esigenze.",
+          "descrizione": "",
+          "prestazioni": [],
           "icona": "Gem"
         },
         {
-          "slug": "estetica-dentale",
-          "titolo": "Estetica dentale",
-          "sintesi": "Sbiancamento, faccette e ricontorno per un sorriso naturale e armonioso.",
-          "descrizione": "",
-          "prestazioni": [
-            "Sbiancamento professionale alla poltrona e domiciliare",
-            "Faccette in ceramica e composito",
-            "Digital Smile Design",
-            "Ricontorno estetico gengivale"
-          ],
-          "icona": "Sparkles"
-        },
-        {
-          "slug": "parodontologia",
-          "titolo": "Parodontologia",
-          "sintesi": "Diagnosi e cura delle malattie gengivali per proteggere i tessuti di sostegno.",
-          "descrizione": "Gengive che sanguinano o denti che si muovono sono segnali da non trascurare. Con una diagnosi accurata e terapie non chirurgiche e chirurgiche fermiamo la malattia parodontale e manteniamo stabile il risultato nel tempo.",
-          "prestazioni": [
-            "Sondaggio e cartella parodontale",
-            "Levigatura radicolare",
-            "Chirurgia parodontale rigenerativa",
-            "Terapia di mantenimento"
-          ],
-          "icona": "HeartPulse"
-        },
-        {
           "slug": "pedodonzia",
-          "titolo": "Odontoiatria pediatrica",
+          "titolo": "ODONTOIATRIA PEDIATRICA",
           "sintesi": "Cure dentali per bambini in un ambiente sereno e accogliente.",
           "descrizione": "La prima visita è un gioco: accompagniamo i più piccoli a conoscere lo studio senza paura, insegnando loro a prendersi cura dei denti fin da subito e intercettando precocemente eventuali problemi.",
           "prestazioni": [
@@ -217,15 +180,10 @@
         },
         {
           "slug": "chirurgia-orale",
-          "titolo": "Chirurgia orale",
+          "titolo": "CHIRURGIA ORALE",
           "sintesi": "Estrazioni, denti del giudizio e piccola chirurgia in sicurezza.",
-          "descrizione": "Eseguiamo estrazioni semplici e complesse, inclusi i denti del giudizio inclusi, con tecniche atraumatiche e, su richiesta, in sedazione cosciente per il massimo comfort.",
-          "prestazioni": [
-            "Estrazione dei denti del giudizio",
-            "Estrazioni complesse",
-            "Frenulectomie",
-            "Sedazione cosciente"
-          ],
+          "descrizione": "Eseguiamo estrazioni semplici e complesse, inclusi i denti del giudizio inclusi, con tecniche atraumatiche.",
+          "prestazioni": [],
           "icona": "Syringe"
         }
       ],
