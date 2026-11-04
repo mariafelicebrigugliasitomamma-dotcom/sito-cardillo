@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "b1fe89d3-c930-4ea6-b5db-3697a9fadf59",
-    "updatedAt": "2026-11-04T20:56:16.284Z",
+    "revision": "be2a86f8-2c97-41aa-b94b-043292be4e35",
+    "updatedAt": "2026-11-04T20:58:50.529Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793825775184-4x9fyffd"
+    "idempotencyKey": "1793825929665-rbfkjcnu"
   },
   "content": {
     "it": {
@@ -121,7 +121,7 @@
             "-Fluoroprofilassi",
             "-Richiami periodici personalizzati"
           ],
-          "icona": "ShieldCheck"
+          "icona": "Smile"
         },
         {
           "slug": "area-9",
@@ -129,7 +129,7 @@
           "sintesi": "Dona al tuo sorriso  maggiore luminosità con sedute di sbiancamento  professionale.",
           "descrizione": "Stanco di denti gialli e poco luminosi? Prova una seduta di sbancamento dentale professionale.",
           "prestazioni": [],
-          "icona": "Scale"
+          "icona": "Sparkles"
         },
         {
           "slug": "conservativa-endodonzia",
