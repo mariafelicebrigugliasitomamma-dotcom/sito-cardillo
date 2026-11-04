@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "7c27e674-02f6-4d25-a282-7d1beb410faf",
-    "updatedAt": "2026-11-04T20:06:31.832Z",
+    "revision": "3ad03dc1-32f3-45cc-8589-f82abae8da9c",
+    "updatedAt": "2026-11-04T20:06:50.291Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793822790301-12he9sqc"
+    "idempotencyKey": "1793822809725-h7b8vcau"
   },
   "content": {
     "it": {
@@ -147,7 +147,7 @@
         {
           "slug": "ortodonzia",
           "titolo": "ORTODONZIA",
-          "sintesi": "Ortodonzia fissa estetica e tradizionale, mobile e invisibile\n",
+          "sintesi": "Ortodonzia fissa tradizionale ed estetica, mobile e invisibile\n",
           "descrizione": "Correggiamo la posizione dei denti e i rapporti tra le arcate con soluzioni su misura: dall'ortodonzia intercettiva nei bambini agli allineatori trasparenti invisibili, ideali per gli adulti che desiderano discrezione.",
           "prestazioni": [
             "-apparecchi fissi tradizionali",
