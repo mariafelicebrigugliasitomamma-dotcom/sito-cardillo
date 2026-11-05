@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "168ed54d-904d-4559-a64a-c09744bad7b7",
-    "updatedAt": "2026-11-05T13:13:41.587Z",
+    "revision": "cf7eef37-38b6-4193-bf54-4ee410ae1887",
+    "updatedAt": "2026-11-05T13:14:51.953Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793884420753-y5z9m2su"
+    "idempotencyKey": "1793884490906-n2nglh97"
   },
   "content": {
     "it": {
@@ -181,10 +181,10 @@
           "sintesi": "Cure dentali per bambini in un ambiente sereno e accogliente.",
           "descrizione": "La prima visita è un gioco: accompagniamo i più piccoli a conoscere lo studio senza paura, insegnando loro a prendersi cura dei denti fin da subito e intercettando precocemente eventuali problemi.",
           "prestazioni": [
-            "-Prima visita dai 3 anni",
-            "-Cure dei denti da latte",
-            "-Sigillature e fluoroprofilassi",
-            "-Valutazione ortodontica precoce"
+            "Prima visita dai 3 anni",
+            "Cure dei denti da latte",
+            "Sigillature e fluoroprofilassi",
+            "Valutazione ortodontica precoce"
           ],
           "icona": "Baby"
         },
