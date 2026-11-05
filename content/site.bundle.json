@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "a5eaafb1-d5b8-4e26-930c-8379519a3f58",
-    "updatedAt": "2026-11-05T13:16:09.921Z",
+    "revision": "ddd8c04a-10af-4e44-957f-f2ba4aedb342",
+    "updatedAt": "2026-11-05T13:16:32.183Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793884568981-urztyctn"
+    "idempotencyKey": "1793884590981-sg1a59l2"
   },
   "content": {
     "it": {
@@ -137,10 +137,10 @@
           "sintesi": "Otturazioni in composito o terapie canalari per salvare il dente naturale.",
           "descrizione": "",
           "prestazioni": [
-            "-Otturazioni estetiche in composito",
-            "-Intarsi in ceramica e composito",
-            "-Devitalizzazioni (terapia canalare)",
-            "-Ritrattamenti endodontici"
+            "Otturazioni estetiche in composito",
+            "Intarsi in ceramica e composito",
+            "Devitalizzazioni (terapia canalare)",
+            "Ritrattamenti endodontici"
           ],
           "icona": "Microscope"
         },
