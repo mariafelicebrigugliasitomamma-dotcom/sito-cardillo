@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "b90741f7-4148-4c2f-ba4f-a9dc1e658e51",
-    "updatedAt": "2026-11-04T21:00:05.657Z",
+    "revision": "e674a43c-847b-414d-9709-45c29e0a0106",
+    "updatedAt": "2026-11-05T13:10:48.056Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793826004665-kaufp83m"
+    "idempotencyKey": "1793884246399-zzl6i7tg"
   },
   "content": {
     "it": {
@@ -115,11 +115,11 @@
           "sintesi": "Ablazione tartaro, controlli periodici ed educazione all'igiene orale domiciliare.",
           "descrizione": "La salute della tua bocca merita attenzione: inizia con una seduta di igiene orale professionale. \nNel nostro studio adoperiamo sia il protocollo clinico GBT che permette di rimuovere in modo selettivo il biofilm , le macchie e il tartaro offrendo un maggiore comfort per il paziente,  sia il protocollo di igiene orale tradizionale.\nDue approcci diversi, da valutare in base alle tue esigenze e alla salute del tuo sorriso.",
           "prestazioni": [
-            "-Ablazione del tartaro e lucidatura",
-            "-Airflow e sbiancamento delle macchie superficiali",
-            "-Sigillature dei solchi nei bambini",
-            "-Fluoroprofilassi",
-            "-Richiami periodici personalizzati"
+            "Ablazione del tartaro e lucidatura",
+            "Airflow e sbiancamento delle macchie superficiali",
+            "Sigillature dei solchi nei bambini",
+            "Fluoroprofilassi",
+            "Richiami periodici personalizzati"
           ],
           "icona": "Smile"
         },
