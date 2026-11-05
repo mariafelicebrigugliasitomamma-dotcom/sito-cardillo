@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "107d6a0f-7c58-4633-89bd-79ae28fe6cc7",
-    "updatedAt": "2026-11-05T13:18:50.535Z",
+    "revision": "912c9be0-d083-4194-be66-e62f87d4b9a7",
+    "updatedAt": "2026-11-05T13:50:18.384Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793884729806-0zl1myfn"
+    "idempotencyKey": "1793886616837-kwzwjwx3"
   },
   "content": {
     "it": {
@@ -170,7 +170,7 @@
             "Ponti",
             "Intarsi",
             "Faccette",
-            "Collocazione di impianti",
+            "Collocazione di impianti endossei",
             "Protesi mobile totale o parziale"
           ],
           "icona": "Gem"
@@ -212,9 +212,7 @@
           "bioEstesa": [
             "La Dott.ssa Maria Clara Cardillo si laurea in Medicina e Chirurgia presso l’Università degli Studi di Palermo  per poi conseguire la specializzazione in Odontoiatria e Protesi Dentaria.Il suo approccio professionale si fonda sull’aggiornamento continuo, sulla precisione clinica e sull’attenzione alle esigenze individuali, con l’obiettivo di offrire a ogni paziente trattamenti personalizzati, orientati alla salute e alla conservazione del sorriso."
           ],
-          "aree": [
-            "Conservativa,parodontologia"
-          ],
+          "aree": [],
           "formazione": [
             "Laurea in Medicina e Chirurgia presso l’Università degli Studi di Palermo.",
             "Specializzazione in Odontoiatria e Protesi Dentaria presso l’Università degli Studi di Palermo."
