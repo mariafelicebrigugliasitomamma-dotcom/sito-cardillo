@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "cf7eef37-38b6-4193-bf54-4ee410ae1887",
-    "updatedAt": "2026-11-05T13:14:51.953Z",
+    "revision": "56d86350-0670-4764-b576-25963fc1c5fe",
+    "updatedAt": "2026-11-05T13:15:35.481Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1793884490906-n2nglh97"
+    "idempotencyKey": "1793884534638-hg8sskdj"
   },
   "content": {
     "it": {
@@ -166,12 +166,12 @@
           "sintesi": "Protesi mobile e  fissa, sia su denti naturali che impianti; in base alle tue condizioni cliniche ed esigenze.",
           "descrizione": "",
           "prestazioni": [
-            "-Corona singola",
-            "-Ponti",
-            "-Intarsi",
-            "-Faccette",
-            "-Collocazione di impianti",
-            "-Protesi mobile totale o parziale"
+            "Corona singola",
+            "Ponti",
+            "Intarsi",
+            "Faccette",
+            "Collocazione di impianti",
+            "Protesi mobile totale o parziale"
           ],
           "icona": "Gem"
         },
