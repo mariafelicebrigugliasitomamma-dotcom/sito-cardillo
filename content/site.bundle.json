@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "9c1b30d7-597c-4886-be2d-5fd226923ae3",
-    "updatedAt": "2026-11-26T09:58:58.290Z",
+    "revision": "8339dadc-95f1-4c70-bd5d-620f321a8a72",
+    "updatedAt": "2026-11-26T10:04:28.914Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795687137279-mui9wvi3"
+    "idempotencyKey": "1795687467715-hot69x13"
   },
   "content": {
     "it": {
@@ -15,7 +15,7 @@
         "annoFondazione": 1997,
         "metaDescription": "Studio Dentistico Cardillo: igiene e prevenzione, conservativa,parodontologia, endodonzia, protesi e implantologia, chirurgia orale, ortodonzia fissa e invisibile, estetica dentale e odontoiatria pediatrica. ",
         "heroImmagine": "/uploads/cms/jumbotron1.webp",
-        "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, si prende cura della salute orale di tutta la famiglia grazie a un’équipe multidisciplinare che collabora in sinergia per offrire percorsi di cura completi e personalizzati, dalla prima visita al mantenimento nel tempo.",
+        "presentazione": "Lo Studio Dentistico Cardillo, a Palermo, è un punto di riferimento per la salute e il benessere del sorriso di tutta la famiglia. Grazie alla collaborazione sinergica di un’équipe multidisciplinare, offre un’assistenza completa e percorsi terapeutici personalizzati, accompagnando ogni paziente con professionalità e attenzione in ogni fase: dalla prima visita alla cura e al mantenimento nel tempo.",
         "storia": [],
         "valori": [
           {
