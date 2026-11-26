@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "4649897c-09f8-49dc-9177-7c0f7eb16b9c",
-    "updatedAt": "2026-11-26T10:16:01.894Z",
+    "revision": "5df0d976-d8e7-42ac-92cf-0ac3a7ce4e3f",
+    "updatedAt": "2026-11-26T10:21:33.886Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795688160127-5biwr4ly"
+    "idempotencyKey": "1795688492707-yusnwpj3"
   },
   "content": {
     "it": {
@@ -24,7 +24,7 @@
           },
           {
             "titolo": "Ascolto ed empatia",
-            "testo": "Accogliamo ogni persona con sensibilità, attenzione e disponibilità."
+            "testo": "Dedichiamo a ogni paziente un’accoglienza attenta e professionale, fondata sull’ascolto, sulla disponibilità e sul rispetto delle esigenze individuali."
           },
           {
             "titolo": "Personalizzazione dei trattamenti",
