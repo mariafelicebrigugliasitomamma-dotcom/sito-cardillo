@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "4b31969d-e1ae-4a72-ac9c-73acdd6a4f9e",
-    "updatedAt": "2026-11-26T10:22:04.578Z",
+    "revision": "7ac91e3e-5c7c-4ce1-856e-005180a03387",
+    "updatedAt": "2026-11-26T10:22:42.350Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795688523752-mi2akykt"
+    "idempotencyKey": "1795688561422-ni96dsi5"
   },
   "content": {
     "it": {
@@ -32,7 +32,7 @@
           },
           {
             "titolo": "Trasparenza e fiducia",
-            "testo": "Comunichiamo con chiarezza diagnosi, trattamenti e alternative terapeutiche."
+            "testo": "Garantiamo un’informazione chiara e trasparente in ogni fase del percorso, illustrando con precisione le valutazioni diagnostiche, le opzioni terapeutiche e i trattamenti proposti."
           }
         ],
         "numeri": [
