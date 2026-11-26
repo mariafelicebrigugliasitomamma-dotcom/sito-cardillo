@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "8339dadc-95f1-4c70-bd5d-620f321a8a72",
-    "updatedAt": "2026-11-26T10:04:28.914Z",
+    "revision": "4649897c-09f8-49dc-9177-7c0f7eb16b9c",
+    "updatedAt": "2026-11-26T10:16:01.894Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795687467715-hot69x13"
+    "idempotencyKey": "1795688160127-5biwr4ly"
   },
   "content": {
     "it": {
@@ -20,7 +20,7 @@
         "valori": [
           {
             "titolo": "Professionalità e competenza ",
-            "testo": "Garantiamo cure basate su conoscenze aggiornate, precisione clinica ed esperienza."
+            "testo": "Ogni trattamento nasce dall’incontro tra esperienza, aggiornamento costante e cura per ogni dettaglio."
           },
           {
             "titolo": "Ascolto ed empatia",
