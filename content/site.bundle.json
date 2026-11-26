@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "5df0d976-d8e7-42ac-92cf-0ac3a7ce4e3f",
-    "updatedAt": "2026-11-26T10:21:33.886Z",
+    "revision": "4b31969d-e1ae-4a72-ac9c-73acdd6a4f9e",
+    "updatedAt": "2026-11-26T10:22:04.578Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795688492707-yusnwpj3"
+    "idempotencyKey": "1795688523752-mi2akykt"
   },
   "content": {
     "it": {
@@ -28,7 +28,7 @@
           },
           {
             "titolo": "Personalizzazione dei trattamenti",
-            "testo": "Proponiamo percorsi terapeutici su misura, in base alle necessità di ogni paziente."
+            "testo": "Elaboriamo piani di trattamento personalizzati, attentamente definiti sulla base delle specifiche esigenze cliniche di ciascun paziente."
           },
           {
             "titolo": "Trasparenza e fiducia",
