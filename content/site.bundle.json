@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "7ac91e3e-5c7c-4ce1-856e-005180a03387",
-    "updatedAt": "2026-11-26T10:22:42.350Z",
+    "revision": "a6edfd8c-eb8f-44f6-a449-eada4e7a79b6",
+    "updatedAt": "2026-11-26T19:22:26.318Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795688561422-ni96dsi5"
+    "idempotencyKey": "1795720945475-2is6gby7"
   },
   "content": {
     "it": {
@@ -316,7 +316,7 @@
         "contactPage": {
           "heroEyebrow": "Contatti",
           "heroTitle": "Prenota la tua visita",
-          "heroDescription": "Compila il modulo o chiamaci: ti ricontatteremo per fissare un appuntamento nella sede e nell'orario più comodi per te.",
+          "heroDescription": "Chiamaci per fissare un appuntamento nell'orario più comodo per te.",
           "detailsEyebrow": "Recapiti",
           "detailsTitle": "Come raggiungerci",
           "phoneLabel": "Telefono",
