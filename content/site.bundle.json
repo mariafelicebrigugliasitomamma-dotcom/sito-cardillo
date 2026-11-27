@@ -1,9 +1,9 @@
 {
   "meta": {
-    "revision": "a6edfd8c-eb8f-44f6-a449-eada4e7a79b6",
-    "updatedAt": "2026-11-26T19:22:26.318Z",
+    "revision": "4d1cfc4c-efc9-46d2-8490-34957237dede",
+    "updatedAt": "2026-11-27T13:08:40.249Z",
     "updatedBy": "admin",
-    "idempotencyKey": "1795720945475-2is6gby7"
+    "idempotencyKey": "1795784919487-4pv86xbk"
   },
   "content": {
     "it": {
@@ -220,7 +220,8 @@
           "email": "cardillomariaclara@libero.it",
           "telefono": "0916258918 ",
           "iniziali": "MC",
-          "foto": "/uploads/cms/12cd8da0633e28bbac.webp"
+          "foto": "/uploads/cms/12cd8da0633e28bbac.webp",
+          "fotoPosizioneY": 0
         }
       ],
       "ui": {
