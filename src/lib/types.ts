@@ -58,6 +58,8 @@ export type Professionista = {
   telefono: string;
   iniziali: string;
   foto: string;
+  /** Posizione verticale della foto nella card, 0 = alto, 100 = basso (default 50). */
+  fotoPosizioneY?: number;
 };
 
 export type PrivacyContent = {

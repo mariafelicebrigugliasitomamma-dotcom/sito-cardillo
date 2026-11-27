@@ -1,5 +1,6 @@
 /**
- * Conversione lato browser: ridimensiona (lato lungo max 2000 px) e converte in WebP,
+ * Conversione lato browser: ridimensiona (lato lungo max 2000 px) e converte in WebP
+ * (JPEG sui browser che non codificano WebP, come Safari),
  * abbassando la qualità finché il file sta sotto `targetBytes`.
  * Usata dal pannello admin prima dell'upload, così si possono scegliere foto pesanti.
  */
@@ -17,21 +18,24 @@ export async function imageToWebp(
   ctx.drawImage(bitmap, 0, 0, canvas.width, canvas.height);
   bitmap.close();
 
-  const toBlob = (quality: number) =>
-    new Promise<Blob | null>((resolve) =>
-      canvas.toBlob(resolve, "image/webp", quality)
-    );
+  const toBlob = (type: string, quality: number) =>
+    new Promise<Blob | null>((resolve) => canvas.toBlob(resolve, type, quality));
 
+  // Safari non sa codificare WebP (restituisce PNG): in quel caso si usa JPEG.
+  let type = "image/webp";
   let blob: Blob | null = null;
   for (const quality of [0.85, 0.78, 0.7, 0.6, 0.5]) {
-    blob = await toBlob(quality);
-    if (!blob || blob.type !== "image/webp") {
-      throw new Error("Il browser non supporta la conversione in WebP");
+    blob = await toBlob(type, quality);
+    if (blob && blob.type !== type) {
+      type = "image/jpeg";
+      blob = await toBlob(type, quality);
     }
+    if (!blob) throw new Error("Conversione dell’immagine non riuscita");
     if (blob.size <= targetBytes) break;
   }
-  if (!blob) throw new Error("Conversione non riuscita");
+  if (!blob) throw new Error("Conversione dell’immagine non riuscita");
 
   const name = file.name.replace(/\.[^.]+$/, "") || "foto";
-  return new File([blob], `${name}.webp`, { type: "image/webp" });
+  const ext = type === "image/webp" ? "webp" : "jpg";
+  return new File([blob], `${name}.${ext}`, { type });
 }

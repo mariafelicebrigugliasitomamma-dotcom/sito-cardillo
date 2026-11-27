@@ -1248,6 +1248,8 @@ export default function AdminEditor({
                     label="Foto"
                     value={p.foto}
                     onChange={(v) => update({ foto: v })}
+                    focusY={p.fotoPosizioneY ?? 50}
+                    onFocusYChange={(y) => update({ fotoPosizioneY: y })}
                   />
                   <TextField
                     label="Nome (es. Dott. Mario Rossi)"

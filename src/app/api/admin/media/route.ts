@@ -6,6 +6,7 @@ import { cookies } from "next/headers";
 import { SESSION_COOKIE, verifySession } from "@/lib/auth";
 import {
   commitFilesAtomically,
+  GitHubStoreConflictError,
   isGithubStoreConfigured,
   listDirectoryFromGitHub,
 } from "@/lib/githubContentStore";
@@ -88,10 +89,27 @@ export async function POST(req: Request) {
   }
 
   if (isGithubStoreConfigured()) {
-    await commitFilesAtomically({
-      files: [{ path: repoPath, content: bytes.toString("base64"), encoding: "base64" }],
-      message: `cms: upload media ${fileName}`,
-    });
+    // Più upload (o un salvataggio) in contemporanea fanno avanzare il branch:
+    // si riprova ripartendo dal nuovo HEAD invece di fallire.
+    for (let attempt = 1; ; attempt++) {
+      try {
+        await commitFilesAtomically({
+          files: [{ path: repoPath, content: bytes.toString("base64"), encoding: "base64" }],
+          message: `cms: upload media ${fileName}`,
+        });
+        break;
+      } catch (error) {
+        if (error instanceof GitHubStoreConflictError && attempt < 4) {
+          await new Promise((r) => setTimeout(r, 300 * attempt + Math.random() * 500));
+          continue;
+        }
+        console.error("Upload media non riuscito", error);
+        return NextResponse.json(
+          { error: "Upload non riuscito per un errore temporaneo. Riprova tra qualche secondo." },
+          { status: 503 }
+        );
+      }
+    }
   } else {
     if (process.env.VERCEL) {
       return NextResponse.json(

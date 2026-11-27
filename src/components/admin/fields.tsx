@@ -143,10 +143,15 @@ export function ImageField({
   label,
   value,
   onChange,
+  focusY,
+  onFocusYChange,
 }: {
   label: string;
   value: string;
   onChange: (v: string) => void;
+  /** Se presente, mostra l'anteprima della card e il cursore per l'inquadratura verticale. */
+  focusY?: number;
+  onFocusYChange?: (y: number) => void;
 }) {
   const id = useId();
   const [uploading, setUploading] = useState(false);
@@ -237,6 +242,42 @@ export function ImageField({
           )}
         </div>
       </div>
+      {value && onFocusYChange && (
+        <div className="mt-3">
+          <label htmlFor={`${id}-focus`} className="mb-1 block text-sm font-medium text-slate-700">
+            Inquadratura nella card
+          </label>
+          <div className="flex flex-wrap items-center gap-4">
+            {/* Stesse proporzioni della card del sito (h-56 su ~384px) */}
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src={local && local.url === value ? local.preview : value}
+              alt=""
+              style={{ objectPosition: `center ${focusY ?? 50}%` }}
+              className="aspect-[12/7] w-60 rounded-lg border border-slate-300 object-cover"
+            />
+            <div className="min-w-48 flex-1">
+              <input
+                id={`${id}-focus`}
+                type="range"
+                min={0}
+                max={100}
+                value={focusY ?? 50}
+                onChange={(e) => onFocusYChange(Number(e.target.value))}
+                className="w-full"
+              />
+              <div className="flex justify-between text-xs text-slate-500">
+                <span>Parte alta</span>
+                <span>Centro</span>
+                <span>Parte bassa</span>
+              </div>
+              <p className="mt-1 text-xs text-slate-500">
+                Se la card taglia la testa, sposta il cursore verso “Parte alta”. La pagina del profilo non cambia.
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
